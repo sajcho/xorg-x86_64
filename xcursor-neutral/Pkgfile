@@ -1,0 +1,18 @@
+# Description:	A smoothed and shadowed X cursors theme
+# URL:		https://store.kde.org/p/999947/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	xorg-server
+
+name=xcursor-neutral
+version=1.13a
+release=0
+source=(https://distribute.kde.org/khotnewstuff/mousethemes/downloads/28310-neutral-${version}.tar.gz)
+
+build() {
+	mkdir -p $PKG/usr/share/icons/Neutral
+
+	sed 's/neutral/Neutral/' -i $SRC/neutral/index.theme
+
+	cp -R $SRC/neutral/{cursors,index.theme} \
+		$PKG/usr/share/icons/Neutral
+}
