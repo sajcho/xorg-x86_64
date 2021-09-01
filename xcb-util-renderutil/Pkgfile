@@ -1,0 +1,20 @@
+# Description:	XCB utilities library
+# URL:		http://xcb.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxcb
+
+name=xcb-util-renderutil
+version=0.3.9
+release=0
+source=(https://xcb.freedesktop.org/dist/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+}
