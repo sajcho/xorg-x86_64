@@ -1,0 +1,20 @@
+# Description:	Screen magnifier
+# URL:		http://xorg.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxaw
+
+name=xmag
+version=1.0.6
+release=0
+source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+}
