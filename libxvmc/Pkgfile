@@ -1,0 +1,24 @@
+# Description:	X Video Motion Compensation extension client library
+# URL:		http://xorg.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxv
+
+name=libxvmc
+version=1.0.12
+release=0
+source=(https://www.x.org/releases/individual/lib/libXvMC-${version}.tar.bz2)
+
+build() {
+	cd libXvMC-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+	make
+
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share
+}
