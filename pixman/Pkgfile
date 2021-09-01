@@ -1,0 +1,26 @@
+# Description:	Pixel manipulation library
+# URL:		http://xorg.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libpng meson
+
+name=pixman
+version=0.40.0
+release=0
+source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	# We need to increase the stacksize here: https://gitlab.gnome.org/GNOME/librsvg/-/issues/595
+	LDFLAGS="$LDFLAGS -Wl,-z,stack-size=2097152" \
+	build-meson \
+		-Ddefault_library=both \
+		-Dgtk=disabled \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	meson test -C build -t 10
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
