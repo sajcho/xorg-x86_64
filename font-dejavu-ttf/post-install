@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkfontdir /usr/share/fonts/truetype
+mkfontscale /usr/share/fonts/truetype
+fc-cache
