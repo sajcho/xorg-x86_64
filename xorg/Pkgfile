@@ -1,0 +1,14 @@
+# Description:	Meta package - x.org's implementation of X11
+# URL:		https://www.x.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	rgb xf86-input-evdev xf86-input-keyboard xf86-input-libinput xf86-input-mouse xf86-video-fbdev xinit xkeyboard-config
+
+name=xorg
+version=7.7
+release=1
+source=()
+
+build() {
+	install -d $PKG/etc/X11
+	echo "${name} version ${version}" > $PKG/etc/X11/${name}
+}
