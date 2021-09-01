@@ -1,0 +1,47 @@
+# Description:	Mesa DRI OpenGL library
+# URL:		http://www.mesa3d.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	elfutils libglvnd libva libvdpau llvm-toolchain python3-mako wayland-protocols libxdamage libxrandr libxshmfence libxxf86vm
+
+name=mesa
+version=21.2.1
+release=0
+source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Dplatforms=x11,wayland \
+		-Dllvm=enabled \
+		-Dgbm=enabled \
+		-Dgles1=disabled \
+		-Dgles2=enabled \
+		-Ddri3=enabled \
+		-Dopengl=true \
+		-Ddri-drivers=nouveau \
+		-Degl=enabled \
+		-Dglvnd=true \
+		-Dglx=dri \
+		-Dosmesa=true \
+		-Dgallium-vdpau=enabled \
+		-Dgallium-va=enabled \
+		-Dgallium-xa=disabled \
+		-Dgallium-xvmc=disabled \
+		-Dgallium-nine=false \
+		-Dgallium-extra-hud=false \
+		-Dgallium-drivers=swrast,nouveau,tegra,etnaviv,kmsro,lima,panfrost,v3d,vc4 \
+		-Dshared-glapi=enabled \
+		-Dvulkan-drivers= \
+		-Dlibunwind=disabled \
+		-Dlmsensors=disabled \
+		-Dvalgrind=disabled \
+		-Dmicrosoft-clc=disabled \
+		. build
+
+	meson configure build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
