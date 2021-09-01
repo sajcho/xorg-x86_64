@@ -1,0 +1,15 @@
+# Description:	EGL External Platform interface
+# URL:		https://github.com/NVIDIA/eglexternalplatform
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=eglexternalplatform
+version=1.1
+release=0
+source=(https://github.com/NVIDIA/${name}/archive/refs/tags/${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	install -Dt $PKG/usr/include/EGL -m 0644 interface/*
+	install -Dt $PKG/usr/share/pkgconfig -m 0644 *.pc
+}
