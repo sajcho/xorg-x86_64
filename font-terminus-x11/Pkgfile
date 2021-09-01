@@ -1,0 +1,31 @@
+# Description:	Monospace bitmap font X11
+# URL:		http://terminus-font.sourceforge.net/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	bdftopcf fontconfig mkfontscale
+
+name=font-terminus-x11
+_pkgname=terminus-font
+version=4.48
+release=1
+source=(https://downloads.sourceforge.net/project/${_pkgname}/${_pkgname}-${version}/${_pkgname}-${version}.tar.gz)
+
+build() {
+	cd ${_pkgname}-${version}
+
+	make \
+		prefix=/usr \
+		x11dir=/usr/share/fonts/misc
+
+	make \
+		prefix=/usr \
+		x11dir=/usr/share/fonts/misc \
+		DESTDIR=$PKG install
+
+	install -D -m 0644 75-yes-terminus.conf \
+		$PKG/etc/fonts/conf.avail/75-yes-terminus.conf
+	install -d $PKG/etc/fonts/conf.d
+	cd $PKG/etc/fonts/conf.d
+	ln -s ../conf.avail/75-yes-terminus.conf .
+
+	rm -r $PKG/usr/share/consolefonts
+}
