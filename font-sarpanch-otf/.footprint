@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/otf/
+-rw-r--r--	root/root	usr/share/fonts/otf/Sarpanch-Black.otf
+-rw-r--r--	root/root	usr/share/fonts/otf/Sarpanch-Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/otf/Sarpanch-ExtraBold.otf
+-rw-r--r--	root/root	usr/share/fonts/otf/Sarpanch-Medium.otf
+-rw-r--r--	root/root	usr/share/fonts/otf/Sarpanch-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/otf/Sarpanch-SemiBold.otf
