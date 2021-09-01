@@ -1,0 +1,28 @@
+# Description:	Free reimplementation of OpenGL Utility Toolkit (GLUT) library
+# URL:		http://freeglut.sourceforge.net/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	glu libice libxi
+
+name=freeglut
+version=3.2.1
+release=1
+source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	CFLAGS+=" -fcommon"
+	cmake \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DFREEGLUT_BUILD_STATIC_LIBS=OFF \
+		-B build
+
+	cmake --build build
+
+	DESTDIR=$PKG cmake --build build --target install
+
+	# Symlink glut.pc to freeglut.pc for backwards compatibility
+	ln -s glut.pc $PKG/usr/lib/pkgconfig/freeglut.pc
+}
