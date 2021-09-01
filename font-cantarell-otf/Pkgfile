@@ -1,0 +1,24 @@
+# Description:	Humanist sans-serif font designed for on-screen reading
+# URL:		https://wiki.gnome.org/Projects/CantarellFonts
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	encodings fontconfig font-util gettext meson
+
+name=font-cantarell-otf
+_realname=cantarell-fonts
+version=0.301
+release=0
+source=(https://download.gnome.org/sources/${_realname}/${version}/${_realname}-${version}.tar.xz)
+
+build() {
+	cd ${_realname}-${version}
+
+	build-meson \
+		-Dfontsdir=/usr/share/fonts/otf \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm -r $PKG/usr/share/metainfo
+}
