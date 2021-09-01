@@ -1,0 +1,21 @@
+# Description:	XCB errors library
+# URL:		https://xcb.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxcb
+
+name=xcb-util-errors
+version=1.0
+release=0
+source=(https://xcb.freedesktop.org/dist/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static
+
+	make
+
+	make DESTDIR=$PKG install
+}
