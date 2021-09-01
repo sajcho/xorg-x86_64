@@ -1,0 +1,19 @@
+# Description:	A cross-platform C/C++ extension loading library
+# URL:		http://glew.sourceforge.net
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	glu libxi libxmu
+
+name=glew
+version=2.2.0
+release=1
+source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tgz)
+
+build() {
+	cd ${name}-${version}
+
+	sed -i 's|lib64|lib|' config/Makefile.linux
+
+	make CFLAGS.EXTRA="$CFLAGS -fPIC"
+
+	make GLEW_DEST=$PKG/usr install
+}
