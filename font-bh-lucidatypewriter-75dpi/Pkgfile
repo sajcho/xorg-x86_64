@@ -1,0 +1,24 @@
+# Description:	X.Org Bigelow & Holmes Lucida bitmap fonts
+# URL:		http://xorg.freedesktop.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	bdftopcf encodings font-alias fontconfig font-util
+
+name=font-bh-lucidatypewriter-75dpi
+version=1.0.3
+release=1
+source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--build=$CHOST \
+		--prefix=/usr \
+		--with-fontdir=/usr/share/fonts/75dpi
+
+	make
+
+	make -j1 DESTDIR=$PKG install
+
+	rm $PKG/usr/share/fonts/75dpi/fonts.dir
+}
