@@ -1,0 +1,36 @@
+# Description:	Red Hat's Liberation fonts
+# URL:		https://pagure.io/liberation-fonts/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	encodings fontconfig font-util
+
+name=font-liberation-ttf
+version=2.00.5
+_narrowver=1.07.6
+release=1
+source=(https://github.com/liberationfonts/liberation-fonts/files/2926169/liberation-fonts-ttf-${version}.tar.gz \
+	https://github.com/liberationfonts/liberation-sans-narrow/files/2579431/liberation-narrow-fonts-ttf-$_narrowver.tar.gz \
+	30-liberation-mono.conf \
+	30-liberation-sans-narrow.conf \
+	30-liberation-sans.conf \
+	30-liberation-serif.conf \
+	45-liberation.conf \
+	90-tt-liberation.conf)
+
+build() {
+	mkdir -p $PKG/usr/share/fonts/truetype \
+		$PKG/etc/fonts/conf.avail \
+		$PKG/etc/fonts/conf.d
+
+	install -m 0644 $SRC/liberation-narrow-fonts-ttf-$_narrowver/*.ttf \
+		$PKG/usr/share/fonts/truetype
+
+	install -m 0644 $SRC/liberation-fonts-ttf-${version}/*.ttf \
+		$PKG/usr/share/fonts/truetype
+
+	for j in $SRC/*.conf; do
+		install -m 0644 "$j" \
+			$PKG/etc/fonts/conf.avail/
+		cd $PKG/etc/fonts/conf.d
+		ln -sf /etc/fonts/conf.avail/${j##*/}
+	done
+}
