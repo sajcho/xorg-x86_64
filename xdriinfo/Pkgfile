@@ -1,0 +1,20 @@
+# Description:	Query configuration information of DRI drivers
+# URL:		https://wiki.freedesktop.org/xorg/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	mesa
+
+name=xdriinfo
+version=1.0.6
+release=1
+source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+}
