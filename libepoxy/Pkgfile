@@ -1,0 +1,24 @@
+# Description:	A library for handling OpenGL function pointer management
+# URL:		https://github.com/anholt/libepoxy
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	mesa
+
+name=libepoxy
+version=1.5.9
+release=0
+source=(https://github.com/anholt/libepoxy/releases/download/${version}/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Degl=yes \
+		-Dglx=yes \
+		-Dx11=true \
+		-Ddocs=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
