@@ -1,0 +1,20 @@
+# Description:	xorg lib libdmx
+# URL:		http://xorg.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxext
+
+name=libdmx
+version=1.1.4
+release=0
+source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+
+	./configure \
+		--prefix=/usr
+
+	make
+
+	make DESTDIR=$PKG install
+}
