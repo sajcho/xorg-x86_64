@@ -1,0 +1,22 @@
+# Description:	X Input client library
+# URL:		http://xorg.freedesktop.org
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxext libxfixes
+
+name=libxi
+version=1.7.10
+release=0
+source=(https://www.x.org/releases/individual/lib/libXi-${version}.tar.bz2)
+
+build() {
+	cd libXi-${version}
+
+	./configure \
+		--prefix=/usr \
+		--disable-static \
+		--disable-{docs,specs}
+
+	make
+
+	make DESTDIR=$PKG install
+}
