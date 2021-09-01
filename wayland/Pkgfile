@@ -1,0 +1,26 @@
+# Description:	A computer display server protocol
+# URL:		https://wayland.freedesktop.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxml2 meson
+
+name=wayland
+version=1.19.0
+release=0
+source=(https://wayland.freedesktop.org/releases/${name}-${version}.tar.xz \
+	tests-ignore-debugger.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/tests-ignore-debugger.patch
+
+	build-meson \
+		-Ddocumentation=false \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	WAYLAND_TEST_IGNORE_DEBUGGER=1 meson test -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
