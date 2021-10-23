@@ -163,8 +163,8 @@ f:d7cf6239b7ad550af44ff7044b6d24d4:mkfontscale/.md5sum
 f:5b62cdf5c2a471c55e8d4d341f9700b3:mkfontscale/.footprint
 f:af2627de5bcb42405a04f1604c1888a9:mkfontscale/Pkgfile
 f:1ac605c1ccab145df07d0047cd13439c:xcb-proto/.md5sum
-f:7b73795b67ce3f8dbc39980ec6c141b9:xcb-proto/.footprint
-f:e42ad7b4e8decc215526d0fbfab69320:xcb-proto/Pkgfile
+f:b2843d9bff199910d74933ca8a3d1614:xcb-proto/.footprint
+f:54d35eeffdeef47101fc9fe9ca4f4e13:xcb-proto/Pkgfile
 f:a6d6724a2ae545dc4db85dee9a169cf5:xf86-video-nouveau/.md5sum
 f:46d31292c090e71bc8a3893315f62eeb:xf86-video-nouveau/.footprint
 f:238f06aeefea4eae329a7843b2aa8887:xf86-video-nouveau/Pkgfile
