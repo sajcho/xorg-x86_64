@@ -1,11 +1,11 @@
 # Description:	Meta package - x.org's implementation of X11
 # URL:		https://www.x.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	rgb xf86-input-evdev xf86-input-keyboard xf86-input-libinput xf86-input-mouse xf86-video-fbdev xinit xkeyboard-config
+# Depends on:	font-bitstream-100dpi font-bitstream-75dpi font-bitstream-type1 font-misc-misc font-dejavu-ttf rgb xf86-input-evdev xf86-input-keyboard xf86-input-libinput xf86-input-mouse xf86-video-fbdev xf86-video-nouveau xf86-video-vesa xinit xkeyboard-config
 
 name=xorg
 version=7.7
-release=1
+release=2
 source=()
 
 build() {
