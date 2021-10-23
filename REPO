@@ -337,7 +337,7 @@ f:42d10991a7696d0b0208727a9223464d:xmodmap/.footprint
 f:b5287f122959fe010e8ac3329f511106:xmodmap/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:xorg/.md5sum
 f:161304284216330b74d7adc4bd952f60:xorg/.footprint
-f:645c031ea88b95dacb74b4ee2b071e89:xorg/Pkgfile
+f:edbd577b580b6629ca2aae0d5eba4185:xorg/Pkgfile
 f:40c13ce40d0bd0862b1202f5e333fef6:xorgproto/.md5sum
 f:cd7f6b8871c9cdc102909889a8434d92:xorgproto/.footprint
 f:f07044525f15e7df7085d829f8b01c7a:xorgproto/Pkgfile
