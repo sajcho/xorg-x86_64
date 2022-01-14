@@ -4,8 +4,8 @@
 # Depends on:	libxext libxfixes
 
 name=libxi
-version=1.7.10
-release=0
+version=1.8
+release=1
 source=(https://www.x.org/releases/individual/lib/libXi-${version}.tar.bz2)
 
 build() {
@@ -16,7 +16,9 @@ build() {
 		--disable-static \
 		--disable-{docs,specs}
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
