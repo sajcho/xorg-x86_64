@@ -4,8 +4,8 @@
 # Depends on:	libxcb xtrans
 
 name=libx11
-version=1.6.12
-release=0
+version=1.7.2
+release=1
 source=(https://www.x.org/releases/individual/lib/libX11-${version}.tar.bz2)
 
 build() {
@@ -13,13 +13,14 @@ build() {
 
 	./configure \
 		--prefix=/usr \
+		--disable-static \
 		--with-xcb
 
-	make
-
-	make check
+	make V=1
 
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
+
+	find $PKG -type f -name '*.la' -delete
 }
