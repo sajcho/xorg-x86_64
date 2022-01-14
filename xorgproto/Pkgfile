@@ -3,15 +3,14 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=xorgproto
-version=2020.1
-release=0
-source=(https://xorg.freedesktop.org/archive/individual/proto/${name}-${version}.tar.bz2)
+version=2021.5
+release=1
+source=(https://www.x.org/releases/individual/proto/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
 	build-meson \
-		--datadir=/usr/lib \
 		-Dlegacy=true \
 		. build
 
@@ -20,10 +19,11 @@ build() {
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
 	# cleanup
+	rm -r $PKG/usr/share/doc
 	rm $PKG/usr/include/X11/extensions/apple*
 	rm $PKG/usr/include/X11/extensions/windows*
-	rm $PKG/usr/lib/pkgconfig/apple*
-	rm $PKG/usr/lib/pkgconfig/windows*
+	rm $PKG/usr/share/pkgconfig/apple*
+	rm $PKG/usr/share/pkgconfig/windows*
 	rm $PKG/usr/include/X11/extensions/vldXvMC.h # libxvmc-dev >= 1.0.12-r0
 	rm $PKG/usr/include/X11/extensions/XKBgeom.h # libx11-dev >= 1.6.9-r0
 }
