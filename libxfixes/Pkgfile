@@ -4,17 +4,20 @@
 # Depends on:	libx11
 
 name=libxfixes
-version=5.0.3
-release=0
+version=6.0.0
+release=1
 source=(https://www.x.org/releases/individual/lib/libXfixes-${version}.tar.bz2)
 
 build() {
 	cd libXfixes-${version}
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
