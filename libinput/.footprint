@@ -40,7 +40,9 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/libinput/
 -rw-r--r--	root/root	usr/share/libinput/10-generic-keyboard.quirks
 -rw-r--r--	root/root	usr/share/libinput/10-generic-lid.quirks
+-rw-r--r--	root/root	usr/share/libinput/10-generic-mouse.quirks
 -rw-r--r--	root/root	usr/share/libinput/10-generic-trackball.quirks
+-rw-r--r--	root/root	usr/share/libinput/30-vendor-a4tech.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-aiptek.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-alps.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-contour.quirks
@@ -52,6 +54,7 @@ drwxr-xr-x	root/root	usr/share/libinput/
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-madcatz.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-microsoft.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-razer.quirks
+-rw-r--r--	root/root	usr/share/libinput/30-vendor-starlabs.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-synaptics.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-trust.quirks
 -rw-r--r--	root/root	usr/share/libinput/30-vendor-vmware.quirks
@@ -66,9 +69,12 @@ drwxr-xr-x	root/root	usr/share/libinput/
 -rw-r--r--	root/root	usr/share/libinput/50-system-dell.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-gigabyte.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-google.quirks
+-rw-r--r--	root/root	usr/share/libinput/50-system-gpd.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-hp.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-huawei.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-lenovo.quirks
+-rw-r--r--	root/root	usr/share/libinput/50-system-pine64.quirks
+-rw-r--r--	root/root	usr/share/libinput/50-system-prestigio.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-purism.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-sony.quirks
 -rw-r--r--	root/root	usr/share/libinput/50-system-system76.quirks

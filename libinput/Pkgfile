@@ -4,15 +4,14 @@
 # Depends on:	eudev libevdev meson mtdev
 
 name=libinput
-version=1.18.1
-release=0
+version=1.19.3
+release=1
 source=(https://freedesktop.org/software/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
 	build-meson \
-		--libexecdir /usr/lib \
 		-Ddebug-gui=false \
 		-Ddocumentation=false \
 		-Dtests=false \
@@ -21,9 +20,7 @@ build() {
 		-Dzshcompletiondir=no \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
-
-	meson test --no-rebuild -v -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 }
