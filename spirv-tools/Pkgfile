@@ -1,0 +1,30 @@
+# Description:	API and commands for processing SPIR-V modules
+# URL:		https://github.com/KhronosGroup/SPIRV-Tools
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	spirv-headers
+
+name=spirv-tools
+_realname=SPIRV-Tools
+version=2022.1
+release=1
+source=(https://github.com/KhronosGroup/${_realname}/archive/v${version}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DSPIRV-Headers_SOURCE_DIR=/usr \
+		-DBUILD_SHARED_LIBS=ON \
+		-DSPIRV_SKIP_TESTS=ON \
+		-DSPIRV_TOOLS_BUILD_STATIC=OFF
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+}
