@@ -1,0 +1,29 @@
+# Description:	Machine-readable files for the SPIR-V Registry
+# URL:		https://github.com/KhronosGroup/SPIRV-Headers
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	cmake
+
+name=spirv-headers
+_realname=SPIRV-Headers
+version=1.6
+release=1
+_spirv_headers=b42ba6d92faf6b4938e6f22ddd186dbdacc98d78
+source=(https://github.com/KhronosGroup/SPIRV-Headers/archive/${_spirv_headers}/${_realname}-${_spirv_headers}.tar.gz)
+
+build() {
+	cd ${_realname}-${_spirv_headers}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE="Release" \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+}
