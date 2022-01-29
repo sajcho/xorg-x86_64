@@ -1,0 +1,33 @@
+# Description:	Vulkan tools
+# URL:		https://www.khronos.org/vulkan/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot crootom
+# Depends on:	glslang vulkan-loader wayland-protocols
+
+name=vulkan-tools
+_realname=Vulkan-Tools
+version=1.3.204
+release=1
+source=(https://github.com/KhronosGroup/${_realname}/archive/v${version}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DGLSLANG_INSTALL_DIR=/usr \
+		-DBUILD_CUBE=ON \
+		-DBUILD_VULKANINFO=ON \
+		-DCUBE_WSI_SELECTION='XCB' \
+		-DBUILD_WSI_XCB_SUPPORT=ON \
+		-DBUILD_WSI_XLIB_SUPPORT=ON \
+		-DBUILD_ICD=OFF \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+}
