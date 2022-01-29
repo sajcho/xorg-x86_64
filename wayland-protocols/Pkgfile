@@ -4,8 +4,8 @@
 # Depends on:	wayland
 
 name=wayland-protocols
-version=1.21
-release=0
+version=1.24
+release=1
 source=(https://wayland.freedesktop.org/releases/${name}-${version}.tar.xz)
 
 build() {
@@ -13,9 +13,7 @@ build() {
 
 	build-meson . build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
-
-	meson test -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 }
