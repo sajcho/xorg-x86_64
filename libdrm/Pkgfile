@@ -4,8 +4,8 @@
 # Depends on:	meson libpciaccess
 
 name=libdrm
-version=2.4.107
-release=0
+version=2.4.109
+release=1
 source=(https://dri.freedesktop.org/${name}/${name}-${version}.tar.xz)
 
 build() {
@@ -19,15 +19,15 @@ build() {
 		-Dtegra=true \
 		-Dfreedreno=true \
 		-Dvc4=true \
-		-Damdgpu=false \
-		-Dintel=false \
-		-Dradeon=false \
+		-Damdgpu=true \
+		-Dintel=true \
+		-Dradeon=true \
 		-Dman-pages=false \
 		-Dvalgrind=false \
 		-Dcairo-tests=false \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 }
