@@ -1,11 +1,11 @@
 # Description:	Mesa DRI OpenGL library
 # URL:		http://www.mesa3d.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	elfutils libglvnd libva libvdpau llvm-toolchain python3-mako wayland-protocols libxdamage libxrandr libxshmfence libxxf86vm
+# Depends on:	egl-wayland elfutils libglvnd libva libvdpau llvm-toolchain python3-mako vulkan-validation-layers wayland-protocols libxdamage libxrandr libxshmfence libxxf86vm
 
 name=mesa
-version=21.2.1
-release=0
+version=21.3.5
+release=1
 source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz)
 
 build() {
@@ -19,7 +19,7 @@ build() {
 		-Dgles2=enabled \
 		-Ddri3=enabled \
 		-Dopengl=true \
-		-Ddri-drivers=nouveau \
+		-Ddri-drivers=i915,i965,r100,r200,nouveau \
 		-Degl=enabled \
 		-Dglvnd=true \
 		-Dglx=dri \
@@ -30,9 +30,10 @@ build() {
 		-Dgallium-xvmc=disabled \
 		-Dgallium-nine=false \
 		-Dgallium-extra-hud=false \
-		-Dgallium-drivers=swrast,nouveau,tegra,etnaviv,kmsro,lima,panfrost,v3d,vc4 \
+		-Dgallium-drivers=r300,r600,radeonsi,virgl,svga,crocus,zink,swrast,nouveau,tegra,etnaviv,kmsro,lima,panfrost,v3d,vc4 \
 		-Dshared-glapi=enabled \
-		-Dvulkan-drivers= \
+		-Dvulkan-drivers=amd,intel,swrast \
+		-Dvulkan-layers=device-select,intel-nullhw,overlay \
 		-Dlibunwind=disabled \
 		-Dlmsensors=disabled \
 		-Dvalgrind=disabled \
@@ -41,7 +42,10 @@ build() {
 
 	meson configure build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	# indirect rendering symlink
+	ln -s libGLX_mesa.so.0 $PKG/usr/lib/libGLX_indirect.so.0
 }
