@@ -1,0 +1,29 @@
+# Description:	OpenGL and OpenGL ES shader front end and validator
+# URL:		https://www.khronos.org/opengles/sdk/tools/Reference-Compiler
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	spirv-tools
+
+name=glslang
+version=11.7.1
+release=1
+source=(https://github.com/KhronosGroup/glslang/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DCMAKE_SKIP_RPATH=yes \
+		-DBUILD_SHARED_LIBS=ON \
+		-DCMAKE_SHARED_LINKER_FLAGS='-Wl,--no-undefined' \
+		-Wno-dev
+
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+
+	make DESTDIR=$PKG install
+}
