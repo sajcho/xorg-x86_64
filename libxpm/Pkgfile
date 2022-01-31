@@ -5,16 +5,19 @@
 
 name=libxpm
 version=3.5.13
-release=0
+release=1
 source=(https://www.x.org/releases/individual/lib/libXpm-${version}.tar.bz2)
 
 build() {
 	cd libXpm-${version}
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
