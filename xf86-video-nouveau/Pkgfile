@@ -4,19 +4,24 @@
 # Depends on:	xorg-server
 
 name=xf86-video-nouveau
-version=1.0.16
-release=0
-source=(https://www.x.org/archive/individual/driver/${name}-${version}.tar.bz2)
+version=1.0.17
+release=1
+source=(https://www.x.org/archive/individual/driver/${name}-${version}.tar.bz2 \
+	xorg-server-21.1.diff)
 
 build() {
 	cd ${name}-${version}
 
-	export LDFLAGS="$LDFLAGS -Wl,-z,lazy"
+	patch -p1 -i $SRC/xorg-server-21.1.diff
+
+	export LDFLAGS=${LDFLAGS/,-z,now}
 
 	./configure \
 		--prefix=/usr
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
