@@ -4,8 +4,8 @@
 # Depends on:	intltool xkbcomp
 
 name=xkeyboard-config
-version=2.33
-release=0
+version=2.34
+release=1
 source=(https://www.x.org/releases/individual/data/${name}/${name}-${version}.tar.bz2)
 
 build() {
@@ -18,7 +18,7 @@ build() {
 		--with-xkb-rules-symlink=xorg \
 		--enable-compat-rules=yes
 
-	make -j1
+	make -j1 V=1
 
 	make DESTDIR=$PKG install
 
