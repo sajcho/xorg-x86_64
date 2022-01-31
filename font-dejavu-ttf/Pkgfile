@@ -5,9 +5,8 @@
 
 name=font-dejavu-ttf
 version=2.37
-release=1
-source=(https://downloads.sourceforge.net/project/dejavu/dejavu/${version}/dejavu-fonts-ttf-${version}.tar.bz2 \
-	https://downloads.sourceforge.net/project/dejavu/dejavu/${version}/dejavu-lgc-fonts-ttf-${version}.tar.bz2 \
+release=2
+source=(http://downloads.sourceforge.net/project/dejavu/dejavu/${version}/dejavu-fonts-ttf-${version}.tar.bz2 \
 	45-dejavu.conf 90-tt-dejavu.conf)
 
 build() {
@@ -16,11 +15,9 @@ build() {
 		$PKG/etc/fonts/conf.d
 
 	install -m 0644 $SRC/dejavu-fonts-ttf-${version}/ttf/*.ttf \
-		$SRC/dejavu-lgc-fonts-ttf-${version}/ttf/*.ttf \
 		$PKG/usr/share/fonts/truetype
 
 	install -m 0644 $SRC/dejavu-fonts-ttf-${version}/fontconfig/*.conf \
-		$SRC/dejavu-lgc-fonts-ttf-${version}/fontconfig/*.conf \
 		$PKG/etc/fonts/conf.avail
 
 	cd $PKG/etc/fonts/conf.d
