@@ -16,7 +16,7 @@ build() {
 		--prefix=/usr \
 		--with-fontdir=/usr/share/fonts/Type1
 
-	make
+	make V=1
 
 	make -j1 DESTDIR=$PKG install
 
