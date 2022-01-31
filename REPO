@@ -555,7 +555,7 @@ f:379d068d500ebee7404d77b80cf483c0:xcb-util-errors/.footprint
 f:c880b58b956d9551053d3e502f68ee9a:xcb-util-errors/Pkgfile
 f:aec918f3ba5b68ee46306ea791987e45:xorg-server/.md5sum
 f:89219c1b376b9692dfd26154bf83395c:xorg-server/.footprint
-f:f9995195f6149467376767da15760096:xorg-server/Pkgfile
+f:848061930191a6e6ba92e29d74e2267b:xorg-server/Pkgfile
 f:88eca53ed800e8715cef1e58a6083b52:egl-wayland/.md5sum
 f:c552be96529a111ed5d4ff9c235de8d6:egl-wayland/.footprint
 f:42a263159694753a7848cc80f46a298d:egl-wayland/Pkgfile
