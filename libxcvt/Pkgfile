@@ -1,0 +1,19 @@
+# Description:	xorg xcvt library and cvt program
+# URL:		https://gitlab.freedesktop.org/xorg/lib/libxcvt
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	meson
+
+name=libxcvt
+version=0.1.1
+release=1
+source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson . build
+
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}
