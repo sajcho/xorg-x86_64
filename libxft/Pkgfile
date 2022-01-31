@@ -4,17 +4,20 @@
 # Depends on:	harfbuzz
 
 name=libxft
-version=2.3.3
-release=0
+version=2.3.4
+release=1
 source=(https://www.x.org/releases/individual/lib/libXft-${version}.tar.bz2)
 
 build() {
 	cd libXft-${version}
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
