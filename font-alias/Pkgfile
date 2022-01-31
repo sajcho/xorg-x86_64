@@ -5,7 +5,7 @@
 
 name=font-alias
 version=1.0.3
-release=0
+release=1
 source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.bz2)
 
 build() {
@@ -16,7 +16,7 @@ build() {
 		--prefix=/usr \
 		--with-fontrootdir=/usr/share/fonts
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
 }
