@@ -4,9 +4,9 @@
 # Depends on:	xorg-server
 
 name=xf86-input-libinput
-version=0.29.0
-release=0
-source=(https://www.x.org/releases/individual/driver/${name}-${version}.tar.bz2)
+version=1.2.1
+release=1
+source=(https://www.x.org/releases/individual/driver/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
@@ -14,9 +14,9 @@ build() {
 	./configure \
 		--prefix=/usr
 
-	make
-
-	make check
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
