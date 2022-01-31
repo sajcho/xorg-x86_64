@@ -4,7 +4,7 @@
 # Depends on:	freetype libfontenc xtrans
 
 name=libxfont2
-version=2.0.4
+version=2.0.5
 release=1
 source=(https://www.x.org/pub/individual/lib/libXfont2-${version}.tar.bz2)
 
@@ -20,7 +20,9 @@ build() {
 		--disable-static \
 		--without-fop
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
