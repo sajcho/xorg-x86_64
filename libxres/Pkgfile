@@ -4,17 +4,20 @@
 # Depends on:	libxext
 
 name=libxres
-version=1.2.0
-release=0
+version=1.2.1
+release=1
 source=(https://www.x.org/releases/individual/lib/libXres-${version}.tar.bz2)
 
 build() {
 	cd libXres-${version}
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
-	make
+	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
