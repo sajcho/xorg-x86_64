@@ -4,7 +4,7 @@
 
 name=libpciaccess
 version=0.16
-release=1
+release=2
 source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.bz2 \
 	limits_h.patch)
 
@@ -14,9 +14,12 @@ build() {
 	patch -p1 -i $SRC/limits_h.patch
 
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--disable-static
 
 	make V=1
 
 	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
 }
