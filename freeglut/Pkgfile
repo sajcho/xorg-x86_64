@@ -5,23 +5,27 @@
 
 name=freeglut
 version=3.2.1
-release=1
+release=2
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
+	mkdir build
+	cd build
+
 	CFLAGS+=" -fcommon"
-	cmake \
-		-DCMAKE_BUILD_TYPE=None \
+
+	cmake .. \
+		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DFREEGLUT_BUILD_STATIC_LIBS=OFF \
-		-B build
+		-Wno-dev
 
-	cmake --build build
+	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
-	DESTDIR=$PKG cmake --build build --target install
+	make DESTDIR=$PKG install
 
 	# Symlink glut.pc to freeglut.pc for backwards compatibility
 	ln -s glut.pc $PKG/usr/lib/pkgconfig/freeglut.pc
