@@ -5,7 +5,7 @@
 
 name=glew
 version=2.2.0
-release=1
+release=2
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tgz)
 
 build() {
@@ -16,4 +16,6 @@ build() {
 	make CFLAGS.EXTRA="$CFLAGS -fPIC"
 
 	make GLEW_DEST=$PKG/usr install
+
+	find $PKG -type f -name '*.a' -delete
 }
