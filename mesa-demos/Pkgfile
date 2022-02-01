@@ -5,17 +5,24 @@
 
 name=mesa-demos
 version=8.4.0
-release=1
+release=2
 source=(https://mesa.freedesktop.org/archive/demos/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
-	autoreconf -vif
+	autoreconf -fiv
 
-	export LDFLAGS="$LDFLAGS -Wl,-z,lazy"
 	./configure \
-		--prefix=/usr
+		--prefix=/usr \
+		--enable-egl \
+		--enable-gles2 \
+		--enable-osmesa \
+		--enable-libdrm \
+		--enable-x11 \
+		--enable-wayland \
+		--enable-gbm \
+		--enable-freetype2
 
 	make V=1
 
