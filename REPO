@@ -305,9 +305,9 @@ f:f1f1adbd8696343fdb5e5945e32e9223:font-bh-lucidatypewriter-75dpi/.md5sum
 f:5d28ea515a10ad60b197bbdc4f15e5d1:font-bh-lucidatypewriter-75dpi/.footprint
 f:ceca573497f04873fdd8012e19443382:font-bh-lucidatypewriter-75dpi/post-install
 f:8e35d88531fc3efdf1fa8e3c71efbdc6:font-bh-lucidatypewriter-75dpi/Pkgfile
-f:c8733f3bf8522084061d911e695fe995:wayland-protocols/.md5sum
-f:375a923563ebaeb332820c401ac543fe:wayland-protocols/.footprint
-f:ac0575ea3956b0194a3673300764210f:wayland-protocols/Pkgfile
+f:c09a4b2da5f165facc9a06f30dadbac5:wayland-protocols/.md5sum
+f:e9edef406876dc71446a494de538f942:wayland-protocols/.footprint
+f:9703443c200a51947d8856a926fc4a57:wayland-protocols/Pkgfile
 f:142aedd325ab29cf10f2bd4d8113c9cd:libxres/.md5sum
 f:a7fe37e607be40b7ad5c3a09b49d8a50:libxres/.footprint
 f:4b2c21e9ccaad8a4881664b185d961ca:libxres/Pkgfile
@@ -389,9 +389,9 @@ f:23be372053ea4a54523cdd7093765cb3:font-adobe-utopia-75dpi/Pkgfile
 f:4cf0d6c89709e09e758a6861abca5d92:font-alias/.md5sum
 f:311c71c641f55493393e5b67a4b00934:font-alias/.footprint
 f:5623c7064711d9c5a39c7ab5b4ff40fb:font-alias/Pkgfile
-f:2b2b9776c46e0e450b84ec8d5e9df8e1:libxkbcommon/.md5sum
+f:6d7d35393d1d711d41e690ecf0e93633:libxkbcommon/.md5sum
 f:6eaada5eb1b8ae2ca14c97d560a7b64a:libxkbcommon/.footprint
-f:69decd7fa1c0c94a9b96e76d8faecaee:libxkbcommon/Pkgfile
+f:3f6ed57ce9fd69531111e4d6b40ddd16:libxkbcommon/Pkgfile
 f:abba6f3e5478b6bff03a605bb6f871b0:xrdb/.md5sum
 f:038b8dd1276def970c1ec4238beaf11f:xrdb/.footprint
 f:ced3a7c2d508e316c6b7ab9e2db1b53d:xrdb/Pkgfile
