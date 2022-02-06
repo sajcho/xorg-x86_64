@@ -1,0 +1,25 @@
+# Description:	ATI video driver
+# URL:		https://xorg.freedesktop.org/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	xorg-server
+
+name=xf86-video-ati
+version=19.1.0
+_commit='5eba006e4129e8015b822f9e1d2f1e613e252cda'
+release=1
+source=(https://gitlab.freedesktop.org/xorg/driver/${name}/-/archive/${_commit}/${name}-${_commit}.tar.gz)
+
+build() {
+	cd ${name}-${_commit}
+
+	./autogen.sh
+
+	./configure \
+		--prefix=/usr
+
+	make V=1
+
+	make DESTDIR=$PKG install
+
+	find $PKG -type f -name '*.la' -delete
+}
