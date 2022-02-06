@@ -55,12 +55,14 @@ d:wayland-protocols
 d:libxres
 d:libxvmc
 d:xf86-input-evdev
+d:xf86-video-amdgpu
 d:font-bitstream-100dpi
 d:libdrm
 d:libx11
 d:font-adobe-utopia-type1
 d:libxcursor
 d:pixman
+d:xf86-video-intel
 d:xrandr
 d:libva
 d:libxft
@@ -75,6 +77,7 @@ d:libinput
 d:libxxf86dga
 d:font-adobe-utopia-75dpi
 d:font-alias
+d:xf86-video-ati
 d:libxkbcommon
 d:xrdb
 d:xinput
@@ -317,6 +320,9 @@ f:86011306c9867f4fb54dd265cb858318:libxvmc/Pkgfile
 f:d51fb8ad8e4af1ad4ee68adccdbfa8c1:xf86-input-evdev/.md5sum
 f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
+f:60d6a743cb10183930de378cde792e60:xf86-video-amdgpu/.md5sum
+f:eaf9badb879fb6479d4b45ee83b38700:xf86-video-amdgpu/.footprint
+f:396281772a813cdd11e0ad0e1271441c:xf86-video-amdgpu/Pkgfile
 f:04c5a6698d4c06f6a8fd3d12ca9fa320:font-bitstream-100dpi/.md5sum
 f:ce1e0d0a3bd5d12e1c7882ac5200d86e:font-bitstream-100dpi/.footprint
 f:51a55a69519964c323ee4f74a7acb4f5:font-bitstream-100dpi/post-install
@@ -337,6 +343,9 @@ f:e1a39c6145797cf600f8e5fd19ed8df4:libxcursor/Pkgfile
 f:cae8fa3d663bd66c5836de3b269b9470:pixman/.md5sum
 f:9a9f238d748142de81b6927ceb0e362e:pixman/.footprint
 f:4696252e621d79ba14e8d3abeb221340:pixman/Pkgfile
+f:9f3a2d73229671061a333f831686717a:xf86-video-intel/.md5sum
+f:53a2c72f9c04525fafac1eda79ea6e48:xf86-video-intel/.footprint
+f:eff6e1b39de73e91b5431ce88613dfd7:xf86-video-intel/Pkgfile
 f:391906fb69f24470786b229b3747ad40:xrandr/.md5sum
 f:cc35a8863f7f00429947e9f51b3e0f09:xrandr/.footprint
 f:7c1322ad84a2897e01f863bf15ed3b46:xrandr/Pkgfile
@@ -389,6 +398,9 @@ f:23be372053ea4a54523cdd7093765cb3:font-adobe-utopia-75dpi/Pkgfile
 f:4cf0d6c89709e09e758a6861abca5d92:font-alias/.md5sum
 f:311c71c641f55493393e5b67a4b00934:font-alias/.footprint
 f:5623c7064711d9c5a39c7ab5b4ff40fb:font-alias/Pkgfile
+f:1524af04d8a99a71eeb0b48ed8ff4234:xf86-video-ati/.md5sum
+f:ab70c5bb6791c1d9cf6ad4ddf4b22228:xf86-video-ati/.footprint
+f:c01dd0efdfaed87c2c09ec21fc6c5411:xf86-video-ati/Pkgfile
 f:6d7d35393d1d711d41e690ecf0e93633:libxkbcommon/.md5sum
 f:6eaada5eb1b8ae2ca14c97d560a7b64a:libxkbcommon/.footprint
 f:3f6ed57ce9fd69531111e4d6b40ddd16:libxkbcommon/Pkgfile
