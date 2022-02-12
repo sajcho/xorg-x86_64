@@ -4,13 +4,13 @@
 # Depends on:	bdftopcf fontconfig mkfontscale
 
 name=font-terminus-x11
-_pkgname=terminus-font
-version=4.48
+_realname=terminus-font
+version=4.49.1
 release=1
-source=(https://downloads.sourceforge.net/project/${_pkgname}/${_pkgname}-${version}/${_pkgname}-${version}.tar.gz)
+source=(https://downloads.sourceforge.net/project/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
-	cd ${_pkgname}-${version}
+	cd ${_realname}-${version}
 
 	make \
 		prefix=/usr \
