@@ -4,7 +4,7 @@
 # Depends on:	libxi libxrandr libxinerama
 
 name=xinput
-version=1.6.2
+version=1.6.3
 release=1
 source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2)
 
