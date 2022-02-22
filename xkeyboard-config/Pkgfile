@@ -1,28 +1,28 @@
 # Description:	X keyboard configuration database
 # URL:		https://cgit.freedesktop.org/xkeyboard-config/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	intltool xkbcomp
+# Depends on:	intltool libxslt xkbcomp
 
 name=xkeyboard-config
-version=2.34
+version=2.35.1
 release=1
-source=(https://www.x.org/releases/individual/data/${name}/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/data/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
-	./configure \
-		--prefix=/usr \
-		--disable-nls \
-		--with-xkb-base=/usr/share/X11/xkb \
-		--with-xkb-rules-symlink=xorg \
-		--enable-compat-rules=yes
+	build-meson \
+		-Dxkb-base="/usr/share/X11/xkb" \
+		-Dcompat-rules=true \
+		-Dxorg-rules-symlinks=true \
+		. build
 
-	make -j1 V=1
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG meson install --no-rebuild -C build
 
-	ln -s /var/lib/xkb $PKG/usr/share/X11/xkb/compiled
+	install -m 0755 -d $PKG/var/lib/xkb
 
+	rm -r $PKG/usr/share/locale
 	find $PKG -name README -delete
 }

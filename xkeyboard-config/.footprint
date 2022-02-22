@@ -21,7 +21,6 @@ drwxr-xr-x	root/root	usr/share/X11/xkb/compat/
 -rw-r--r--	root/root	usr/share/X11/xkb/compat/pc98
 -rw-r--r--	root/root	usr/share/X11/xkb/compat/xfree86
 -rw-r--r--	root/root	usr/share/X11/xkb/compat/xtest
-lrwxrwxrwx	root/root	usr/share/X11/xkb/compiled -> /var/lib/xkb
 drwxr-xr-x	root/root	usr/share/X11/xkb/geometry/
 -rw-r--r--	root/root	usr/share/X11/xkb/geometry/amiga
 -rw-r--r--	root/root	usr/share/X11/xkb/geometry/ataritt
@@ -317,3 +316,6 @@ drwxr-xr-x	root/root	usr/share/man/man7/
 -rw-r--r--	root/root	usr/share/man/man7/xkeyboard-config.7.gz
 drwxr-xr-x	root/root	usr/share/pkgconfig/
 -rw-r--r--	root/root	usr/share/pkgconfig/xkeyboard-config.pc
+drwxr-xr-x	root/root	var/
+drwxr-xr-x	root/root	var/lib/
+drwxr-xr-x	root/root	var/lib/xkb/
