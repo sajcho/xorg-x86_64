@@ -4,12 +4,24 @@
 # Depends on:	egl-wayland elfutils libglvnd libva libvdpau llvm-toolchain python3-mako vulkan-validation-layers wayland-protocols libxdamage libxrandr libxshmfence libxxf86vm
 
 name=mesa
-version=21.3.6
+version=21.3.7
 release=1
 source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	# If you use mold and lto, the v3d driver build fails
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d_compiler_free
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d33_clif_dump_packet
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d41_clif_dump_packet
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d42_clif_dump_packet
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d_compile
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d_optimize_nir
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d_compute_vpm_config
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d_compute_vpm_config
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d_compiler_init
+	# mold: error: undefined symbol: /tmp/ccf6O4qS.ltrans85.ltrans.o: v3d_compile
 
 	build-meson \
 		-Dplatforms=x11,wayland \
