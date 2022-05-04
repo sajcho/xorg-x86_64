@@ -4,8 +4,8 @@
 # Depends on:	glu libice libxi
 
 name=freeglut
-version=3.2.1
-release=2
+version=3.2.2
+release=1
 source=(https://downloads.sourceforge.net/${name}/${name}-${version}.tar.gz)
 
 build() {
