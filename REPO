@@ -488,9 +488,9 @@ f:92a05bf234471198e1d4191cc052b3cc:xcb-util-renderutil/.md5sum
 f:fc14ee172cd2704fbb67ccc87c259d3f:xcb-util-renderutil/.footprint
 f:07e185591d476bac519bad69ba74ae85:xcb-util-renderutil/Pkgfile
 f:1380f1a039d4b6ad201300923ceb7c57:mesa/README
-f:205b3d4d5a6e653ad56f44bdab2d3a71:mesa/.md5sum
+f:125992f60ab83507ffe791c54b4a7c6c:mesa/.md5sum
 f:2a0e5318b2ad408af5d8951f32db5c0d:mesa/.footprint
-f:88274720efeeb4ac5f03196792fdca8f:mesa/Pkgfile
+f:9f1bd2e96e79a0e4f04d32d09c058d4e:mesa/Pkgfile
 f:2cb5777ee07854781cad580ff2458679:xcb-util-cursor/.md5sum
 f:dc352ed298cdecdecb6409d766431302:xcb-util-cursor/.footprint
 f:30af24694f41cf4a5d5a103d4b6f8d09:xcb-util-cursor/Pkgfile
