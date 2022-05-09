@@ -99,6 +99,7 @@ d:glslang
 d:libxpresent
 d:font-adobe-utopia-100dpi
 d:libevdev
+d:xwayland
 d:libepoxy
 d:xf86-input-mouse
 d:xset
@@ -472,6 +473,9 @@ f:acc0aa0357a8a46d0bb55ee6b3405c9e:font-adobe-utopia-100dpi/Pkgfile
 f:f1b8d3320cd0628840242a7d6e5e31d1:libevdev/.md5sum
 f:7c6ea4e7ef862b37008e691c85f01c2c:libevdev/.footprint
 f:2193591672f0f190697101feb92f48aa:libevdev/Pkgfile
+f:e738776b4a241f168875f876cdd45a70:xwayland/.md5sum
+f:679bc6fc8856e67c7efa164fd3439768:xwayland/.footprint
+f:7f3e689bbaf1cf8d23966f82a8a96c0a:xwayland/Pkgfile
 f:f08911e314303239349f15a6f8ab928f:libepoxy/.md5sum
 f:355627de0939db078b6d02b584098c6d:libepoxy/.footprint
 f:b9d2908937a4c027239564ffd3cd4e77:libepoxy/Pkgfile
