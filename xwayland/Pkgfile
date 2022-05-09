@@ -1,0 +1,27 @@
+# Description:	Compact xserver to run under wayland for compatibility
+# URL:		https://www.x.org/wiki
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	dbus xorg-server
+
+name=xwayland
+version=22.1.1
+release=0
+source=(https://xorg.freedesktop.org/archive/individual/xserver/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	build-meson \
+		-Ddri3=true \
+		-Dglamor=true \
+		-Dxkb_dir=/usr/share/X11/xkb \
+		-Dxkb_output_dir=/var/lib/xkb \
+		. build
+
+	meson compile ${JOBS:+-j ${JOBS}} -C build
+
+	DESTDIR=$PKG meson install --no-rebuild -C build
+
+	rm $PKG/usr/share/man/man1/Xserver.1
+	rm $PKG/usr/lib/xorg/protocol.txt
+}
