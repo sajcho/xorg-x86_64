@@ -7,7 +7,7 @@ name=font-terminus-x11
 _realname=terminus-font
 version=4.49.1
 release=1
-source=(https://downloads.sourceforge.net/project/${_realname}/${_realname}-${version}.tar.gz)
+source=(https://downloads.sourceforge.net/${_realname}/${_realname}-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-${version}
