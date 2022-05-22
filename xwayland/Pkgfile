@@ -5,11 +5,15 @@
 
 name=xwayland
 version=22.1.1
-release=0
-source=(https://xorg.freedesktop.org/archive/individual/xserver/${name}-${version}.tar.xz)
+release=1
+source=(https://xorg.freedesktop.org/archive/individual/xserver/${name}-${version}.tar.xz \
+	upstream.patches)
 
 build() {
 	cd ${name}-${version}
+
+	# upstream patches
+	patch -p1 -i $SRC/upstream.patches
 
 	build-meson \
 		-Ddri3=true \
