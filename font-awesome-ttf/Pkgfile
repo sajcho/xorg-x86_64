@@ -1,0 +1,16 @@
+# Description:	Font Awesome
+# URL:		https://fontawesome.com/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+
+name=font-awesome-ttf
+_realname=Font-Awesome
+version=6.1.0
+release=1
+source=(https://github.com/FortAwesome/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-${version}
+
+	install -d $PKG/usr/share/fonts/truetype
+	install -m 0644 ./webfonts/*.ttf $PKG/usr/share/fonts/truetype
+}
