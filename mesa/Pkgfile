@@ -4,7 +4,7 @@
 # Depends on:	egl-wayland elfutils libglvnd libva libvdpau llvm-toolchain python3-mako vulkan-validation-layers wayland-protocols libxdamage libxrandr libxshmfence libxxf86vm
 
 name=mesa
-version=22.0.3
+version=22.0.4
 release=1
 source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz)
 
