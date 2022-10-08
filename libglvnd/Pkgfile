@@ -4,14 +4,12 @@
 # Depends on:	libxext libx11 xorgproto
 
 name=libglvnd
-version=1.4.0-git20220321
-_commit=5024e5796ea16baf6f9203b1414c870a30b20474
-# Date:   Mon Mar 21 20:27:20 2022 +0000
+version=1.5.0
 release=1
-source=(https://github.com/NVIDIA/${name}/archive/${_commit}/${name}-${_commit}.tar.gz)
+source=(https://github.com/NVIDIA/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
-	cd ${name}-${_commit}
+	cd ${name}-${version}
 
 	build-meson \
 		-Dx11=enabled \
