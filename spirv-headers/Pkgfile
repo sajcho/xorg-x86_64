@@ -5,13 +5,12 @@
 
 name=spirv-headers
 _realname=SPIRV-Headers
-version=1.6
+version=1.3.224.1
 release=1
-_spirv_headers=b42ba6d92faf6b4938e6f22ddd186dbdacc98d78
-source=(https://github.com/KhronosGroup/SPIRV-Headers/archive/${_spirv_headers}/${_realname}-${_spirv_headers}.tar.gz)
+source=(https://github.com/KhronosGroup/${_realname}/archive/sdk-${version}/${_realname}-sdk-${version}.tar.gz)
 
 build() {
-	cd ${_realname}-${_spirv_headers}
+	cd ${_realname}-sdk-${version}
 
 	mkdir build
 	cd build
