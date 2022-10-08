@@ -4,7 +4,7 @@
 # Depends on:	meson libpciaccess
 
 name=libdrm
-version=2.4.111
+version=2.4.113
 release=1
 source=(https://dri.freedesktop.org/${name}/${name}-${version}.tar.xz)
 
@@ -13,18 +13,18 @@ build() {
 
 	build-meson \
 		-Dudev=true \
-		-Domap=true \
-		-Dexynos=true \
-		-Detnaviv=true \
-		-Dtegra=true \
-		-Dfreedreno=true \
-		-Dvc4=true \
-		-Damdgpu=true \
-		-Dintel=true \
-		-Dradeon=true \
-		-Dman-pages=false \
-		-Dvalgrind=false \
-		-Dcairo-tests=false \
+		-Domap=enabled \
+		-Dexynos=enabled \
+		-Detnaviv=enabled \
+		-Dtegra=enabled \
+		-Dfreedreno=enabled \
+		-Dvc4=enabled \
+		-Damdgpu=enabled \
+		-Dintel=enabled \
+		-Dradeon=enabled \
+		-Dman-pages=disabled \
+		-Dvalgrind=disabled \
+		-Dcairo-tests=disabled \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
