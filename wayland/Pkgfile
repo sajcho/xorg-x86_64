@@ -4,9 +4,9 @@
 # Depends on:	libxml2 meson
 
 name=wayland
-version=1.20.0
+version=1.21.0
 release=1
-source=(https://wayland.freedesktop.org/releases/${name}-${version}.tar.xz \
+source=(https://gitlab.freedesktop.org/${name}/${name}/-/releases/${version}/downloads/${name}-${version}.tar.xz \
 	tests-ignore-debugger.patch)
 
 build() {
