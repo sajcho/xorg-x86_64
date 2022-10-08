@@ -5,16 +5,12 @@
 
 name=vulkan-validation-layers
 _realname=Vulkan-ValidationLayers
-version=1.3.211
+version=1.3.224.1
 release=1
-source=(https://github.com/KhronosGroup/${_realname}/archive/v${version}/${_realname}-${version}.tar.gz)
+source=(https://github.com/KhronosGroup/${_realname}/archive/sdk-${version}/${_realname}-sdk-${version}.tar.gz)
 
 build() {
-	cd ${_realname}-${version}
-
-	# only shared libs
-	sed 's|            STATIC|            SHARED|' -i CMakeLists.txt
-	sed 's|SPIRV-Tools-static||' -i layers/CMakeLists.txt
+	cd ${_realname}-sdk-${version}
 
 	mkdir build
 	cd build
@@ -30,6 +26,7 @@ build() {
 		-DBUILD_WSI_WAYLAND_SUPPORT=ON \
 		-DUSE_ROBIN_HOOD_HASHING=OFF \
 		-DBUILD_TESTS=OFF \
+		-DBUILD_WERROR=OFF \
 		-Wno-dev
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
