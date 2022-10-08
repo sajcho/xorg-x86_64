@@ -4,7 +4,7 @@
 # Depends on:	intltool libxslt xkbcomp
 
 name=xkeyboard-config
-version=2.36
+version=2.37
 release=1
 source=(https://www.x.org/releases/individual/data/${name}/${name}-${version}.tar.xz)
 
