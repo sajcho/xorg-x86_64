@@ -542,9 +542,9 @@ f:af24515152be04410788781428c61e81:libxaw/Pkgfile
 f:28f03d24ccdd346b42782f84790e99ad:xf86-video-vesa/.md5sum
 f:cf9d4e435109f91aad795c9fb566f526:xf86-video-vesa/.footprint
 f:6fad61cc25f2e6fa27ddb3b231bd0f12:xf86-video-vesa/Pkgfile
-f:eba4494a7f8fde4af33235570615e79c:vulkan-tools/.md5sum
+f:145e9933f65b68c287119f915bffbd8e:vulkan-tools/.md5sum
 f:11bccce412abbeed95535286507bc44b:vulkan-tools/.footprint
-f:b8cf78b9bd62b8a1a2bcce6dd4f4c057:vulkan-tools/Pkgfile
+f:4461b03a017e860df103034dd5dc8c1d:vulkan-tools/Pkgfile
 f:302a12d7d3871e0e8aa4607f9a58cea5:font-cantarell-otf/.md5sum
 f:319ba3c6e83391b4154f25be92ad3262:font-cantarell-otf/.footprint
 f:51210c662242b14d3ca1206824612699:font-cantarell-otf/post-install
