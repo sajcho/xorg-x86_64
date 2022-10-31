@@ -147,6 +147,7 @@ drwxr-xr-x	root/root	usr/include/X11/extensions/
 -rw-r--r--	root/root	usr/include/X11/extensions/xtraplib.h
 -rw-r--r--	root/root	usr/include/X11/extensions/xtraplibp.h
 -rw-r--r--	root/root	usr/include/X11/extensions/xtrapproto.h
+-rw-r--r--	root/root	usr/include/X11/extensions/xwaylandproto.h
 drwxr-xr-x	root/root	usr/include/X11/fonts/
 -rw-r--r--	root/root	usr/include/X11/fonts/FS.h
 -rw-r--r--	root/root	usr/include/X11/fonts/FSproto.h
@@ -194,3 +195,4 @@ drwxr-xr-x	root/root	usr/share/pkgconfig/
 -rw-r--r--	root/root	usr/share/pkgconfig/xineramaproto.pc
 -rw-r--r--	root/root	usr/share/pkgconfig/xproto.pc
 -rw-r--r--	root/root	usr/share/pkgconfig/xproxymngproto.pc
+-rw-r--r--	root/root	usr/share/pkgconfig/xwaylandproto.pc

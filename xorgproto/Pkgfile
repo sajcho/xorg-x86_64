@@ -3,9 +3,9 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=xorgproto
-version=2021.5
+version=2022.2
 release=1
-source=(https://www.x.org/releases/individual/proto/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/proto/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
