@@ -4,25 +4,25 @@
 # Depends on:	dbus xorg-server
 
 name=xwayland
-version=22.1.1
+version=22.1.4
 release=1
-source=(https://xorg.freedesktop.org/archive/individual/xserver/${name}-${version}.tar.xz \
-	upstream.patches)
+source=(https://xorg.freedesktop.org/archive/individual/xserver/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
-	# upstream patches
-	patch -p1 -i $SRC/upstream.patches
-
 	build-meson \
 		-Ddri3=true \
 		-Dglamor=true \
+		-Dxwayland_eglstream=true \
 		-Dxkb_dir=/usr/share/X11/xkb \
 		-Dxkb_output_dir=/var/lib/xkb \
+		-Db_lto=true \
+		-Dc_args="-fuse-ld=mold" \
+		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
-	meson compile ${JOBS:+-j ${JOBS}} -C build
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
 	DESTDIR=$PKG meson install --no-rebuild -C build
 
