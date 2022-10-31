@@ -1,0 +1,23 @@
+# Description:	Top-like X Server resource usage monitor that uses the XRes extension
+# URL:		http://freedesktop.org/wiki/Software/xrestop
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	libxres
+
+name=xrestop
+version=0.5
+release=1
+source=(https://xorg.freedesktop.org/archive/individual/app/${name}-${version}.tar.bz2 \
+	xrestop-0.4-tinfo.patch)
+
+build() {
+	cd ${name}-${version}
+
+	patch -p1 -i $SRC/xrestop-0.4-tinfo.patch
+
+	./configure \
+		--prefix=/usr
+
+	make V=1
+
+	make DESTDIR=$PKG install
+}
