@@ -5,9 +5,9 @@
 
 name=libxpresent
 _realname=libXpresent
-version=1.0.0
+version=1.0.1
 release=1
-source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
 	cd ${_realname}-${version}
