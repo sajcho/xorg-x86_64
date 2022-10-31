@@ -4,9 +4,9 @@
 # Depends on:	xorgproto
 
 name=libxau
-version=1.0.9
+version=1.0.10
 release=1
-source=(https://www.x.org/releases/individual/lib/libXau-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/libXau-${version}.tar.xz)
 
 build() {
 	cd libXau-${version}
