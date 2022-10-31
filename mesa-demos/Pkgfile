@@ -4,27 +4,22 @@
 # Depends on:	freeglut glew
 
 name=mesa-demos
-version=8.4.0
-release=2
-source=(https://mesa.freedesktop.org/archive/demos/${name}-${version}.tar.bz2)
+version=8.5.0
+release=1
+source=(https://archive.mesa3d.org/demos/${version}/${name}-${version}.tar.bz2)
 
 build() {
 	cd ${name}-${version}
 
-	autoreconf -fiv
+	build-meson \
+		-Dgles1=disabled \
+		-Dwith-system-data-files=true \
+		-Db_lto=true \
+		-Dc_args="-fuse-ld=mold" \
+		-Dc_link_args="-fuse-ld=mold" \
+		. build
 
-	./configure \
-		--prefix=/usr \
-		--enable-egl \
-		--enable-gles2 \
-		--enable-osmesa \
-		--enable-libdrm \
-		--enable-x11 \
-		--enable-wayland \
-		--enable-gbm \
-		--enable-freetype2
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
-	make V=1
-
-	make -j1 DESTDIR=$PKG install
+	DESTDIR=$PKG meson install --no-rebuild -C build
 }
