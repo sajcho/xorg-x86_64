@@ -3,9 +3,9 @@
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
 
 name=libpciaccess
-version=0.16
-release=2
-source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.bz2 \
+version=0.17
+release=1
+source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.xz \
 	limits_h.patch)
 
 build() {
