@@ -4,9 +4,9 @@
 # Depends on:	libxcb
 
 name=xcb-util-wm
-version=0.4.1
+version=0.4.2
 release=1
-source=(https://xcb.freedesktop.org/dist/${name}-${version}.tar.bz2)
+source=(https://xcb.freedesktop.org/dist/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
