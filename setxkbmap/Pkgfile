@@ -4,9 +4,9 @@
 # Depends on:	libxkbfile
 
 name=setxkbmap
-version=1.3.2
+version=1.3.3
 release=1
-source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
