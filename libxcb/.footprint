@@ -46,9 +46,9 @@ lrwxrwxrwx	root/root	usr/lib/libxcb-dpms.so.0 -> libxcb-dpms.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-dri2.so -> libxcb-dri2.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-dri2.so.0 -> libxcb-dri2.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libxcb-dri2.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libxcb-dri3.so -> libxcb-dri3.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libxcb-dri3.so.0 -> libxcb-dri3.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libxcb-dri3.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libxcb-dri3.so -> libxcb-dri3.so.0.1.0
+lrwxrwxrwx	root/root	usr/lib/libxcb-dri3.so.0 -> libxcb-dri3.so.0.1.0
+-rwxr-xr-x	root/root	usr/lib/libxcb-dri3.so.0.1.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-glx.so -> libxcb-glx.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libxcb-glx.so.0 -> libxcb-glx.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libxcb-glx.so.0.0.0
