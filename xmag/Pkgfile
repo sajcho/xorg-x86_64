@@ -4,9 +4,9 @@
 # Depends on:	libxaw
 
 name=xmag
-version=1.0.6
+version=1.0.7
 release=1
-source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
