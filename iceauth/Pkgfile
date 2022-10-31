@@ -4,9 +4,9 @@
 # Depends on:	xorg-server
 
 name=iceauth
-version=1.0.8
+version=1.0.9
 release=1
-source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
