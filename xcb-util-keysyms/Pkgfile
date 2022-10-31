@@ -4,9 +4,9 @@
 # Depends on:	libxcb
 
 name=xcb-util-keysyms
-version=0.4.0
+version=0.4.1
 release=1
-source=(https://xcb.freedesktop.org/dist/${name}-${version}.tar.bz2)
+source=(https://xcb.freedesktop.org/dist/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
