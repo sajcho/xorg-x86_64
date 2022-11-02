@@ -48,6 +48,7 @@ d:font-bh-ttf
 d:xprop
 d:xtrans
 d:xauth
+d:robin-hood-hashing
 d:libxrender
 d:libxrandr
 d:font-adobe-75dpi
@@ -302,6 +303,9 @@ f:33456bb98089109950c17426001c86c9:xtrans/Pkgfile
 f:cf569724a12d6d4328542199e6d5afb8:xauth/.md5sum
 f:a36026fe09be1b0dda982e7c49e96910:xauth/.footprint
 f:915df8e66b582ec6cc0e8392f17f13de:xauth/Pkgfile
+f:8549cd301b08923616d8ccfea468247f:robin-hood-hashing/.md5sum
+f:c82a13a9eccbb2403412712310e8bbd7:robin-hood-hashing/.footprint
+f:9d2cefce31f67e2f0d2ef54234a938dc:robin-hood-hashing/Pkgfile
 f:5132f30c7fff7bdce48037bece1808be:libxrender/.md5sum
 f:c2f49552fd2723a4e9eeb000d46c251d:libxrender/.footprint
 f:0f06f29571b8646434c011a0be76ba6c:libxrender/Pkgfile
