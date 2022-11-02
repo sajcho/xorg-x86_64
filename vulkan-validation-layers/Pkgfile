@@ -1,11 +1,11 @@
 # Description:	Vulkan validation layers
 # URL:		https://www.khronos.org/vulkan/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cmake glslang libxcb libx11 libxrandr spirv-tools vulkan-headers wayland-protocols
+# Depends on:	cmake glslang libxcb libx11 libxrandr robin-hood-hashing spirv-tools vulkan-headers wayland-protocols
 
 name=vulkan-validation-layers
 _realname=Vulkan-ValidationLayers
-version=1.3.224.1
+version=1.3.231.1
 release=1
 source=(https://github.com/KhronosGroup/${_realname}/archive/sdk-${version}/${_realname}-sdk-${version}.tar.gz)
 
@@ -24,10 +24,11 @@ build() {
 		-DBUILD_WSI_XCB_SUPPORT=ON \
 		-DBUILD_WSI_XLIB_SUPPORT=ON \
 		-DBUILD_WSI_WAYLAND_SUPPORT=ON \
-		-DUSE_ROBIN_HOOD_HASHING=OFF \
+		-DUSE_ROBIN_HOOD_HASHING=ON \
+		-DSPIRV_HEADERS_INSTALL_DIR=/usr \
+		-DVulkanRegistry_DIR=/usr/share/vulkan/registry \
 		-DBUILD_TESTS=OFF \
-		-DBUILD_WERROR=OFF \
-		-Wno-dev
+		-DBUILD_WERROR=OFF
 
 	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
 
