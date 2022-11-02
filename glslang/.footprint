@@ -59,6 +59,7 @@ drwxr-xr-x	root/root	usr/include/glslang/SPIRV/
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/GlslangToSpv.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/Logger.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/NonSemanticDebugPrintf.h
+-rw-r--r--	root/root	usr/include/glslang/SPIRV/NonSemanticShaderDebugInfo100.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/SPVRemapper.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/SpvBuilder.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/SpvTools.h
@@ -71,30 +72,21 @@ drwxr-xr-x	root/root	usr/include/glslang/SPIRV/
 -rw-r--r--	root/root	usr/include/glslang/build_info.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
--rw-r--r--	root/root	usr/lib/cmake/HLSLTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/HLSLTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/OGLCompilerTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/OGLCompilerTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/OSDependentTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/OSDependentTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRVTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/SPIRVTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPVRemapperTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/SPVRemapperTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/glslang-default-resource-limitsTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/glslang-default-resource-limitsTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/glslangTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/glslangTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/glslangValidatorTargets-release.cmake
+drwxr-xr-x	root/root	usr/lib/cmake/glslang/
+-rw-r--r--	root/root	usr/lib/cmake/glslang/glslang-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/glslang/glslang-config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/glslang/glslang-targets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/glslang/glslang-targets.cmake
 -rw-r--r--	root/root	usr/lib/cmake/glslangValidatorTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/spirv-remapTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/spirv-remapTargets.cmake
 -rwxr-xr-x	root/root	usr/lib/libHLSL.so
--rw-r--r--	root/root	usr/lib/libOGLCompiler.a
--rw-r--r--	root/root	usr/lib/libOSDependent.a
 -rwxr-xr-x	root/root	usr/lib/libSPIRV.so
 -rwxr-xr-x	root/root	usr/lib/libSPVRemapper.so
 -rwxr-xr-x	root/root	usr/lib/libglslang-default-resource-limits.so
 lrwxrwxrwx	root/root	usr/lib/libglslang.so -> libglslang.so.11
-lrwxrwxrwx	root/root	usr/lib/libglslang.so.11 -> libglslang.so.11.10.0
--rwxr-xr-x	root/root	usr/lib/libglslang.so.11.10.0
+lrwxrwxrwx	root/root	usr/lib/libglslang.so.11 -> libglslang.so.11.12.0
+-rwxr-xr-x	root/root	usr/lib/libglslang.so.11.12.0
