@@ -4,12 +4,13 @@
 # Depends on:	libxext
 
 name=libxinerama
-version=1.1.4
+_realname=libXinerama
+version=1.1.5
 release=1
-source=(https://www.x.org/releases/individual/lib/libXinerama-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXinerama-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
