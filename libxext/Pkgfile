@@ -4,12 +4,13 @@
 # Depends on:	libx11
 
 name=libxext
-version=1.3.4
+_realname=libXext
+version=1.3.5
 release=1
-source=(https://www.x.org/releases/individual/lib/libXext-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXext-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
