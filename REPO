@@ -339,9 +339,9 @@ f:04c5a6698d4c06f6a8fd3d12ca9fa320:font-bitstream-100dpi/.md5sum
 f:ce1e0d0a3bd5d12e1c7882ac5200d86e:font-bitstream-100dpi/.footprint
 f:51a55a69519964c323ee4f74a7acb4f5:font-bitstream-100dpi/post-install
 f:eee83c6461e88d448e05da264fb0a972:font-bitstream-100dpi/Pkgfile
-f:e347d4d150cc64913d63909f23b93bad:libdrm/.md5sum
+f:dfd62cc58856b1bd41bff36362b42fd8:libdrm/.md5sum
 f:a82c1887376b0e9a1fad87376a6e9886:libdrm/.footprint
-f:3658873b3f4ebbf801a2d557cdbef303:libdrm/Pkgfile
+f:e0fcc8828cb6f4649153e83cfcebded0:libdrm/Pkgfile
 f:90f6af84c75766e6b0ec4d92c8c0ba42:libx11/.md5sum
 f:63b7ac6ce806466e70cbda977db8ae80:libx11/.footprint
 f:a2df49eb6edfb3d499de5bbcf913d54b:libx11/Pkgfile
@@ -494,9 +494,9 @@ f:6209d6dd6d1bddbed30c3aec7491e87e:xwayland/Pkgfile
 f:f08911e314303239349f15a6f8ab928f:libepoxy/.md5sum
 f:355627de0939db078b6d02b584098c6d:libepoxy/.footprint
 f:b9d2908937a4c027239564ffd3cd4e77:libepoxy/Pkgfile
-f:42db681769c46b139d10b60c5dd6bcdb:xf86-input-mouse/.md5sum
+f:9dea1f4ef917b45c6a98eed6204feb48:xf86-input-mouse/.md5sum
 f:b371f86223fabd6eae05528b4415782b:xf86-input-mouse/.footprint
-f:b53f411c9779fbae6a0e6557fb7b52cb:xf86-input-mouse/Pkgfile
+f:f95287839bb5b0aedb1ded2077f0ef72:xf86-input-mouse/Pkgfile
 f:cbf1a7ce527ed54ccedf852a0ae10c16:xset/.md5sum
 f:3cbf8fcf9e548fa0d0ad9d5639e77fb6:xset/.footprint
 f:8cfeb680b8c18f13bf9ecc72935b7e7e:xset/Pkgfile
