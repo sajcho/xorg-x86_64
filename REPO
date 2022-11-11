@@ -185,8 +185,8 @@ f:f9352e8b95ddd79ac8d435612cf64496:vulkan-loader/.md5sum
 f:0030c751e0d67e061d3957b3ddb08648:vulkan-loader/.footprint
 f:d264f9edf442ce425d95fd54d646c9b0:vulkan-loader/Pkgfile
 f:9a6fb56c948ee27700ab2dfa9737c9f5:xcb-proto/.md5sum
-f:e3e4aa87aedd566f4a30915a3a35767e:xcb-proto/.footprint
-f:2afea3e3bb860694d5cd7e59ba1c0951:xcb-proto/Pkgfile
+f:79856ddba6165ff3816e1c42a2dbbd27:xcb-proto/.footprint
+f:1e2ee9044a700d0b2fc95f3de2c92436:xcb-proto/Pkgfile
 f:cb8261227d89cf22f26557d3b12fcfae:xf86-video-nouveau/.md5sum
 f:1dcc6697454a06243f7ea47b8e79f7d9:xf86-video-nouveau/.footprint
 f:4dffd9b9526399197976574410661347:xf86-video-nouveau/xorg-server-21.1.diff
