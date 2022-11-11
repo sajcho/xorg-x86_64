@@ -5,13 +5,12 @@
 
 name=xcb-proto
 version=1.15.2
-release=1
+release=2
 source=(https://www.x.org/releases/individual/proto/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
-	PYTHON=/usr/bin/python3 \
 	./configure \
 		--prefix=/usr
 
