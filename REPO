@@ -320,9 +320,9 @@ f:f1f1adbd8696343fdb5e5945e32e9223:font-bh-lucidatypewriter-75dpi/.md5sum
 f:5d28ea515a10ad60b197bbdc4f15e5d1:font-bh-lucidatypewriter-75dpi/.footprint
 f:ceca573497f04873fdd8012e19443382:font-bh-lucidatypewriter-75dpi/post-install
 f:8e35d88531fc3efdf1fa8e3c71efbdc6:font-bh-lucidatypewriter-75dpi/Pkgfile
-f:33ba808c0fb7598f556b7c2b0666bbe7:wayland-protocols/.md5sum
-f:c9655d60d3a0cdcbb1eda04362672c5d:wayland-protocols/.footprint
-f:9f7b682b70ebd430fd00cab6979d8894:wayland-protocols/Pkgfile
+f:c7d43a1772940dcf7d131ecb1ccd6d2a:wayland-protocols/.md5sum
+f:f8ff81f4e7e7882ca87a208adfa96175:wayland-protocols/.footprint
+f:d765db889577d6990d5644e158da60e8:wayland-protocols/Pkgfile
 f:142aedd325ab29cf10f2bd4d8113c9cd:libxres/.md5sum
 f:a7fe37e607be40b7ad5c3a09b49d8a50:libxres/.footprint
 f:4b2c21e9ccaad8a4881664b185d961ca:libxres/Pkgfile
