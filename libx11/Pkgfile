@@ -4,7 +4,7 @@
 # Depends on:	libxcb xtrans
 
 name=libx11
-version=1.8.1
+version=1.8.2
 release=1
 source=(https://www.x.org/releases/individual/lib/libX11-${version}.tar.xz)
 
