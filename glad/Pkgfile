@@ -1,0 +1,21 @@
+# Description:	Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs
+# URL:		https://github.com/Dav1dde/glad/blob/glad2
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	python3-jinja2
+
+name=glad
+version=2.0.2
+release=1
+source=(https://github.com/Dav1dde/glad/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	/usr/bin/python3 setup.py build
+
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr \
+		--optimize=1 \
+		--skip-build \
+		--root=$PKG
+}
