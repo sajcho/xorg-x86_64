@@ -109,6 +109,7 @@ d:xset
 d:rgb
 d:xcb-util-renderutil
 d:mesa
+d:glad
 d:xcb-util-cursor
 d:xbacklight
 d:xcb-util
@@ -116,9 +117,11 @@ d:libxtst
 d:xcur2png
 d:xinit
 d:font-adobe-100dpi
+d:glfw3
 d:libxscrnsaver
 d:xcb-util-xrm
 d:libxaw
+d:shaderc
 d:xf86-video-vesa
 d:vulkan-tools
 d:font-cantarell-otf
@@ -476,8 +479,8 @@ f:f8526ffe2264eb279da5b20bf3b1adeb:font-sarpanch-otf/.footprint
 f:51210c662242b14d3ca1206824612699:font-sarpanch-otf/post-install
 f:3bcadc24d5978ae576dce28e55e9caeb:font-sarpanch-otf/Pkgfile
 f:12a911f3dd308bdcb71bac0736d86cb7:glslang/.md5sum
-f:5d6d888d76b94f9d72306571add3446e:glslang/.footprint
-f:56fe9206f9edaf5602389106c4face3d:glslang/Pkgfile
+f:1a6ecd4b7b915ea98946fb4dc41e703b:glslang/.footprint
+f:247833aa2f7a8e2dcb57067abb1d9e85:glslang/Pkgfile
 f:dbcd6150260b58eb3a8e4bf7bb77455e:libxpresent/.md5sum
 f:17d1194074f9247426f9b3dea0532f63:libxpresent/.footprint
 f:e287f1dfde1c5ecfff14fd0902d47a7a:libxpresent/Pkgfile
@@ -507,9 +510,12 @@ f:a0e24a2734748f191fc702cbca7a6a2c:xcb-util-renderutil/.md5sum
 f:fc14ee172cd2704fbb67ccc87c259d3f:xcb-util-renderutil/.footprint
 f:1713f136f62e313b133860400d6d8cc7:xcb-util-renderutil/Pkgfile
 f:1380f1a039d4b6ad201300923ceb7c57:mesa/README
-f:22337bec42ce2f331d48148d953a2263:mesa/.md5sum
+f:59052ad9689a2bd6c885210d04c429ec:mesa/.md5sum
 f:2a0e5318b2ad408af5d8951f32db5c0d:mesa/.footprint
-f:cb90392c9e555b741a313c3e6d6c86e5:mesa/Pkgfile
+f:d170e3572f14d9237ffeef3947c112b1:mesa/Pkgfile
+f:39a688642955ed1bfe20934815a96f91:glad/.md5sum
+f:2648894f04e7f0df9d4c526274d9b678:glad/.footprint
+f:bf76410ebb2465495cf8b4cfec581779:glad/Pkgfile
 f:d3f1dd01cf73cdae8547a25717f586b7:xcb-util-cursor/.md5sum
 f:dc352ed298cdecdecb6409d766431302:xcb-util-cursor/.footprint
 f:b7793a2584a5ca8627808bc6e6701b45:xcb-util-cursor/Pkgfile
@@ -538,6 +544,9 @@ f:6fa3c1e2e7e2a538f57b16ec7580402b:font-adobe-100dpi/.md5sum
 f:e5a51658ddde864c4c1eccde44dc67a2:font-adobe-100dpi/.footprint
 f:51a55a69519964c323ee4f74a7acb4f5:font-adobe-100dpi/post-install
 f:4558ab90bec2aada2074cf2188f7286a:font-adobe-100dpi/Pkgfile
+f:636e543edc0842b305805a762322f1fb:glfw3/.md5sum
+f:3a7995801e93a6274e8351eb129b7936:glfw3/.footprint
+f:90d7004b2c4a4e472800fe5309bc78bf:glfw3/Pkgfile
 f:058f6c1159f27724256981a80a6150af:libxscrnsaver/.md5sum
 f:c09bb45602fabf69e9bedcf2062518c7:libxscrnsaver/.footprint
 f:d002726d797cb3f46749e4d72c8dfce1:libxscrnsaver/Pkgfile
@@ -547,6 +556,9 @@ f:ad3d4f65160339dd070bcd2e2a8f55e3:xcb-util-xrm/Pkgfile
 f:d761be21fa03cbece77bbcfe07b84d8c:libxaw/.md5sum
 f:ddd2b37af2c77b934e90ff589162be03:libxaw/.footprint
 f:af24515152be04410788781428c61e81:libxaw/Pkgfile
+f:c6222cee24304e173ed777ac74e2a520:shaderc/.md5sum
+f:5acd7c7c6561b2f1bd15206c20f203a2:shaderc/.footprint
+f:cde6eb5b83cf0cf3a58476789d57cdc6:shaderc/Pkgfile
 f:28f03d24ccdd346b42782f84790e99ad:xf86-video-vesa/.md5sum
 f:cf9d4e435109f91aad795c9fb566f526:xf86-video-vesa/.footprint
 f:6fad61cc25f2e6fa27ddb3b231bd0f12:xf86-video-vesa/Pkgfile
