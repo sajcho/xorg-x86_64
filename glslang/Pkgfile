@@ -1,29 +1,47 @@
-# Description:	OpenGL and OpenGL ES shader front end and validator
-# URL:		https://www.khronos.org/opengles/sdk/tools/Reference-Compiler
+# Description:	Khronos reference front-end for GLSL, ESSL, and sample SPIR-V generator
+# URL:		https://github.com/KhronosGroup/glslang
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	spirv-tools
+# Depends on:	bison python3 samurai spirv-tools
 
 name=glslang
 version=11.12.0
-release=1
-source=(https://github.com/KhronosGroup/glslang/archive/${version}/${name}-${version}.tar.gz)
+release=2
+source=(https://github.com/KhronosGroup/${name}/archive/${version}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 
-	mkdir build
-	cd build
+	mkdir build-shared
+	cd build-shared
 
-	cmake .. \
-		-DCMAKE_BUILD_TYPE=Release \
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DCMAKE_SKIP_RPATH=yes \
 		-DBUILD_SHARED_LIBS=ON \
-		-DCMAKE_SHARED_LINKER_FLAGS='-Wl,--no-undefined' \
-		-Wno-dev
+		-DENABLE_CTEST=OFF \
+		-Wno dev
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	ninja -v
 
-	make DESTDIR=$PKG install
+	cd $SRC/${name}-${version}
+	sed -i '/add_library(glslang-default-resource-limits/ s/$/ STATIC/' StandAlone/CMakeLists.txt
+
+	mkdir build-static
+	cd build-static
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=OFF \
+		-DENABLE_CTEST=OFF \
+		-Wno dev
+
+	ninja -v
+
+	cd $SRC/${name}-${version}
+	# themselves are not statically linking the library
+	DESTDIR=$PKG ninja -C build-static install
+	DESTDIR=$PKG ninja -C build-shared install
 }
