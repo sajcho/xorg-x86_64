@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIhhkx3VcRKDYsP3dmGdHKGtNMBiSot/qK8yIX5lUPb3biz+LeJp2GSEOuCA+xEmbfkQu4QP7H45I/r3SoSXsag8=
+SHA256 (Pkgfile) = f4c9ba5e2a267a610be6c24011192c1b92f49812cacc061eb8663ce9f93f54a9
+SHA256 (.footprint) = 776ffb9f681b669edd9768eb9e90105a7cbb8cccbec2e8fb30628bad164e77f6
+SHA256 (libxcvt-0.1.2.tar.xz) = 0561690544796e25cfbd71806ba1b0d797ffe464e9796411123e79450f71db38
