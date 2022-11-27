@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIly/O+pmLKmqAs28oxhG0chlz0Qk99w+H6XTuiGpeY800nqpj+6Q2DcflbnafrCkli7xmB4bhjBZYgXUuaPMEQY=
+SHA256 (Pkgfile) = 5afd1450357db62ecbdf96294815551a9b5329311ef091c0ec14f1b901f9efc6
+SHA256 (.footprint) = b06200ef72680ce3e73b4346092e1501b6ecb477e0e33b0a5cafdd7118d159b1
+SHA256 (font-adobe-75dpi-1.0.3.tar.bz2) = c6024a1e4a1e65f413f994dd08b734efd393ce0a502eb465deb77b9a36db4d09
