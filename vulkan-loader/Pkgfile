@@ -1,7 +1,7 @@
 # Description:	Vulkan ICD desktop loader
 # URL:		https://www.khronos.org/vulkan/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	vulkan-headers libx11 libxcb libxrandr wayland-protocols
+# Depends on:	libxrandr vulkan-headers wayland-protocols
 
 name=vulkan-loader
 _realname=Vulkan-Loader
