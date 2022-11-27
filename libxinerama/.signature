@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AItjQW3HqNKB5zNcxQl+I1xb90nVo8TJB5w0uBtrRv7KEjpO9F/Y0jbsqiT8bPOR64l6LUXw72FokD3gHm7QrjAo=
+SHA256 (Pkgfile) = 05c77d4f183c797265e1d638e36fa725bd3ff23cefe6876ec91f7537717c94f1
+SHA256 (.footprint) = 0f5476fe31e70969c9ab8358d8bd1c351e519a5b17b3f9713a4ad8d09313aae1
+SHA256 (libXinerama-1.1.5.tar.xz) = 5094d1f0fcc1828cb1696d0d39d9e866ae32520c54d01f618f1a3c1e30c2085c
