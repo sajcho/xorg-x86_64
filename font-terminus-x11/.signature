@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIgPZVdtDMHNBni+p/7SPh86yjaGNCgOePqPJzcfQ+++D3mDW1dcDMTiyXg35tRRJ5sG6ja3lZvgVbXes/KVEMgk=
+SHA256 (Pkgfile) = 6fdc20053d7e8b2740881601c478c6356ec67633a59edec80215bcb85298e402
+SHA256 (.footprint) = db1fa590aaccbaf2e526c5a91ce7a83c194c049de95cf122ed71217ea3b32346
+SHA256 (terminus-font-4.49.1.tar.gz) = d961c1b781627bf417f9b340693d64fc219e0113ad3a3af1a3424c7aa373ef79
