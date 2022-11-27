@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIvlzjzTbNsQNsPR7Hi/TwchnrXkJYQZDnyf+TURWvkuFREaUPp7tvwc3QNsplnQmjcQmUzaYruMG2m8reX0SjwM=
+SHA256 (Pkgfile) = 31951e306982a2e1607478c7bf4382687bdedac219be12f2d370995ee54cd1cf
+SHA256 (.footprint) = 66ebdbe85650b5889c5721351cf8536c831044d909948d737ce6f6b1b71d5f7f
+SHA256 (libXi-1.8.tar.bz2) = 2ed181446a61c7337576467870bc5336fc9e222a281122d96c4d39a3298bba00
