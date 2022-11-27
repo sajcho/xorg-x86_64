@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIiqS6c/XNwwUJsZryyXuEyRWWt4+kOmnfGUDs5OiwvyQqWiCD+nMU4ElzEP19q/m+9fpG7yQxvejo9jCBbk9UgU=
+SHA256 (Pkgfile) = 13bcd6fb8e2635d0007828dea2fefb2b5f06c2fba9e3a5977ec126952157dbd1
+SHA256 (.footprint) = 21eb49b5fb45114d1fb44f060f20f4ec75ba980a1c15621a7601d8eb2e230c90
+SHA256 (libXrandr-1.5.2.tar.bz2) = 8aea0ebe403d62330bb741ed595b53741acf45033d3bda1792f1d4cc3daee023
