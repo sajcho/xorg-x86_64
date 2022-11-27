@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIrNOqjUJE1VhM4oqPi6Nbprz8A8TpytBRb+SMQI5HSTKbf9MIOMvncZ8wVUWeKT4+r45ZaEkjl0LAz+Rd+gSwwY=
+SHA256 (Pkgfile) = 5f275ec61b5d20027ffd1e09d8cccdd285bf712de1ac96ea8c347343270f565d
+SHA256 (.footprint) = 626d4269b29b38dbaab38a8edb179ddaf99aa8f0e8b2cd2f6680c8e337ef76fd
+SHA256 (font-adobe-utopia-100dpi-1.0.4.tar.bz2) = d16f5e3f227cc6dd07a160a71f443559682dbc35f1c056a5385085aaec4fada5
