@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AImWlvGpJDZNY4rvmhpe7Cwu2H0AHw7cVowiY/kcxQOZNLYZSCtrNT3MExvgvu1FSIfR9PSG+O34q0w1NVKi1EQ4=
+SHA256 (Pkgfile) = 274e27fe579c662f0c7dd5bc9da9ade037f50a53d6be9eb1b9eca28a57f8cbb3
+SHA256 (.footprint) = 5aec98cc205eb603c91a4c6c3d7c30cf713187fcf9344fe215a3e807022cc8b6
+SHA256 (libXxf86dga-1.1.5.tar.bz2) = 2b98bc5f506c6140d4eddd3990842d30f5dae733b64f198a504f07461bdb7203
