@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AImTYAhlF12lkhZtGkpNkERG/SCFrdj5BO4nbXaUksLau51oWdtJtEpz2zCHyzE+j66Da/jmL2ataSWQrlgQhUQs=
+SHA256 (Pkgfile) = c2a35a0765920c72170bb88979f064432f085567486bdc00de7c7318bd747e8d
+SHA256 (.footprint) = f4623a0dc114e837a0eee25868424be43aec6d5df0006635dd5c343b1a0f8417
+SHA256 (glslang-11.12.0.tar.gz) = 7795a97450fecd9779f3d821858fbc2d1a3bf1dd602617d95b685ccbcabc302f
