@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIowukjDJ6ALX7eDao/RdVvvAbSuxiRTU8AQxz2rjr6gGHU3wtB5flvbrBqubf6mXJPfouYAGtgKYOKohNkBKKAk=
+SHA256 (Pkgfile) = 6f586a970873bbb3779f9daed706167d9ca069c90e472549ac7afa028c430a39
+SHA256 (.footprint) = 2655e94cba6669dd5ccb7329197dcc7541850fe5d6696b5e64b0cecd8f500344
+SHA256 (libICE-1.0.10.tar.bz2) = 6f86dce12cf4bcaf5c37dddd8b1b64ed2ddf1ef7b218f22b9942595fb747c348
