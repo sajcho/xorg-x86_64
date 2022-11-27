@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AInGeTEnfP7nhU7mSV352tQl69NeQ4QXD+tG0l6LpejPxp+s23WjmMt1OBLQHtqxFXq8CGnctcsptYWiifQGJTAQ=
+SHA256 (Pkgfile) = a1be62039c82d2ccf84eacb83d518b626aa093ee53e42d99eea7d105e40b191b
+SHA256 (.footprint) = b6dbb0293fb55496e682acb44e46400fcc5cb46668459febc9dc99ee2dc416ad
+SHA256 (glad-2.0.2.tar.gz) = 0326d59b1ccf8ccae1fface5bfb71bec1bb41fbe2341e722b31f6acac3068aeb
