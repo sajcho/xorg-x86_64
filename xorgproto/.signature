@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIgtelQeIuMllZo2UaSFbJ8ajA61ncWFBfsCQjjmpWoPK2DhfaEFzZJSBC6egrjIz3ALOKZRKzvL8omJKzvqEuQ4=
+SHA256 (Pkgfile) = e6ef3d692fd5d1607eebabc5e6bf28aa19ed215dd79e03e98d614cfc4bbd909f
+SHA256 (.footprint) = 82871a1c5a447bd86a5fa118352e4cb026d9dbba1c1c3dd6f045e90c593bc50a
+SHA256 (xorgproto-2022.2.tar.xz) = 5d13dbf2be08f95323985de53352c4f352713860457b95ccaf894a647ac06b9e
