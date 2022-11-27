@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AImV9aIhw/PB9QKIx4si3SHJjmk7tPscDlxjws/OEwFFScDZzdmDr8dDwfmxOzK1d1xK4nqk1ZN28cd+5VExXIg8=
+SHA256 (Pkgfile) = b8cb2699b0766a4865824348beda934c738098abd5771ec59f1992d4ca3e86d9
+SHA256 (.footprint) = cfc8957f19bceb1d0b20ecf1a28db8934dbfba43c080f9fc2ec6a93e2277a64e
+SHA256 (xf86-video-amdgpu-22.0.0.tar.xz) = 9d23fb602915dc3ccde92aa4d1e9485e7e54eaae2f41f485e55eb20761778266
