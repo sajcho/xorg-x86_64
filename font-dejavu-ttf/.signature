@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIj0+ocjG/Vd4O0mi29/fFIsoVd5wBpw+9gbb7YD9nKzgng7Q4K8SFRTKril3W//Bv1NXumTi2pKniC1mYuAQIwI=
+SHA256 (Pkgfile) = 405405efa00438d015a7f53ccf0a2843695dac91a1009fd4537044435343f1b0
+SHA256 (.footprint) = f5c2b3b4a183920508119ea9399418858adbc26fa31fbe0e6e03566c7b58a50b
+SHA256 (dejavu-fonts-ttf-2.37.tar.bz2) = fa9ca4d13871dd122f61258a80d01751d603b4d3ee14095d65453b4e846e17d7
+SHA256 (45-dejavu.conf) = 09a5a099f3dd69e88bb003c62280c3a5ea546ed37ad317f329ba38dc668861c4
+SHA256 (90-tt-dejavu.conf) = 9b875b9c9176a1129af82b738bdd12be93d9820d65693b042ffdd0474184a59b
