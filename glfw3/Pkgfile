@@ -1,7 +1,7 @@
 # Description:	A multi-platform library for OpenGL, OpenGL ES and Vulkan development
 # URL:		https://www.glfw.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libglvnd samurai vulkan-loader libxcursor libxi libxinerama
+# Depends on:	libglvnd vulkan-loader libxcursor libxi libxinerama
 
 name=glfw3
 _realname=glfw
