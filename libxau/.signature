@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIltK/rywstXeFFjQcs7s6CLVvo8gnOjJkP+L9yCDJEuUduDcBh1Kv6p5+Dl1mb2Ymv/PPmvlhpxLd3N+N56FzAA=
+SHA256 (Pkgfile) = 3129438eb9d53ff73741f98c45090f80e857b1ff805cfbab10887a097257a0b3
+SHA256 (.footprint) = 6d48d88ec31490272f46149d24debf20cf78bce95eb0ad8e21832033e2af81b1
+SHA256 (libXau-1.0.10.tar.xz) = 8be6f292334d2f87e5b919c001e149a9fdc27005d6b3e053862ac6ebbf1a0c0a
