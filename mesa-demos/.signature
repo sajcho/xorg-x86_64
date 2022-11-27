@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIkiNMjdl0ZRVjeQtqOE0hIjv0OtHHFxbhF4IrTwoFaY2Ql07krOhE5wKM05CeNI72iVThRv59InydpKULoWgfg8=
+SHA256 (Pkgfile) = 71e3e17d4868c45690c6ceff14244d71264b438d2f92cec08fe8bbedd91dbc38
+SHA256 (.footprint) = f4c9e6a7140f0b504fd44963603143361f7b8629ab1457cd4062f4280fe54025
+SHA256 (mesa-demos-8.5.0.tar.bz2) = cea2df0a80f09a30f635c4eb1a672bf90c5ddee0b8e77f4d70041668ef71aac1
