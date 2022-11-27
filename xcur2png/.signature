@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIqL2/sZ5NnmPzoY/yaICI1adYzufkpqwapDjl56d/Xq6r3QvRDidDrpIs6q6tzdG2FQ4xTBnVoli+pu5CFTGBAI=
+SHA256 (Pkgfile) = c7c8872346d37a03ffc82b75700cdb9704da4e7947266290d3ebc459cc1989b8
+SHA256 (.footprint) = f940ef958841931f7f713446813bd922476a620b568fdeb6eb5350531f82f57d
+SHA256 (xcur2png-0.7.1.tar.gz) = bc6a062fdb48615a7159ed56ef3d2011168cd8a9decaf1d8a4e316d3064132c9
+SHA256 (0001-fix-wrong-math.patch) = 224cf894c53eeb647a696ff311054cecf1a3dfeb10f49d96293c8bfeba4b88e9
