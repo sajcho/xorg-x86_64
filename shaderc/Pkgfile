@@ -1,7 +1,7 @@
 # Description:	A collection of tools, libraries, and tests for Vulkan shader compilation
 # URL:		https://github.com/google/shaderc
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	asciidoctor cmake glslang spirv-tools samurai
+# Depends on:	asciidoctor glslang
 
 name=shaderc
 version=2022.3

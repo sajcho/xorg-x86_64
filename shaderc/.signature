@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIumKePpiG6NktTzGBK8WMm1kLc6mOCDP9jCaqO7FQIC4zA0qGB3Zqlw0DPBz94ylqT8j8ryGaJggCLGjt+zQ/wU=
+SHA256 (Pkgfile) = 8b7e3c08cdd9d295fce04cde5f8f4a2bbf0f479ad628197b9d2668fc5d90dd37
+SHA256 (.footprint) = 768c5796cba31503e5e8a1c1d874f1d8699d410d17d6b98d9a6588ae17462816
+SHA256 (shaderc-2022.3.tar.gz) = c1dee49535cfdf86994990b21fe129a74bb0d628a647f4aae8905bd61df32607
