@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIi0nQrhxBCqn9WjVfhTPNUZr3FCLvTSOBGEAl4g0ndejoh52BM5coMhymMEeQ4e3yoQKAyZyV5t6d8wLkmViqws=
+SHA256 (Pkgfile) = a3d84449e39568b77a436b67ee78503a81052dc6d45eb474006e0e8db400fc10
+SHA256 (.footprint) = 0efe20a987f575ef7e2c5c8570b1191e193089d4448ce8f340c687d4206cc806
+SHA256 (mesa-22.2.4.tar.xz) = 65d76b53ca5c7b46019e0e8e5b414de45d2fecd3fcd71707f6c3bc7691c9f7ab
