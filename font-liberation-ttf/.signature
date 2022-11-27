@@ -1,0 +1,12 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIqWS5bD/go/3Z14rsDiueo0oZd7Fr1ZHc+8Aszz0dKpnaNYTtAMGlOCMJ83MYDiFoPaE2rRtmaojf7JXlTmmSAY=
+SHA256 (Pkgfile) = c9d6691706e3499d83d9a50323dcbed1c5c835ae874818c65c9581fa5274c67b
+SHA256 (.footprint) = cd980f039f7b342542303585cb178cd22896f2475adc96acd5f2b8ea5b4a8d69
+SHA256 (liberation-fonts-ttf-2.00.5.tar.gz) = f14ff0a0be87b5aeb672e669363b5a699db76feb1144b06798261c0fdcd2b24d
+SHA256 (liberation-narrow-fonts-ttf-1.07.6.tar.gz) = 8879d89b5ff7b506c9fc28efc31a5c0b954bbe9333e66e5283d27d20a8519ea3
+SHA256 (30-liberation-mono.conf) = 8c6578de3916aac9edb950d70a2ea775f18468c730de5f103bab6ac9e94d86b4
+SHA256 (30-liberation-sans-narrow.conf) = bf18a5d323fa67e6134169a6997642e9800c0f3f6b311640a19d24c97d5b3b0f
+SHA256 (30-liberation-sans.conf) = 1fae975634e0eb577a47c8c9ca7a7bf5b5599d78f0c33feeb779005de2ece983
+SHA256 (30-liberation-serif.conf) = 88537232df69f3b70ab42f228597c9ccf15020bddf1e103f3200df4370c2cf6d
+SHA256 (45-liberation.conf) = e76fb3f253b3079d00bda584017f4f8a5c237e90bc8e987957c698a30a880994
+SHA256 (90-tt-liberation.conf) = e691a1b8a4b780017386863e6837a5f49b7aee438f5d12c64ea0141c5bac4be3
