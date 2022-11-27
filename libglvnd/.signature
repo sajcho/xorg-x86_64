@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIs61omI4Zztc15TmaC9dLQbRZgAGfoEmTEM8BMmVVXMM9cTRnjg7F2Ur9zW4pwTrpxIB+0iD0iyuaTn4/V+X2gk=
+SHA256 (Pkgfile) = 20bee22353924d2b6182dcdb3ce99fa1d0716aba4e1bcebe38446509b626af63
+SHA256 (.footprint) = 6798d697285c16167537bef2780cd0682141672178ff89352fb055ce8c3e64bd
+SHA256 (libglvnd-1.5.0.tar.gz) = abdf8229c86358f651e35bdc7cfced0fdf67d0a2acdf9197d08a9732ef7b53bc
