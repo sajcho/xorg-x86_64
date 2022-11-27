@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIh4neSMV+IszptXZrLUUenl9pg5FuQccCitMu7DrMpQKYUKOa9vEa8XJMWm9ID5XKZOZN1eLOwpAtthdaemGTw0=
+SHA256 (Pkgfile) = 725e75cc9cf4f4be5cac184c81c958550cc29e83fc18c87769d4af889e7a1115
+SHA256 (.footprint) = a020f8477c45858ef18c97c60fde565fb549b255601b97871e1242529d56a989
+SHA256 (Vulkan-Tools-sdk-1.3.231.1.tar.gz) = 0388207fdc0986ed8e03092a16d76913c7189d87a0d71eff4a914942b16b552a
