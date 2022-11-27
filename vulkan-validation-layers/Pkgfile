@@ -1,7 +1,7 @@
 # Description:	Vulkan validation layers
 # URL:		https://www.khronos.org/vulkan/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cmake glslang libxcb libx11 libxrandr robin-hood-hashing spirv-tools vulkan-headers wayland-protocols
+# Depends on:	glslang libxrandr robin-hood-hashing vulkan-headers wayland-protocols
 
 name=vulkan-validation-layers
 _realname=Vulkan-ValidationLayers
