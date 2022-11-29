@@ -20,7 +20,7 @@ build() {
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DBUILD_SHARED_LIBS=ON \
 		-DENABLE_CTEST=OFF \
-		-Wno dev
+		-Wno-dev
 
 	ninja -v
 
@@ -36,7 +36,7 @@ build() {
 		-DCMAKE_INSTALL_LIBDIR=lib \
 		-DBUILD_SHARED_LIBS=OFF \
 		-DENABLE_CTEST=OFF \
-		-Wno dev
+		-Wno-dev
 
 	ninja -v
 
