@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIn1QFFWLIQLr5zdESum2Z0tgx8QVuDjvEfbndA33nz1ePyf+4w/7NvumsIdWqbzCERDQVmmgKHcNL44qmXzaSwE=
-SHA256 (Pkgfile) = 23fb7d66f0598e79c49ad06f2ad3d831cd95a2426f377982b34314a654eadc1b
+RWS6GSB2Zz1AIltUdVc6kLnMlOVJ/RbDWmyQLuhQPGNu8R2iCcOQ6ASxUTp3LOBk6HdrVFABVBzCMhARUxYwfGfODcSk0ZoG5gU=
+SHA256 (Pkgfile) = 2d5f0939ad12930bddad1a007614f7976561733bb714b61f49b71b00bd2d8c8c
 SHA256 (.footprint) = 1b35c0ecda86cd1c63c8093a511de6ffde1bb45b42e89ab2b65f44b0984def7d
-SHA256 (libxshmfence-1.3.1.tar.xz) = 1129f95147f7bfe6052988a087f1b7cb7122283d2c47a7dbf7135ce0df69b4f8
+SHA256 (libxshmfence-1.3.2.tar.xz) = 870df257bc40b126d91b5a8f1da6ca8a524555268c50b59c0acd1a27f361606f
