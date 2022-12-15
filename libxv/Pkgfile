@@ -4,12 +4,13 @@
 # Depends on:	libxext
 
 name=libxv
-version=1.0.11
+_realname=libXv
+version=1.0.12
 release=1
-source=(https://www.x.org/releases/individual/lib/libXv-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXv-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
