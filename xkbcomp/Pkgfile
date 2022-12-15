@@ -4,9 +4,9 @@
 # Depends on:	libxkbfile
 
 name=xkbcomp
-version=1.4.5
+version=1.4.6
 release=1
-source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
