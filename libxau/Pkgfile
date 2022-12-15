@@ -4,12 +4,13 @@
 # Depends on:	xorgproto
 
 name=libxau
-version=1.0.10
+_realname=libXau
+version=1.0.11
 release=1
-source=(https://www.x.org/releases/individual/lib/libXau-${version}.tar.xz)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXau-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
