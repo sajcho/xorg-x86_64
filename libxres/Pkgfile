@@ -4,12 +4,13 @@
 # Depends on:	libxext
 
 name=libxres
-version=1.2.1
+_realname=libXres
+version=1.2.2
 release=1
-source=(https://www.x.org/releases/individual/lib/libXres-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXres-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
