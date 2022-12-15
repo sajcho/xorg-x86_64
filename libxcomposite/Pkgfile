@@ -4,12 +4,13 @@
 # Depends on:	libxext libxfixes
 
 name=libxcomposite
-version=0.4.5
+_realname=libXcomposite
+version=0.4.6
 release=1
-source=(https://www.x.org/releases/individual/lib/libXcomposite-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXcomposite-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
