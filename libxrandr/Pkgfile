@@ -4,12 +4,13 @@
 # Depends on:	libxext libxrender
 
 name=libxrandr
-version=1.5.2
-release=2
-source=(https://www.x.org/releases/individual/lib/libXrandr-${version}.tar.bz2)
+_realname=libXrandr
+version=1.5.3
+release=1
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXrandr-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
