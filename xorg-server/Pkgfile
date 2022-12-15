@@ -4,7 +4,7 @@
 # Depends on:	bdftopcf font-util libdmx libepoxy libxaw libxcomposite libxcursor libxcvt libxfont2 libxft libxinerama libxkbfile libxres libxtst libxxf86dga mkfontscale nettle xcb-util-keysyms xcb-util-wm xcb-util-xrm xcb-util-cursor
 
 name=xorg-server
-version=21.1.4
+version=21.1.5
 release=1
 source=(https://www.x.org/releases/individual/xserver/${name}-${version}.tar.xz)
 
@@ -44,8 +44,6 @@ build() {
 		-Dxkb_output_dir=/var/lib/xkb \
 		-Ddefault_font_path=$_fontroot/misc,$_fontroot/100dpi:unscaled,$_fontroot/75dpi:unscaled,$_fontroot/otf,$_fontroot/truetype,$_fontroot/Type1 \
 		. build
-
-	meson configure build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
