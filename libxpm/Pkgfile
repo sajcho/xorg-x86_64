@@ -4,12 +4,13 @@
 # Depends on:	libxext libxt
 
 name=libxpm
-version=3.5.13
+_realname=libXpm
+version=3.5.14
 release=1
-source=(https://www.x.org/releases/individual/lib/libXpm-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXpm-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
