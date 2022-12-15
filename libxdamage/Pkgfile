@@ -4,12 +4,13 @@
 # Depends on:	libxfixes
 
 name=libxdamage
-version=1.1.5
+_realname=libXdamage
+version=1.1.6
 release=1
-source=(https://www.x.org/releases/individual/lib/libXdamage-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXdamage-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
