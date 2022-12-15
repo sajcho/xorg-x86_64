@@ -4,9 +4,9 @@
 # Depends on:	xorg-server
 
 name=xf86-video-vesa
-version=2.5.0
+version=2.6.0
 release=1
-source=(https://www.x.org/releases/individual/driver/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/driver/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
