@@ -4,12 +4,13 @@
 # Depends on:	xorgproto xtrans
 
 name=libice
-version=1.0.10
+_realname=libICE
+version=1.1.1
 release=1
-source=(https://www.x.org/releases/individual/lib/libICE-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libICE-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
