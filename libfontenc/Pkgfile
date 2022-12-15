@@ -4,7 +4,7 @@
 # Depends on:	util-macros xorgproto zlib
 
 name=libfontenc
-version=1.1.6
+version=1.1.7
 release=1
 source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.xz)
 
