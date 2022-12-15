@@ -4,7 +4,7 @@
 # Depends on:	egl-wayland elfutils libva libvdpau libxdamage libxshmfence libxxf86vm llvm-toolchain python3-mako vulkan-validation-layers
 
 name=mesa
-version=22.2.4
+version=22.2.5
 release=1
 source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz)
 
