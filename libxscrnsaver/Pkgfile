@@ -4,12 +4,13 @@
 # Depends on:	libxext
 
 name=libxscrnsaver
-version=1.2.3
+_realname=libXScrnSaver
+version=1.2.4
 release=1
-source=(https://www.x.org/releases/individual/lib/libXScrnSaver-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXScrnSaver-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
