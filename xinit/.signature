@@ -1,10 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIsrap2f7IQxBnv0HWcbKOAJ4DudTxYPaQgHehTYy+/YVfybfIvBgHcukNiF65tbsf4od3T1Zam2ht7wOj3XZ1A4=
-SHA256 (Pkgfile) = 23a7a47eeefee36228cb4dd2a4f5dcf97b052b8dca718dff86d197619b05bb12
-SHA256 (.footprint) = 173b5b7b54572cd4bfdc1f48d365d618ca2e71572318c80ffea86027e36cd019
-SHA256 (xinit-1.4.1.tar.bz2) = de9b8f617b68a70f6caf87da01fcf0ebd2b75690cdcba9c921d0ef54fa54abb9
-SHA256 (06_move_serverauthfile_into_tmp.patch) = a5c6ced5822bbb3145e0f30a4b12995782ca6d80ff2d927851ec91b5e41212cb
-SHA256 (Xsession) = f79bb26d16e482be736bd2ba5f647fcf13084afdcdf5b9cc32ffe6cbf4c1955a
-SHA256 (xinitrc) = 4b969f141aa39e802aa5dac26acbace81293d613aff327b063c5ac70000c45be
-SHA256 (xsession.skel) = da325bbad10c1e05b61ef250c6cdada784be0a08b9f48984e691ea9a5abc9dd8
-SHA256 (xserverrc) = 86835010b5350c41035495b7b845db0eecf1e4b7eeaf152b12a881fa502e5387
+RWS6GSB2Zz1AIs9ta9aTxdob8r41EIuTz4zX7/ifr3Dfg9bpKOkekTn7NJ2iQbxhFoko8v/8aU7kDwSNWYs6LW2N92Nb/TLDBwo=
+SHA256 (Pkgfile) = c1fd580fa3e57716a8a9c0523ffeecdfa7c6953aadc435e8acc0fd7425a0af13
+SHA256 (.footprint) = 6e9e50e15b9939516003ecd497c5d86ffa05f8184e3aabf196d6977e006edb96
+SHA256 (xinit-1.4.2.tar.xz) = b7d8dc8d22ef9f15985a10b606ee4f2aad6828befa437359934647e88d331f23

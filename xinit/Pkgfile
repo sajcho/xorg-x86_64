@@ -1,35 +1,21 @@
 # Description:	X Window System initializer
 # URL:		http://xorg.freedesktop.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	xauth xmodmap xrdb
+# Depends on:	xorg-server
 
 name=xinit
-version=1.4.1
+version=1.4.2
 release=1
-source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.bz2 \
-	06_move_serverauthfile_into_tmp.patch \
-	Xsession xinitrc xsession.skel xserverrc)
+source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
-	patch -p1 -i $SRC/06_move_serverauthfile_into_tmp.patch
-
 	./configure \
 		--prefix=/usr \
-		--sysconfdir=/etc \
-		--localstatedir=/var \
-		--with-xinitdir=/etc/X11/xinit
+		--sysconfdir=/etc
 
 	make V=1
 
 	make DESTDIR=$PKG install
-
-	chmod +x $PKG/usr/bin/startx
-	install -m 0755 -d $PKG/etc/skel
-	install -m 0755 -D $SRC/xinitrc $PKG/etc/X11/xinit/xinitrc
-	install -m 0755 -D $SRC/Xsession $PKG/etc/X11/xinit/Xsession
-	install -m 0755 $SRC/xsession.skel $PKG/etc/skel/.xsession
-	install -m 0755 $SRC/xserverrc $PKG/etc/X11/xinit/xserverrc
-	mkdir -p $PKG/etc/X11/xinit/xinitrc.d
 }
