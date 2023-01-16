@@ -1,7 +1,7 @@
 # Description:	Set the keyboard using the X Keyboard Extension
 # URL:		http://xorg.freedesktop.org/
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	libxkbfile
+# Depends on:	libxkbfile xrandr
 
 name=setxkbmap
 version=1.3.3
