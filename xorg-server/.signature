@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIjeGznFS4vHiareHlQhkQ56qznAfcMM8ZJhf6s0Zg6+8KZgJJQSucJJbdr4Vhw2vMVSGFEYvBqjr4MEzP+1x3Q4=
-SHA256 (Pkgfile) = 81a9fe0fd3985c683befd90a88d58aa7ee2f8e35f6b750b8dda11e9a9899c8c2
+RWS6GSB2Zz1AIhmPJBc10zojus6qfBnZNgYOAhtzC1XdCUcQT5+e+QxOaAdj+7C6dHkvq3SiFST/XAGHE015KaxMZIpEAqgc3go=
+SHA256 (Pkgfile) = 76cb1e85aa9982793cd61b1f833fe1921cc8e052d4e0c3b50c671037b1b05e9b
 SHA256 (.footprint) = 7828ecbccff72807ca80cb4e45fab32ed07d31a7a035d1400ef5e2981d6fdee9
-SHA256 (xorg-server-21.1.5.tar.xz) = 05b0c8301cee7c5a78083df421ba3a071891553541a417b3d85adf5cf20f8720
+SHA256 (xorg-server-21.1.6.tar.xz) = 1eb86ed674d042b6c8b1f9135e59395cbbca35ed551b122f73a7d8bb3bb22484
