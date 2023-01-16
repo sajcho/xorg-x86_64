@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIiybRwIpzxCmapyVZjeRQ/b49RqwHaJOF6i7/yWBf2na5k4ros3hKQ+2phv8c1L47PLoWo0ZUv7+xOcTiv+drA0=
-SHA256 (Pkgfile) = e5bdd038202cdb4f40ee6d39ec1cb95e53624d336132d63f33e9ab3ef3d5b980
+RWS6GSB2Zz1AIkW4WBoc2H0K7MdcUM24WUGBweMHmg0V31sxgamyR5GWORcu3SNsRuAHhtYcewyEUF792ROlY0BT5w5QpwmYmw8=
+SHA256 (Pkgfile) = a7ceb666b58eb42aee82c3036f5fae24308cd911a967666a14ea20869d98fcbd
 SHA256 (.footprint) = 860d6eb33b757323af07616fdc4bd69e763593f0784756dc8ad4f378f8541b52
-SHA256 (Vulkan-ValidationLayers-sdk-1.3.231.1.tar.gz) = ea40af0f499e7e97a86ee54410c5c78e7f7bac40f65ae09a1549773b6501bf4d
+SHA256 (Vulkan-ValidationLayers-sdk-1.3.236.0.tar.gz) = 68f2cf70b1960f85e931ef56935e6ceda1beeb214f8fa319e6b95128b02b485a
