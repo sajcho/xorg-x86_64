@@ -4,12 +4,12 @@
 # Depends on:	bison python3 samurai spirv-tools
 
 name=glslang
-version=11.12.0
-release=2
-source=(https://github.com/KhronosGroup/${name}/archive/${version}/${name}-${version}.tar.gz)
+version=1.3.236.0
+release=1
+source=(https://github.com/KhronosGroup/${name}/archive/sdk-${version}/${name}-sdk-${version}.tar.gz)
 
 build() {
-	cd ${name}-${version}
+	cd ${name}-sdk-${version}
 
 	mkdir build-shared
 	cd build-shared
@@ -24,7 +24,7 @@ build() {
 
 	ninja -v
 
-	cd $SRC/${name}-${version}
+	cd $SRC/${name}-sdk-${version}
 	sed -i '/add_library(glslang-default-resource-limits/ s/$/ STATIC/' StandAlone/CMakeLists.txt
 
 	mkdir build-static
@@ -40,7 +40,7 @@ build() {
 
 	ninja -v
 
-	cd $SRC/${name}-${version}
+	cd $SRC/${name}-sdk-${version}
 	# themselves are not statically linking the library
 	DESTDIR=$PKG ninja -C build-static install
 	DESTDIR=$PKG ninja -C build-shared install
