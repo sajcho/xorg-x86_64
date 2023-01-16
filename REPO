@@ -323,9 +323,9 @@ f:eaf9badb879fb6479d4b45ee83b38700:xf86-video-amdgpu/.footprint
 f:a2f57e0f5306ab9cb7e26907d807d34e:xf86-video-amdgpu/.signature
 f:98d2a5e1575f1a5c0db0158a3f426e4d:xf86-video-amdgpu/Pkgfile
 f:963db0b198639ef996ab5507ea6659e3:libinput/post-install
-f:c78457abeade06169837568dbe78ab9a:libinput/.footprint
-f:e78e873ed2270c2b8a5c3e03699949d9:libinput/.signature
-f:f812344e29312eecebb9a7ae3f6323c6:libinput/Pkgfile
+f:920b757cf7d1654b8eb89442f6c61498:libinput/.footprint
+f:3c6cfd442a1509c504a4bc0a03fb3432:libinput/.signature
+f:f1f79b539a854fe3b503333159dc492c:libinput/Pkgfile
 f:51a55a69519964c323ee4f74a7acb4f5:font-adobe-100dpi/post-install
 f:e5a51658ddde864c4c1eccde44dc67a2:font-adobe-100dpi/.footprint
 f:9faac8ebafb652a27a4b6406a164474c:font-adobe-100dpi/.signature
