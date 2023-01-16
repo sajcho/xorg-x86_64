@@ -4,7 +4,7 @@
 # Depends on:	egl-wayland elfutils libva libvdpau libxdamage libxshmfence libxxf86vm llvm-toolchain python3-mako vulkan-validation-layers
 
 name=mesa
-version=22.2.5
+version=22.3.3
 release=1
 source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz)
 
@@ -26,7 +26,6 @@ build() {
 		-Dgallium-vdpau=enabled \
 		-Dgallium-va=enabled \
 		-Dgallium-xa=disabled \
-		-Dgallium-xvmc=disabled \
 		-Dgallium-nine=false \
 		-Dgallium-extra-hud=false \
 		-Dgallium-drivers=r300,r600,radeonsi,virgl,svga,crocus,zink,swrast,nouveau \
@@ -39,6 +38,7 @@ build() {
 		-Dmicrosoft-clc=disabled \
 		-Dc_args="-fuse-ld=mold" \
 		-Dc_link_args="-fuse-ld=mold" \
+		-Dvideo-codecs=vc1dec,h264dec,h264enc,h265dec,h265enc \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
