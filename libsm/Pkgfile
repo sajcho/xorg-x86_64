@@ -4,12 +4,13 @@
 # Depends on:	libice util-linux
 
 name=libsm
-version=1.2.3
+_realname=libSM
+version=1.2.4
 release=1
-source=(https://www.x.org/releases/individual/lib/libSM-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libSM-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
