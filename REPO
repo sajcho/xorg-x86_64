@@ -164,8 +164,8 @@ f:4e5fee9e6b1ecd71358b6870c39b4ee8:wayland/.footprint
 f:94ed170be01d88ddb6280958a34ef23c:wayland/.signature
 f:fc3887ce9892d99406156186dfb56509:wayland/Pkgfile
 f:1d8ca10a22bfa81759a716f824306fa2:xdriinfo/.footprint
-f:d4e0514251a4ff0e14284d7d06d3ee7a:xdriinfo/.signature
-f:36ab0d31467a3130d8f075ada930baff:xdriinfo/Pkgfile
+f:ac72a0b6ec58fc2ea57f5a90a02191e8:xdriinfo/.signature
+f:5b915945c4bad1b2fa43238ba2d50559:xdriinfo/Pkgfile
 f:7ce56c2a88f14089528d0ec513805960:libxinerama/.footprint
 f:dec0faf10d4268d375c8d03be2b2ef48:libxinerama/.signature
 f:dce7bb7a1ff53c8648131efcbd84b0ff:libxinerama/Pkgfile
@@ -337,8 +337,8 @@ f:679bc6fc8856e67c7efa164fd3439768:xwayland/.footprint
 f:071e2f053e5075e9b06387a2992862c7:xwayland/.signature
 f:47ff36607172f46d2ff0fce1186071e0:xwayland/Pkgfile
 f:9e35402437a24bb28c3af936bdf5ebe8:libxpm/.footprint
-f:72bd70c56d905a71b889ce420827f851:libxpm/.signature
-f:5a4162460c4dc30d81cfb0dc0d2ab94b:libxpm/Pkgfile
+f:063d1e0542233637b078f9c9fed24074:libxpm/.signature
+f:a1c30b72994f88cbcdbe4b55bd31f63c:libxpm/Pkgfile
 f:f9de187b5eec885232a337e2263c68f9:xbacklight/.footprint
 f:ce191a4a9cf9f475e9ae46096168cdcd:xbacklight/.signature
 f:359c175f10569d9a10cf65baffd23769:xbacklight/Pkgfile
