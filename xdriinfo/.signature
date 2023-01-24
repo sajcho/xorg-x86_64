@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIkAjXsH9SiFFfOjtcO4EqDhA+msbfzfxYyFS3PjiohWnAtP7qIBwGdCyDVUWW4KAISZvs9lL+wcK3j5kegFWNAw=
-SHA256 (Pkgfile) = 0add6989bbff87f84311507cfae4639da201b1ae560f57bba5d81c9a1f8a2fed
+RWS6GSB2Zz1AIj2V0aTra+QRGyWSHdHgS9DBAOYhotsehGsafqw6vPCyJBriPixr1IikTgL77xJNnj8E63x97Mzuq7vvbafJrAE=
+SHA256 (Pkgfile) = a375e0707844c6419280159dc1b516031a0a0c82b3dc682307c80ff9651a7024
 SHA256 (.footprint) = 5a4449e849ae43aec8c78fa1e473e2237bf5661c877036a5eef2d8e7b565c346
-SHA256 (xdriinfo-1.0.6.tar.bz2) = d9ccd2c3e87899417acc9ea1f3e319a4198112babe1dc711273584f607449d51
+SHA256 (xdriinfo-1.0.7.tar.xz) = dd838bae9d2b19ddd71fe6d30ed33abc7c85e19d223e79d35600db3fa44bf734
