@@ -214,8 +214,8 @@ f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:71d4c3128f4b15047befadf898789c02:xf86-input-evdev/.signature
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
 f:36d1afbffc988852dad5e86892d8c92f:mesa/.footprint
-f:81652340f3ba6d1440f06f929d986427:mesa/.signature
-f:464248b58fe76d43d6a7689b996aed4c:mesa/Pkgfile
+f:b20b41757d0990b150197ff2cc50e805:mesa/.signature
+f:75350efa935faacb452684f8a3caadb6:mesa/Pkgfile
 f:1380f1a039d4b6ad201300923ceb7c57:mesa/README
 f:538032fa21db25d3cb02c885c28971bb:pixman/.footprint
 f:e9e5e362473b3b9d250fb198ec496c2f:pixman/.signature
