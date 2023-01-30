@@ -4,7 +4,7 @@
 # Depends on:	python3-jinja2
 
 name=glad
-version=2.0.2
+version=2.0.3
 release=1
 source=(https://github.com/Dav1dde/glad/archive/v${version}/${name}-${version}.tar.gz)
 
