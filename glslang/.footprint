@@ -101,6 +101,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/glslang/
 -rwxr-xr-x	root/root	usr/lib/libSPVRemapper.so
 -rw-r--r--	root/root	usr/lib/libglslang-default-resource-limits.a
 -rw-r--r--	root/root	usr/lib/libglslang.a
-lrwxrwxrwx	root/root	usr/lib/libglslang.so -> libglslang.so.11
-lrwxrwxrwx	root/root	usr/lib/libglslang.so.11 -> libglslang.so.11.13.0
--rwxr-xr-x	root/root	usr/lib/libglslang.so.11.13.0
+lrwxrwxrwx	root/root	usr/lib/libglslang.so -> libglslang.so.12
+lrwxrwxrwx	root/root	usr/lib/libglslang.so.12 -> libglslang.so.12.0.0
+-rwxr-xr-x	root/root	usr/lib/libglslang.so.12.0.0
