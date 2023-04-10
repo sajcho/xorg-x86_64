@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIlXOPpIj6hrQ+wppvCSAlhw/GTC35OtF+LNtv4Q1Ulq4erBZARijNhpD2UWwcHmaRZCFDfqZrew05SO5BjU5VwM=
-SHA256 (Pkgfile) = ace2615334775c844231867a14a1c3fab002d7ed11d36bf4531539ea463522ba
-SHA256 (.footprint) = ef867fe2b91a7a01459b00fedd3578551ed833aad66b506ed94ef760e70396d1
-SHA256 (wayland-1.21.0.tar.xz) = 6dc64d7fc16837a693a51cfdb2e568db538bfdc9f457d4656285bb9594ef11ac
+RWS6GSB2Zz1AIvb9+jcZYKop6zXkRMx4sr1PUwAMZLBWXpbU46bKDEZ5uMvATBlNSo/LhbdDNrjaYjh/kp+FwBmQIv9aRfjUqwQ=
+SHA256 (Pkgfile) = f13111fadb9db086dacb436c746bc98201ab649d31ac818e66253c8f2941141b
+SHA256 (.footprint) = 4face732fbaa207d4402739b60a1cb464b4907f7742e70d005ba8f52908cf20c
+SHA256 (wayland-1.22.0.tar.xz) = 1540af1ea698a471c2d8e9d288332c7e0fd360c8f1d12936ebb7e7cbc2425842
 SHA256 (tests-ignore-debugger.patch) = 8d4067ff74854c1be8c4dbd2e497c7978d870e85e2de2efaf618db81b2f08b83
