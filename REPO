@@ -160,9 +160,9 @@ f:319ba3c6e83391b4154f25be92ad3262:font-cantarell-otf/.footprint
 f:c0a4ed06adba6ed6d97188d14074c48b:font-cantarell-otf/.signature
 f:3333956d2d5ffa403f0a3d5efc2ba45f:font-cantarell-otf/Pkgfile
 f:44260546707b5adeef54b38c6ecd0e54:wayland/tests-ignore-debugger.patch
-f:4e5fee9e6b1ecd71358b6870c39b4ee8:wayland/.footprint
-f:94ed170be01d88ddb6280958a34ef23c:wayland/.signature
-f:fc3887ce9892d99406156186dfb56509:wayland/Pkgfile
+f:a173e7436b5e00682645d181d32f8c0c:wayland/.footprint
+f:b70edb0e5e6829fcd1149747aa152d14:wayland/.signature
+f:efe1a04f070e6be142f70631fb4e0314:wayland/Pkgfile
 f:1d8ca10a22bfa81759a716f824306fa2:xdriinfo/.footprint
 f:ac72a0b6ec58fc2ea57f5a90a02191e8:xdriinfo/.signature
 f:5b915945c4bad1b2fa43238ba2d50559:xdriinfo/Pkgfile
@@ -214,8 +214,8 @@ f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:71d4c3128f4b15047befadf898789c02:xf86-input-evdev/.signature
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
 f:36d1afbffc988852dad5e86892d8c92f:mesa/.footprint
-f:39f5ac73f3e5b58c4d71813214cc7ad5:mesa/.signature
-f:461d94309d39830ecb9f0e81f1f609e1:mesa/Pkgfile
+f:ba33f8f8193e6977fdaed4925f163e02:mesa/.signature
+f:d893fd3bfd882722117b8b035a26715d:mesa/Pkgfile
 f:1380f1a039d4b6ad201300923ceb7c57:mesa/README
 f:538032fa21db25d3cb02c885c28971bb:pixman/.footprint
 f:e9e5e362473b3b9d250fb198ec496c2f:pixman/.signature
