@@ -213,9 +213,9 @@ f:8661c8be54e9261565e9d3925c2c00db:libxcvt/Pkgfile
 f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:71d4c3128f4b15047befadf898789c02:xf86-input-evdev/.signature
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
-f:36d1afbffc988852dad5e86892d8c92f:mesa/.footprint
-f:ba33f8f8193e6977fdaed4925f163e02:mesa/.signature
-f:d893fd3bfd882722117b8b035a26715d:mesa/Pkgfile
+f:20e8f24c4e9ceda79f248cc870720dce:mesa/.footprint
+f:931c6809a58a59d949f593ab838c0509:mesa/.signature
+f:89c8a669de59967b369922de0f283ec8:mesa/Pkgfile
 f:1380f1a039d4b6ad201300923ceb7c57:mesa/README
 f:538032fa21db25d3cb02c885c28971bb:pixman/.footprint
 f:e9e5e362473b3b9d250fb198ec496c2f:pixman/.signature
@@ -484,6 +484,7 @@ f:70c80185bdb15d9cf533e06fc65748e1:font-adobe-75dpi/post-install
 f:7ed15b704cdaa9ce5440074383096894:font-adobe-75dpi/.footprint
 f:da3d7dd36bfe17a6632c9ab93e78a7ed:font-adobe-75dpi/.signature
 f:bc0c66441099b903bf5a2c2f7fb6ca86:font-adobe-75dpi/Pkgfile
+f:b1060e70aaff0e2baed6fc1d91ebe9b3:SECURITY.md
 f:cf9d4e435109f91aad795c9fb566f526:xf86-video-vesa/.footprint
 f:8f84987d5934464487d6ef47d1c2d851:xf86-video-vesa/.signature
 f:36bf02185a5495c11a2dc4e8d1fe2242:xf86-video-vesa/Pkgfile
