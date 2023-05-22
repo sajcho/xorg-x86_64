@@ -4,15 +4,12 @@
 # Depends on:	xorg-server
 
 name=xf86-video-ati
-version=19.1.0
-_commit='5eba006e4129e8015b822f9e1d2f1e613e252cda'
+version=22.0.0
 release=1
-source=(https://gitlab.freedesktop.org/xorg/driver/${name}/-/archive/${_commit}/${name}-${_commit}.tar.gz)
+source=(https://www.x.org/releases/individual/driver/${name}-${version}.tar.xz)
 
 build() {
-	cd ${name}-${_commit}
-
-	./autogen.sh
+	cd ${name}-${version}
 
 	./configure \
 		--prefix=/usr
