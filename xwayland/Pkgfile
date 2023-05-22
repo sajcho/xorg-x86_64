@@ -4,7 +4,7 @@
 # Depends on:	dbus xorg-server
 
 name=xwayland
-version=22.1.7
+version=23.1.1
 release=1
 source=(https://xorg.freedesktop.org/archive/individual/xserver/${name}-${version}.tar.xz)
 
@@ -17,9 +17,6 @@ build() {
 		-Dxwayland_eglstream=true \
 		-Dxkb_dir=/usr/share/X11/xkb \
 		-Dxkb_output_dir=/var/lib/xkb \
-		-Db_lto=true \
-		-Dc_args="-fuse-ld=mold" \
-		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
@@ -28,4 +25,5 @@ build() {
 
 	rm $PKG/usr/share/man/man1/Xserver.1
 	rm $PKG/usr/lib/xorg/protocol.txt
+	rm -r $PKG/usr/share/applications
 }
