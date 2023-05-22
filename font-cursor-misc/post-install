@@ -1,4 +1,0 @@
-#!/bin/sh
-
-mkfontdir /usr/share/fonts/misc
-mkfontscale /usr/share/fonts/misc
