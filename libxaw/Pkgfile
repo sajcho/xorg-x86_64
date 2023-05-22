@@ -4,12 +4,13 @@
 # Depends on:	libxmu libxpm
 
 name=libxaw
-version=1.0.14
+_realname=libXaw
+version=1.0.15
 release=1
-source=(https://www.x.org/releases/individual/lib/libXaw-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXaw-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
