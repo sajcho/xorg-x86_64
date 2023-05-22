@@ -4,12 +4,13 @@
 # Depends on:	harfbuzz
 
 name=libxft
-version=2.3.7
+_realname=libXft
+version=2.3.8
 release=1
-source=(https://www.x.org/releases/individual/lib/libXft-${version}.tar.xz)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXft-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
