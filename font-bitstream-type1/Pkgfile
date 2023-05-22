@@ -4,15 +4,16 @@
 # Depends on:	bdftopcf encodings font-alias fontconfig font-util
 
 name=font-bitstream-type1
-version=1.0.3
+version=1.0.4
 release=1
-source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
 		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--with-fontdir=/usr/share/fonts/Type1
 
