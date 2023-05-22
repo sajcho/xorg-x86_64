@@ -4,18 +4,20 @@
 # Depends on:	mkfontscale
 
 name=encodings
-version=1.0.5
+version=1.0.7
 release=1
-source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
+		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--with-encodingsdir=/usr/share/fonts/encodings
 
 	make V=1
 
-	make DESTDIR=$PKG install
+	make -j1 DESTDIR=$PKG install
 }
