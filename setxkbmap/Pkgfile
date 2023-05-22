@@ -4,7 +4,7 @@
 # Depends on:	libxkbfile xrandr
 
 name=setxkbmap
-version=1.3.3
+version=1.3.4
 release=1
 source=(https://www.x.org/releases/individual/app/${name}-${version}.tar.xz)
 
