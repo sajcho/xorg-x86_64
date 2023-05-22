@@ -38,7 +38,6 @@ d:xcb-util-image
 d:libx11
 d:xorg
 d:libfontenc
-d:font-bh-lucidatypewriter-75dpi
 d:font-misc-misc
 d:font-cursor-misc
 d:xf86-video-intel
@@ -77,7 +76,6 @@ d:xkbcomp
 d:xcb-util-errors
 d:xcursor-neutral
 d:libpciaccess
-d:font-sarpanch-otf
 d:xmag
 d:libxxf86vm
 d:font-adobe-utopia-75dpi
@@ -90,7 +88,6 @@ d:libxpresent
 d:xrestop
 d:libxext
 d:glfw3
-d:font-bh-lucidatypewriter-100dpi
 d:xf86-video-fbdev
 d:libxcb
 d:libdmx
@@ -133,7 +130,6 @@ d:glu
 d:libxt
 d:xf86-input-libinput
 d:vulkan-headers
-d:font-droid-ttf
 d:xorgproto
 d:libxshmfence
 d:libxcomposite
@@ -265,10 +261,6 @@ f:f25610416c9f24fd0b47b1d1c8e12f0b:xorg/Pkgfile
 f:e40d0104f51b0db4213acd18adaa6664:libfontenc/.footprint
 f:f0a6b0bc2cb2834da29ee5dd875cd350:libfontenc/.signature
 f:4626580742eb7f12bc6931441d500a54:libfontenc/Pkgfile
-f:ceca573497f04873fdd8012e19443382:font-bh-lucidatypewriter-75dpi/post-install
-f:5d28ea515a10ad60b197bbdc4f15e5d1:font-bh-lucidatypewriter-75dpi/.footprint
-f:2ffca20217400fb0cd92544275761abb:font-bh-lucidatypewriter-75dpi/.signature
-f:8e35d88531fc3efdf1fa8e3c71efbdc6:font-bh-lucidatypewriter-75dpi/Pkgfile
 f:cc10fa4d9758691f1e24c0fc8fac8ef1:font-misc-misc/post-install
 f:d8b2a91a24c1842488ff9f105eeabac9:font-misc-misc/.footprint
 f:953b017ad5138231b69546dbea7b6932:font-misc-misc/.signature
@@ -401,10 +393,6 @@ f:1dd97c3b051e2cd01cd7440a7116e349:libpciaccess/.footprint
 f:7839bed6bd70414aee343f44ae0a619b:libpciaccess/.signature
 f:32100cb5679d9b9082ffd1de8b0c8c7b:libpciaccess/limits_h.patch
 f:e5108fe3d8736e39d393e9a17280e116:libpciaccess/Pkgfile
-f:51210c662242b14d3ca1206824612699:font-sarpanch-otf/post-install
-f:f8526ffe2264eb279da5b20bf3b1adeb:font-sarpanch-otf/.footprint
-f:2f4d038081421237f71fa83ff7c2e315:font-sarpanch-otf/.signature
-f:3bcadc24d5978ae576dce28e55e9caeb:font-sarpanch-otf/Pkgfile
 f:e65407e7277f831ed22f8414cfc69e6d:xmag/.footprint
 f:e5c495e5837aebbf613445cb68ec726a:xmag/.signature
 f:5f41d2870c4346be283f5e92ceaeb3df:xmag/Pkgfile
@@ -444,10 +432,6 @@ f:7267a9b75a44112917568e82ac069235:libxext/Pkgfile
 f:3a7995801e93a6274e8351eb129b7936:glfw3/.footprint
 f:5da4668018f52125020768391373e715:glfw3/.signature
 f:905a0f676b536990112939ee272fefdc:glfw3/Pkgfile
-f:2a8ff0ddc83b854f549e0b3d1a67b7d2:font-bh-lucidatypewriter-100dpi/post-install
-f:5f5f40b5724e25d556842c5b525712cd:font-bh-lucidatypewriter-100dpi/.footprint
-f:5b571e7cac50595de8354f021cdcc229:font-bh-lucidatypewriter-100dpi/.signature
-f:f3ac19d316d9bfa6f620585f9d0674ab:font-bh-lucidatypewriter-100dpi/Pkgfile
 f:2cea19726a9c2200fe6d2c78dc52f7df:xf86-video-fbdev/.footprint
 f:79488f1c8fa5fe84e9efb3bffe759b29:xf86-video-fbdev/.signature
 f:67637f4692885c8564d94cb123bc9ab2:xf86-video-fbdev/Pkgfile
@@ -584,14 +568,6 @@ f:518c4cd4cc927e40ebda36c43662f573:xf86-input-libinput/Pkgfile
 f:e737886c83ca16f8526cdafe5bbf2849:vulkan-headers/.footprint
 f:1e5ba70197a5ca6ac3afa4950199d3fd:vulkan-headers/.signature
 f:d32b48f8a24584025ed5944394170eae:vulkan-headers/Pkgfile
-f:fed88344a324212a8f942fa82b1d2262:font-droid-ttf/65-ttf-droid-sans.conf
-f:331fb0a442cbd867428a6f167bf75ea2:font-droid-ttf/post-install
-f:c71d92f01b630ed8cdd5d484fc2890ca:font-droid-ttf/.footprint
-f:25096810a9ff97d1428d8430fe3ab32e:font-droid-ttf/.signature
-f:c508aafa4130028a67cf3c085d0dbef1:font-droid-ttf/90-tt-droid.conf
-f:9770abd2fdec8ea017a9f470675bbbee:font-droid-ttf/45-droid.conf
-f:8bbfbb6498aa4bfbcbf92c54fe9dcc34:font-droid-ttf/65-ttf-droid-serif.conf
-f:60cc2ba5214886dc5eace6bfe9eb5147:font-droid-ttf/Pkgfile
 f:1415335a4ef4398495b620730eff7ab8:xorgproto/.footprint
 f:cdd8650100a31c13f687c083f0e0c549:xorgproto/.signature
 f:a18ef2d3ced123f3e04faaa954b6204a:xorgproto/Pkgfile
