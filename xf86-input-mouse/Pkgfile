@@ -4,7 +4,7 @@
 # Depends on:	xorg-server
 
 name=xf86-input-mouse
-version=1.9.4
+version=1.9.5
 release=1
 source=(https://www.x.org/releases/individual/driver/${name}-${version}.tar.xz)
 
