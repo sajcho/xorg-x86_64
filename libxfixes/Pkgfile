@@ -4,12 +4,13 @@
 # Depends on:	libx11
 
 name=libxfixes
-version=6.0.0
+_realname=libXfixes
+version=6.0.1
 release=1
-source=(https://www.x.org/releases/individual/lib/libXfixes-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libXfixes-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
