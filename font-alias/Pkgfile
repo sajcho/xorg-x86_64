@@ -4,19 +4,20 @@
 # Depends on:	util-macros
 
 name=font-alias
-version=1.0.4
+version=1.0.5
 release=1
-source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
 		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--with-fontrootdir=/usr/share/fonts
 
 	make V=1
 
-	make DESTDIR=$PKG install
+	make -j1 DESTDIR=$PKG install
 }
