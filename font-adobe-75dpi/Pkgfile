@@ -4,19 +4,20 @@
 # Depends on:	bdftopcf encodings font-alias fontconfig font-util
 
 name=font-adobe-75dpi
-version=1.0.3
+version=1.0.4
 release=1
-source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/font/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
 	./configure \
 		--build=$CHOST \
+		--host=$CHOST \
 		--prefix=/usr \
 		--with-fontdir=/usr/share/fonts/75dpi
 
-	make
+	make V=1
 
 	make -j1 DESTDIR=$PKG install
 
