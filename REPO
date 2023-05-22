@@ -39,7 +39,6 @@ d:libx11
 d:xorg
 d:libfontenc
 d:font-misc-misc
-d:font-cursor-misc
 d:xf86-video-intel
 d:font-liberation-ttf
 d:wayland-protocols
@@ -265,10 +264,6 @@ f:cc10fa4d9758691f1e24c0fc8fac8ef1:font-misc-misc/post-install
 f:d8b2a91a24c1842488ff9f105eeabac9:font-misc-misc/.footprint
 f:953b017ad5138231b69546dbea7b6932:font-misc-misc/.signature
 f:24fae9b61fb31e7502a8c89d576c6cb6:font-misc-misc/Pkgfile
-f:cc10fa4d9758691f1e24c0fc8fac8ef1:font-cursor-misc/post-install
-f:b19b9ebdddb79a8e9ebb20ed71d420f3:font-cursor-misc/.footprint
-f:cc2273f456fda02c3f8177f00f27766f:font-cursor-misc/.signature
-f:66bb91ead9c34dc934c30cb8da18951a:font-cursor-misc/Pkgfile
 f:53a2c72f9c04525fafac1eda79ea6e48:xf86-video-intel/.footprint
 f:dcd5261a07a15ba6ef9cd792b25a39b6:xf86-video-intel/.signature
 f:eff6e1b39de73e91b5431ce88613dfd7:xf86-video-intel/Pkgfile
