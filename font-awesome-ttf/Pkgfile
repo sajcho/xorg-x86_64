@@ -4,7 +4,7 @@
 
 name=font-awesome-ttf
 _realname=Font-Awesome
-version=6.1.0
+version=6.4.0
 release=1
 source=(https://github.com/FortAwesome/${_realname}/archive/${version}/${_realname}-${version}.tar.gz)
 
