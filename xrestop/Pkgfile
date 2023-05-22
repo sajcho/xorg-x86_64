@@ -4,15 +4,12 @@
 # Depends on:	libxres
 
 name=xrestop
-version=0.5
+version=0.6
 release=1
-source=(https://xorg.freedesktop.org/archive/individual/app/${name}-${version}.tar.bz2 \
-	xrestop-0.4-tinfo.patch)
+source=(https://xorg.freedesktop.org/archive/individual/app/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
-
-	patch -p1 -i $SRC/xrestop-0.4-tinfo.patch
 
 	./configure \
 		--prefix=/usr
