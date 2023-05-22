@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIhO5vMz2J9qoQGlNljY92oZNr3/VOlf/ozFpExbrlqMfaV5tZpTWu4hbRslaDsV3g6CZumrHBDo/Qbo8+OMyUQk=
-SHA256 (Pkgfile) = fd6aaf1c7af939b2136dcd06619a82f6727cd0b97cbc382f6437f35ff05308c0
+RWS6GSB2Zz1AIlYBaXahJQE8xL7lxmEb6IECpCNxzyDd8TakvzV0ECCeghdhsFOi6JRGei85iuvlB0VoPGMTPdv+16yd1GSPsgs=
+SHA256 (Pkgfile) = 61b800327a14517ff9cf7bc41822c7089e6bc7341f282f5bdb6da293d8acb3e9
 SHA256 (.footprint) = ffbcaf8fd1a340241eb5458f4b0c1110c495e9ecb7b036c02fd5847b644d71c5
-SHA256 (util-macros-1.19.3.tar.bz2) = 0f812e6e9d2786ba8f54b960ee563c0663ddbe2434bf24ff193f5feab1f31971
+SHA256 (util-macros-1.20.0.tar.xz) = 0b86b262dbe971edb4ff233bc370dfad9f241d09f078a3f6d5b7f4b8ea4430db
