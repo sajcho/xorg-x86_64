@@ -1,5 +1,0 @@
-#!/bin/sh
-
-mkfontdir /usr/share/fonts/otf
-mkfontscale /usr/share/fonts/otf
-fc-cache

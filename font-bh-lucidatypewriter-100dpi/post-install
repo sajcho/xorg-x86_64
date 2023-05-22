@@ -1,5 +1,0 @@
-#!/bin/sh
-
-mkfontdir /usr/share/fonts/100dpi
-mkfontscale /usr/share/fonts/100dpi
-fc-cache
