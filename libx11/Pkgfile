@@ -4,12 +4,13 @@
 # Depends on:	libxcb xtrans
 
 name=libx11
-version=1.8.3
+_realname=libX11
+version=1.8.4
 release=1
-source=(https://www.x.org/releases/individual/lib/libX11-${version}.tar.xz)
+source=(https://www.x.org/releases/individual/lib/${_realname}-${version}.tar.xz)
 
 build() {
-	cd libX11-${version}
+	cd ${_realname}-${version}
 
 	./configure \
 		--prefix=/usr \
