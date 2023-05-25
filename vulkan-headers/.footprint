@@ -12,7 +12,6 @@ drwxr-xr-x	root/root	usr/include/vulkan/
 -rw-r--r--	root/root	usr/include/vulkan/vk_icd.h
 -rw-r--r--	root/root	usr/include/vulkan/vk_layer.h
 -rw-r--r--	root/root	usr/include/vulkan/vk_platform.h
--rw-r--r--	root/root	usr/include/vulkan/vk_sdk_platform.h
 -rw-r--r--	root/root	usr/include/vulkan/vulkan.h
 -rw-r--r--	root/root	usr/include/vulkan/vulkan.hpp
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_android.h
@@ -20,6 +19,7 @@ drwxr-xr-x	root/root	usr/include/vulkan/
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_core.h
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_directfb.h
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_enums.hpp
+-rw-r--r--	root/root	usr/include/vulkan/vulkan_extension_inspection.hpp
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_format_traits.hpp
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_fuchsia.h
 -rw-r--r--	root/root	usr/include/vulkan/vulkan_funcs.hpp
@@ -52,6 +52,7 @@ drwxrwxr-x	root/root	usr/share/vulkan/registry/
 -rw-rw-r--	root/root	usr/share/vulkan/registry/cgenerator.py
 -rw-rw-r--	root/root	usr/share/vulkan/registry/generator.py
 -rwxrwxr-x	root/root	usr/share/vulkan/registry/genvk.py
+-rwxrwxr-x	root/root	usr/share/vulkan/registry/parse_dependency.py
 drwxrwxr-x	root/root	usr/share/vulkan/registry/profiles/
 -rw-rw-r--	root/root	usr/share/vulkan/registry/profiles/VP_KHR_roadmap_2022.json
 -rw-rw-r--	root/root	usr/share/vulkan/registry/reg.py
