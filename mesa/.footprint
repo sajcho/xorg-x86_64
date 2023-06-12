@@ -1,6 +1,9 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/glsl_compiler
+-rwxr-xr-x	root/root	usr/bin/glsl_test
 -r-xr-xr-x	root/root	usr/bin/mesa-overlay-control.py
+-rwxr-xr-x	root/root	usr/bin/nouveau_compiler
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/EGL/
 -rw-r--r--	root/root	usr/include/EGL/eglext_angle.h
@@ -15,20 +18,22 @@ drwxr-xr-x	root/root	usr/include/GL/internal/
 -rw-r--r--	root/root	usr/include/xa_tracker.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/dri/
--rwxr-xr-x	root/root	usr/lib/dri/crocus_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/kms_swrast_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/nouveau_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/nouveau_drv_video.so
--rwxr-xr-x	root/root	usr/lib/dri/r300_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/r600_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/r600_drv_video.so
--rwxr-xr-x	root/root	usr/lib/dri/radeonsi_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/radeonsi_drv_video.so
--rwxr-xr-x	root/root	usr/lib/dri/swrast_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/virtio_gpu_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/virtio_gpu_drv_video.so
--rwxr-xr-x	root/root	usr/lib/dri/vmwgfx_dri.so
--rwxr-xr-x	root/root	usr/lib/dri/zink_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/crocus_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/kms_swrast_dri.so -> libgallium_dri.so
+-rwxr-xr-x	root/root	usr/lib/dri/libgallium_dri.so
+-rwxr-xr-x	root/root	usr/lib/dri/libgallium_drv_video.so
+lrwxrwxrwx	root/root	usr/lib/dri/nouveau_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/nouveau_drv_video.so -> libgallium_drv_video.so
+lrwxrwxrwx	root/root	usr/lib/dri/r300_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/r600_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/r600_drv_video.so -> libgallium_drv_video.so
+lrwxrwxrwx	root/root	usr/lib/dri/radeonsi_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/radeonsi_drv_video.so -> libgallium_drv_video.so
+lrwxrwxrwx	root/root	usr/lib/dri/swrast_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/virtio_gpu_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/virtio_gpu_drv_video.so -> libgallium_drv_video.so
+lrwxrwxrwx	root/root	usr/lib/dri/vmwgfx_dri.so -> libgallium_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/zink_dri.so -> libgallium_dri.so
 lrwxrwxrwx	root/root	usr/lib/libEGL_mesa.so -> libEGL_mesa.so.0
 lrwxrwxrwx	root/root	usr/lib/libEGL_mesa.so.0 -> libEGL_mesa.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libEGL_mesa.so.0.0.0
@@ -48,8 +53,12 @@ lrwxrwxrwx	root/root	usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libglapi.so -> libglapi.so.0
 lrwxrwxrwx	root/root	usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libglapi.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libnouveau_noop_drm_shim.so
+-rwxr-xr-x	root/root	usr/lib/libpowervr_rogue.so
+-rwxr-xr-x	root/root	usr/lib/libradeon_noop_drm_shim.so
 -rwxr-xr-x	root/root	usr/lib/libvulkan_intel.so
 -rwxr-xr-x	root/root	usr/lib/libvulkan_lvp.so
+-rwxr-xr-x	root/root	usr/lib/libvulkan_powervr_mesa.so
 -rwxr-xr-x	root/root	usr/lib/libvulkan_radeon.so
 lrwxrwxrwx	root/root	usr/lib/libxatracker.so -> libxatracker.so.2
 lrwxrwxrwx	root/root	usr/lib/libxatracker.so.2 -> libxatracker.so.2.5.0
@@ -60,22 +69,23 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/osmesa.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/xatracker.pc
 drwxr-xr-x	root/root	usr/lib/vdpau/
+-rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_gallium.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so -> libvdpau_nouveau.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1 -> libvdpau_nouveau.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1.0 -> libvdpau_nouveau.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_nouveau.so.1.0.0 -> libvdpau_gallium.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_r600.so -> libvdpau_r600.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_r600.so.1 -> libvdpau_r600.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_r600.so.1.0 -> libvdpau_r600.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_r600.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_r600.so.1.0.0 -> libvdpau_gallium.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so -> libvdpau_radeonsi.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1 -> libvdpau_radeonsi.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1.0 -> libvdpau_radeonsi.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_radeonsi.so.1.0.0 -> libvdpau_gallium.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_virtio_gpu.so -> libvdpau_virtio_gpu.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_virtio_gpu.so.1 -> libvdpau_virtio_gpu.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_virtio_gpu.so.1.0 -> libvdpau_virtio_gpu.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/vdpau/libvdpau_virtio_gpu.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/vdpau/libvdpau_virtio_gpu.so.1.0.0 -> libvdpau_gallium.so.1.0.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/drirc.d/
 -rw-r--r--	root/root	usr/share/drirc.d/00-mesa-defaults.conf
@@ -90,6 +100,7 @@ drwxr-xr-x	root/root	usr/share/vulkan/explicit_layer.d/
 drwxr-xr-x	root/root	usr/share/vulkan/icd.d/
 -rw-r--r--	root/root	usr/share/vulkan/icd.d/intel_icd.x86_64.json
 -rw-r--r--	root/root	usr/share/vulkan/icd.d/lvp_icd.x86_64.json
+-rw-r--r--	root/root	usr/share/vulkan/icd.d/powervr_mesa_icd.x86_64.json
 -rw-r--r--	root/root	usr/share/vulkan/icd.d/radeon_icd.x86_64.json
 drwxr-xr-x	root/root	usr/share/vulkan/implicit_layer.d/
 -rw-r--r--	root/root	usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
