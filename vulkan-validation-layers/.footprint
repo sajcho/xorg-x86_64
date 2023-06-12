@@ -18,8 +18,12 @@ drwxr-xr-x	root/root	usr/include/vulkan/generated/
 -rw-r--r--	root/root	usr/include/vulkan/generated/vk_format_utils.h
 -rw-r--r--	root/root	usr/include/vulkan/generated/vk_layer_dispatch_table.h
 -rw-r--r--	root/root	usr/include/vulkan/generated/vk_object_types.h
--rw-r--r--	root/root	usr/include/vulkan/generated/vk_safe_struct.cpp
 -rw-r--r--	root/root	usr/include/vulkan/generated/vk_safe_struct.h
+-rw-r--r--	root/root	usr/include/vulkan/generated/vk_safe_struct_core.cpp
+-rw-r--r--	root/root	usr/include/vulkan/generated/vk_safe_struct_ext.cpp
+-rw-r--r--	root/root	usr/include/vulkan/generated/vk_safe_struct_khr.cpp
+-rw-r--r--	root/root	usr/include/vulkan/generated/vk_safe_struct_utils.cpp
+-rw-r--r--	root/root	usr/include/vulkan/generated/vk_safe_struct_vendor.cpp
 -rw-r--r--	root/root	usr/include/vulkan/generated/vk_typemap_helper.h
 -rw-r--r--	root/root	usr/include/vulkan/generated/vk_validation_error_messages.h
 drwxr-xr-x	root/root	usr/include/vulkan/utils/
