@@ -4,12 +4,15 @@
 # Depends on:	dbus xorg-server
 
 name=xwayland
-version=23.1.1
+version=23.1.2
 release=1
 source=(https://xorg.freedesktop.org/archive/individual/xserver/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
 
 	build-meson \
 		-Ddri3=true \
