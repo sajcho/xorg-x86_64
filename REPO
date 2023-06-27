@@ -14,7 +14,6 @@ d:xf86-video-ati
 d:xkeyboard-config
 d:xcb-util-xrm
 d:font-bh-type1
-d:xf86-input-keyboard
 d:font-util
 d:xcur2png
 d:bdftopcf
@@ -70,7 +69,6 @@ d:libxvmc
 d:libxau
 d:libxmu
 d:libevdev
-d:libxxf86dga
 d:xkbcomp
 d:xcb-util-errors
 d:xcursor-neutral
@@ -89,7 +87,6 @@ d:libxext
 d:glfw3
 d:xf86-video-fbdev
 d:libxcb
-d:libdmx
 d:libxtst
 d:spirv-headers
 d:font-adobe-utopia-100dpi
@@ -118,7 +115,6 @@ d:xprop
 d:glad
 d:font-terminus-x11
 d:xmodmap
-d:xf86-input-mouse
 d:libxkbfile
 d:xf86-video-nouveau
 d:libva
@@ -176,9 +172,9 @@ f:f84fe3d4e289dac5067ba089c021d2d1:egl-wayland/Pkgfile
 f:ab70c5bb6791c1d9cf6ad4ddf4b22228:xf86-video-ati/.footprint
 f:1479746146969d30e62aaaa2342feaf1:xf86-video-ati/.signature
 f:35194467d30f4cb435ba88c8cb58088c:xf86-video-ati/Pkgfile
-f:1830d4d186427948ab39d58361214711:xkeyboard-config/.footprint
-f:529fb74834f7c6b5c32ceabb417d1365:xkeyboard-config/.signature
-f:c64d98e09df1b17f57d420f06d820da8:xkeyboard-config/Pkgfile
+f:370f5356da119b81a8aa3d5d116233aa:xkeyboard-config/.footprint
+f:3ab97e98b939cf7d493d6029970d86da:xkeyboard-config/.signature
+f:e7bf4f8db9badd2d2839b8686338aff4:xkeyboard-config/Pkgfile
 f:6d49fa62393b23f26282e43c40361e81:xcb-util-xrm/.footprint
 f:0feb09bc6b4df8d8b31a56ca67682b6a:xcb-util-xrm/.signature
 f:ad3d4f65160339dd070bcd2e2a8f55e3:xcb-util-xrm/Pkgfile
@@ -186,9 +182,6 @@ f:fec3cbef126c553eb575002c761c9624:font-bh-type1/post-install
 f:54b43204c15ddd7cad85d996bcc9af77:font-bh-type1/.footprint
 f:88f32fed286518c0d1076120acd24c90:font-bh-type1/.signature
 f:32f7414b11ff7d555cc0c60c32d27541:font-bh-type1/Pkgfile
-f:bb24360399bbd2cdca6ba4213fc2e64e:xf86-input-keyboard/.footprint
-f:7542a75a09441f782bf3a2829581c143:xf86-input-keyboard/.signature
-f:1b50777c118d209680b36e84e3381619:xf86-input-keyboard/Pkgfile
 f:ff55d6e8c0036bd70af415800d25e8aa:font-util/.footprint
 f:77264fbf54bb793e160714b93331e596:font-util/.signature
 f:c649a0807e67609a16b39feded3dfb3d:font-util/Pkgfile
@@ -200,8 +193,8 @@ f:ee4805600949a9e75e2ff0f839e54782:bdftopcf/.footprint
 f:ec571caa283fd5cc61f942f85a922837:bdftopcf/.signature
 f:b0e2c5ec567761bff8380333f3e910b4:bdftopcf/Pkgfile
 f:5acd7c7c6561b2f1bd15206c20f203a2:shaderc/.footprint
-f:f0123f6544dc2d31258974b7af2c629b:shaderc/.signature
-f:1b180e211e32e5d36a37ca2b894205b6:shaderc/Pkgfile
+f:a82c39af8b069aa200c91ba84c6cfca4:shaderc/.signature
+f:0b228a77e9e1f9fd8f2046c067df7b6a:shaderc/Pkgfile
 f:f33b97705a40a55a184c6ed47e0bfe31:libxcvt/.footprint
 f:9648bcc2f240694133963b6873626d46:libxcvt/.signature
 f:8661c8be54e9261565e9d3925c2c00db:libxcvt/Pkgfile
@@ -209,8 +202,8 @@ f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:71d4c3128f4b15047befadf898789c02:xf86-input-evdev/.signature
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
 f:e438a081e938d336f27ccf0dd97e4b2e:mesa/.footprint
-f:5475dee6e714c0c1a566a436f8dc8a17:mesa/.signature
-f:7061830f37b7faa4181276a96301787e:mesa/Pkgfile
+f:7c2c9eebaf7420719cf78a492d4df3e9:mesa/.signature
+f:a8e8c4b3f05b367831ca80cbbed724f5:mesa/Pkgfile
 f:025ac5edd79136fbbdca2aaec5387aab:mesa/no-unlink-megadrivers.patch
 f:538032fa21db25d3cb02c885c28971bb:pixman/.footprint
 f:e9e5e362473b3b9d250fb198ec496c2f:pixman/.signature
@@ -237,8 +230,8 @@ f:8522b1f514126909f69648ab10eaf181:glslang/.footprint
 f:d3b2a58eda10a22714af57e652a43574:glslang/.signature
 f:5eab160674a6c10a2722a01c348963e1:glslang/Pkgfile
 f:f999bf86a2774880ee3310a6816a3486:xtrans/.footprint
-f:fee2f71a0083a8f7c2664d5f8948858a:xtrans/.signature
-f:33456bb98089109950c17426001c86c9:xtrans/Pkgfile
+f:4657052248cb48316b394abcb05b2fcc:xtrans/.signature
+f:ba5fc29f6515a00e87590356c8675e26:xtrans/Pkgfile
 f:7f9e8defe99fd8753aee737efd33fa45:libxdmcp/.footprint
 f:f97b33c1265f2a6989d4dfe017eda45d:libxdmcp/.signature
 f:e539a7f275c250c178d643c821ac334c:libxdmcp/Pkgfile
@@ -252,11 +245,11 @@ f:8d50c453f0ec3e10770d223ee82beadb:xcb-util-image/.footprint
 f:7adfe52dc5a64a638f69f0d42bad8046:xcb-util-image/.signature
 f:57d1f1e0b5bcb4d420566ca7e3bd1c8b:xcb-util-image/Pkgfile
 f:63b7ac6ce806466e70cbda977db8ae80:libx11/.footprint
-f:f35f421b95296221701c611a91ace9af:libx11/.signature
-f:004e5310ea70a0b0a806bbed56ed54bf:libx11/Pkgfile
+f:2ca2a3a76daadc578e963da1ca0e1868:libx11/.signature
+f:37679a6dcd0a8376afca4a7b8a8e7187:libx11/Pkgfile
 f:161304284216330b74d7adc4bd952f60:xorg/.footprint
-f:ffc3495e75c3784e50bdcfdf5d823c06:xorg/.signature
-f:f25610416c9f24fd0b47b1d1c8e12f0b:xorg/Pkgfile
+f:fc767232078b2950e97eb9593813b2d5:xorg/.signature
+f:c4d9d5086cb88ef1bf6ec3cf84936958:xorg/Pkgfile
 f:e40d0104f51b0db4213acd18adaa6664:libfontenc/.footprint
 f:f0a6b0bc2cb2834da29ee5dd875cd350:libfontenc/.signature
 f:4626580742eb7f12bc6931441d500a54:libfontenc/Pkgfile
@@ -321,8 +314,8 @@ f:c82a13a9eccbb2403412712310e8bbd7:robin-hood-hashing/.footprint
 f:e01c05fd6d630ec757a8422422180104:robin-hood-hashing/.signature
 f:9d2cefce31f67e2f0d2ef54234a938dc:robin-hood-hashing/Pkgfile
 f:679bc6fc8856e67c7efa164fd3439768:xwayland/.footprint
-f:9c3790cd5617becbb1eb0a7225e732d6:xwayland/.signature
-f:164488a6d4fc00cf7de48378418c0496:xwayland/Pkgfile
+f:43fcca16b2a02fb3891ee9620c599c96:xwayland/.signature
+f:d356daa06ef0601a31115a706f8f7131:xwayland/Pkgfile
 f:9e35402437a24bb28c3af936bdf5ebe8:libxpm/.footprint
 f:1d5e4ab77c6a302569933e675e7721f0:libxpm/.signature
 f:763af17fe70531a734d44aecc1a14b02:libxpm/Pkgfile
@@ -373,9 +366,6 @@ f:341eb02f2fae24948d0f982cda320759:libxmu/Pkgfile
 f:1dcbfce0060b37f86c12666477022511:libevdev/.footprint
 f:4659655ebe9c65b6e1e84076e1a09f53:libevdev/.signature
 f:567cff94e79f42789f4eb18e25d1876f:libevdev/Pkgfile
-f:09089346cc2ead0a3c674ae968155f9b:libxxf86dga/.footprint
-f:5885ccdb8edb635d65e56d25d70610fa:libxxf86dga/.signature
-f:afd70abcd3664f9dad1024a0a5311a31:libxxf86dga/Pkgfile
 f:7e712d80869ad192a761c876b3fd793c:xkbcomp/.footprint
 f:2b9cbfdc2a37e3d2620982d52547346b:xkbcomp/.signature
 f:5dae387daee3ba272bb393ad7dde9c9a:xkbcomp/Pkgfile
@@ -413,8 +403,8 @@ f:dc352ed298cdecdecb6409d766431302:xcb-util-cursor/.footprint
 f:3151092145287d794dc75b360768e028:xcb-util-cursor/.signature
 f:b7793a2584a5ca8627808bc6e6701b45:xcb-util-cursor/Pkgfile
 f:89219c1b376b9692dfd26154bf83395c:xorg-server/.footprint
-f:73633ca4e1277dcc213ce818e9206b41:xorg-server/.signature
-f:5a92b0ad4f846e97633c9a128ede171c:xorg-server/Pkgfile
+f:f5dee33be02a67f7a593273760c87a74:xorg-server/.signature
+f:e856f956df611377cac9ec1bb2c66c59:xorg-server/Pkgfile
 f:17d1194074f9247426f9b3dea0532f63:libxpresent/.footprint
 f:436c4e6d397decd4bf4aa21ece340827:libxpresent/.signature
 f:e287f1dfde1c5ecfff14fd0902d47a7a:libxpresent/Pkgfile
@@ -434,9 +424,6 @@ f:23832d9a359926fb57cd7d419b3e6c10:xf86-video-fbdev/fix-build.patch
 f:ab4b104bbe4acda96c90fd1118fbb6b9:libxcb/.footprint
 f:ffd809530e1e97d392e2a96c5d60b079:libxcb/.signature
 f:e6aa4657242d70f198a03d8150742244:libxcb/Pkgfile
-f:80565a8c8707fa7a914edeb6d3d56412:libdmx/.footprint
-f:6a4458d43b731ea0062d4e0c7a4a1709:libdmx/.signature
-f:74ddc416df3c9e81b04c44bd4cadf469:libdmx/Pkgfile
 f:a09d5bd6ee610e4084384b69da131d36:libxtst/.footprint
 f:ad0764fa777cb0b3cc0b1540b48f1bde:libxtst/.signature
 f:f503fb1eb5cfd96ec2dab1d562d516cc:libxtst/Pkgfile
@@ -498,8 +485,8 @@ f:5b83ad18886f5a14553010a654b5e2c7:vulkan-loader/.footprint
 f:bd6f17049f3dff5171a49f43a948a406:vulkan-loader/.signature
 f:fdb88962c36c9f34e7cdefb7b657489f:vulkan-loader/Pkgfile
 f:038b8dd1276def970c1ec4238beaf11f:xrdb/.footprint
-f:0cd6758eedb82b2c999cc5ea896135d0:xrdb/.signature
-f:ced3a7c2d508e316c6b7ab9e2db1b53d:xrdb/Pkgfile
+f:3aa09fbace9a1c7cf3edd0ed5363b8b8:xrdb/.signature
+f:588d0d7556e4be06fda3317031c45efc:xrdb/Pkgfile
 f:355627de0939db078b6d02b584098c6d:libepoxy/.footprint
 f:184bbe663a107e2b10c6965011d5f983:libepoxy/.signature
 f:b9d2908937a4c027239564ffd3cd4e77:libepoxy/Pkgfile
@@ -528,9 +515,6 @@ f:977d0bab44b054303cbe185ecc80938e:font-terminus-x11/Pkgfile
 f:42d10991a7696d0b0208727a9223464d:xmodmap/.footprint
 f:f186c0f8c0f2929ea34ab5bb2c7e24ca:xmodmap/.signature
 f:e4e3898abb085022e02428eae2fe6052:xmodmap/Pkgfile
-f:b371f86223fabd6eae05528b4415782b:xf86-input-mouse/.footprint
-f:ba474c44575e7beb68aa7c31b8d3c4d0:xf86-input-mouse/.signature
-f:4ec00db315311b3d38fbea90c87f1360:xf86-input-mouse/Pkgfile
 f:b5365805761feef1d7efc8b1a77fe70e:libxkbfile/.footprint
 f:96b5d58c9698a68cb42694f4ef058a3e:libxkbfile/.signature
 f:9183d57da774fff82b2e905fea443a16:libxkbfile/Pkgfile
@@ -564,8 +548,8 @@ f:7e19d2e2a66d22c303691ad2d7626710:vulkan-headers/.footprint
 f:0b0b1606d58eef84b92282f03c549ee9:vulkan-headers/.signature
 f:b69496aac096e7258594a43666e7d37c:vulkan-headers/Pkgfile
 f:1415335a4ef4398495b620730eff7ab8:xorgproto/.footprint
-f:cdd8650100a31c13f687c083f0e0c549:xorgproto/.signature
-f:a18ef2d3ced123f3e04faaa954b6204a:xorgproto/Pkgfile
+f:40b467dbfa2d105278f2e352c722eb6f:xorgproto/.signature
+f:a82dce02f273c621800804b19f3d30bb:xorgproto/Pkgfile
 f:67575af864faba786de377e2626a4143:libxshmfence/.footprint
 f:7ef63157518d2aeba04ea70b633dd0cb:libxshmfence/.signature
 f:ea2d47fd35c72e44bbfebba85ca89eaa:libxshmfence/Pkgfile
