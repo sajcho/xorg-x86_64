@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xorg-x86_64.pub
+RWS6GSB2Zz1AIlWwsajfPy9VHILBfBcC8vv8i3KCIzr45+ayDxoy1f071afwYAzwCv2nuZ9dr1tdG8GM3XoYTY4xQuCjdFhY8gk=
+SHA256 (Pkgfile) = 4ce42e15a47a5e35eec96e24582fe427d45f04f7b85d18763d22e95c2ddc0bef
+SHA256 (.footprint) = f2106fae29769370c2d9ce7e6a13ca589ad625f5f1a3b6c62e3dd3805e57ce43
+SHA256 (libdecor-0.1.1.tar.gz) = 82adece5baeb6194292b0d1a91b4b3d10da41115f352a5e6c5844b20b88a0512
