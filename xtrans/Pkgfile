@@ -4,12 +4,15 @@
 # Depends on:	util-macros
 
 name=xtrans
-version=1.4.0
+version=1.5.0
 release=1
-source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.bz2)
+source=(https://www.x.org/releases/individual/lib/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
+
+	CFLAGS+=" -flto=auto -ffat-lto-objects"
+	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	./configure \
 		--prefix=/usr
