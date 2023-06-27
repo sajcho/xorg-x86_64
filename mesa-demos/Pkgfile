@@ -1,22 +1,22 @@
 # Description:	Mesa demos and utils
 # URL:		http://mesa3d.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	freeglut glew
+# Depends on:	freeglut glew libdecor
 
 name=mesa-demos
-version=8.5.0
+version=9.0.0
 release=1
-source=(https://archive.mesa3d.org/demos/${version}/${name}-${version}.tar.bz2)
+source=(https://archive.mesa3d.org/demos/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
+	CFLAGS+=" -ffat-lto-objects"
+	CXXFLAGS+=" -ffat-lto-objects"
+
 	build-meson \
 		-Dgles1=disabled \
 		-Dwith-system-data-files=true \
-		-Db_lto=true \
-		-Dc_args="-fuse-ld=mold" \
-		-Dc_link_args="-fuse-ld=mold" \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build
