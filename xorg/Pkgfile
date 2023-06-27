@@ -1,11 +1,11 @@
 # Description:	Meta package - x.org's implementation of X11
 # URL:		https://www.x.org
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	font-bitstream-type1 font-bitstream-100dpi font-bitstream-75dpi font-dejavu-ttf font-misc-misc libxkbcommon libxvmc rgb setxkbmap vulkan-loader xf86-input-evdev xf86-input-keyboard xf86-input-libinput xf86-input-mouse xf86-video-nouveau xf86-video-vesa xinit
+# Depends on:	font-bitstream-type1 font-bitstream-100dpi font-bitstream-75dpi font-dejavu-ttf font-misc-misc libxkbcommon libxvmc rgb setxkbmap vulkan-loader xf86-input-evdev xf86-input-libinput xf86-video-nouveau xf86-video-vesa xinit
 
 name=xorg
 version=7.7
-release=2
+release=3
 source=()
 
 build() {
