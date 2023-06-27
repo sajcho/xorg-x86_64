@@ -4,7 +4,7 @@
 # Depends on:	asciidoctor glslang
 
 name=shaderc
-version=2023.2
+version=2023.4
 release=1
 source=(https://github.com/google/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
