@@ -39,6 +39,7 @@ d:xorg
 d:libfontenc
 d:font-misc-misc
 d:xf86-video-intel
+d:libdecor
 d:font-liberation-ttf
 d:wayland-protocols
 d:libdrm
@@ -260,6 +261,9 @@ f:18e9767cc321533ccc473db2da42be21:font-misc-misc/Pkgfile
 f:53a2c72f9c04525fafac1eda79ea6e48:xf86-video-intel/.footprint
 f:dcd5261a07a15ba6ef9cd792b25a39b6:xf86-video-intel/.signature
 f:eff6e1b39de73e91b5431ce88613dfd7:xf86-video-intel/Pkgfile
+f:2527211ff319d6925c22253c59666db9:libdecor/.footprint
+f:166d8d87531d39ecad2ddcff7ddbcee5:libdecor/.signature
+f:435c5f83ba96cfb6937abb1a0d49d093:libdecor/Pkgfile
 f:3ce109822f81f5c44901c138afc7720a:font-liberation-ttf/45-liberation.conf
 f:6ac8f757e8e77bf3f58a957637d87562:font-liberation-ttf/30-liberation-mono.conf
 f:a01d43319c3abac796e99812975bf0a1:font-liberation-ttf/30-liberation-sans-narrow.conf
@@ -490,9 +494,9 @@ f:588d0d7556e4be06fda3317031c45efc:xrdb/Pkgfile
 f:355627de0939db078b6d02b584098c6d:libepoxy/.footprint
 f:184bbe663a107e2b10c6965011d5f983:libepoxy/.signature
 f:b9d2908937a4c027239564ffd3cd4e77:libepoxy/Pkgfile
-f:4fcfa43e651b365da530af1f81ff44b8:mesa-demos/.footprint
-f:baa4674ca4dcbe2656dc8dcf65070ad6:mesa-demos/.signature
-f:efc85ea4218df55217c787ed41903978:mesa-demos/Pkgfile
+f:789326cc9fba524c0752a07341af14f3:mesa-demos/.footprint
+f:402ff588ac8cfe92e6afe832de95600d:mesa-demos/.signature
+f:2342d0a9fa2dafb19612247846efca12:mesa-demos/Pkgfile
 f:d67aff0d797d2547e85e108d0af931d9:mtdev/.footprint
 f:a31836da17398f01776153e2fd8e604a:mtdev/.signature
 f:7f776ed831ac9791ad4a4d7730e4d960:mtdev/Pkgfile
