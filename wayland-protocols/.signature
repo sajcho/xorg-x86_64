@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIvwJugAeczjvA69pa5qIRKnj/3UBWq2xzE3Pn70dLoJofqS4oNr8CcD9FWNjj9/TWA45aCtvx5fgePuth2QaqwQ=
-SHA256 (Pkgfile) = 3b306ec404cdc6c77c3cc90477224810be3abd1d4d369e04cd8dd4b4a66cfd60
-SHA256 (.footprint) = 41a3f8d7debe45b23d2aa796e12243665097cbc8aa16b845715efe0f5912065e
-SHA256 (wayland-protocols-1.31.tar.xz) = a07fa722ed87676ec020d867714bc9a2f24c464da73912f39706eeef5219e238
+RWS6GSB2Zz1AIhZcsMg/dLL83i9u3heHshaZn9R6gH66ARB42t1gFu6em7VMrHyc+S9xlIQr9uf/LbRDMV6Df+DV3GxQxNeODgo=
+SHA256 (Pkgfile) = 2d58b0aa0910eb3df99c5106cfce19213fa3037da846799b8e8c4a2d721b03c8
+SHA256 (.footprint) = 2ae6960a83d02c24aa39084e669d3da6d3501d2407f94e50075d4016d276e545
+SHA256 (wayland-protocols-1.32.tar.xz) = 7459799d340c8296b695ef857c07ddef24c5a09b09ab6a74f7b92640d2b1ba11
