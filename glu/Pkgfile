@@ -4,20 +4,19 @@
 # Depends on:	mesa
 
 name=glu
-version=9.0.2
+version=9.0.3
 release=1
 source=(https://archive.mesa3d.org/${name}/${name}-${version}.tar.xz)
 
 build() {
 	cd ${name}-${version}
 
-	./configure \
-		--prefix=/usr \
-		--disable-static
+	build-meson \
+		-Ddefault_library=shared \
+		-Dgl_provider=osmesa \
+		. build
 
-	make V=1
+	meson compile ${JOBS:+-j ${JOBS}} -v -C build
 
-	make DESTDIR=$PKG install
-
-	find $PKG -type f -name '*.la' -delete
+	DESTDIR=$PKG meson install --no-rebuild -C build
 }
