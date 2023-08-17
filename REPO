@@ -203,8 +203,8 @@ f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:71d4c3128f4b15047befadf898789c02:xf86-input-evdev/.signature
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
 f:e438a081e938d336f27ccf0dd97e4b2e:mesa/.footprint
-f:dddcd3f3bc82546114fcc5253fe948ad:mesa/.signature
-f:43043f5997d41443527631ba28a0a412:mesa/Pkgfile
+f:0a64ee92e23ece46007db76e48293e2b:mesa/.signature
+f:0063085e22cd64d6fd39c2479cdccec1:mesa/Pkgfile
 f:025ac5edd79136fbbdca2aaec5387aab:mesa/no-unlink-megadrivers.patch
 f:538032fa21db25d3cb02c885c28971bb:pixman/.footprint
 f:e9e5e362473b3b9d250fb198ec496c2f:pixman/.signature
@@ -281,8 +281,8 @@ f:a82c1887376b0e9a1fad87376a6e9886:libdrm/.footprint
 f:164a993e475c44e03d234dadc806320d:libdrm/.signature
 f:c38245c2bb60d48f61306e7d638857f5:libdrm/Pkgfile
 f:79856ddba6165ff3816e1c42a2dbbd27:xcb-proto/.footprint
-f:551d18492b75172c25e008c82549499a:xcb-proto/.signature
-f:1e2ee9044a700d0b2fc95f3de2c92436:xcb-proto/Pkgfile
+f:d4db3e5cf8caba9590246e24ca9b6ea4:xcb-proto/.signature
+f:19da855341d94cd9c52555f726230200:xcb-proto/Pkgfile
 f:51a55a69519964c323ee4f74a7acb4f5:font-bitstream-100dpi/post-install
 f:ce1e0d0a3bd5d12e1c7882ac5200d86e:font-bitstream-100dpi/.footprint
 f:3dc2e24c7963194c8fe1542b6d2502d9:font-bitstream-100dpi/.signature
@@ -425,9 +425,9 @@ f:2cea19726a9c2200fe6d2c78dc52f7df:xf86-video-fbdev/.footprint
 f:79488f1c8fa5fe84e9efb3bffe759b29:xf86-video-fbdev/.signature
 f:67637f4692885c8564d94cb123bc9ab2:xf86-video-fbdev/Pkgfile
 f:23832d9a359926fb57cd7d419b3e6c10:xf86-video-fbdev/fix-build.patch
-f:ab4b104bbe4acda96c90fd1118fbb6b9:libxcb/.footprint
-f:ffd809530e1e97d392e2a96c5d60b079:libxcb/.signature
-f:e6aa4657242d70f198a03d8150742244:libxcb/Pkgfile
+f:48440357f988aba17a991c02a0bd16e5:libxcb/.footprint
+f:dcce0fb7a97e467277db8fa2824c3366:libxcb/.signature
+f:05f0e3c97cc979383d6ffd34e3848f61:libxcb/Pkgfile
 f:a09d5bd6ee610e4084384b69da131d36:libxtst/.footprint
 f:ad0764fa777cb0b3cc0b1540b48f1bde:libxtst/.signature
 f:f503fb1eb5cfd96ec2dab1d562d516cc:libxtst/Pkgfile
