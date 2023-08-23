@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIu3cFfeIfozcZoENB6L5A3MjLiIHBDYKRUidxl7HL2GsQSn9BwkCnd4WGby4uCh5BZbU7OF1+aORc6OCISq8swM=
-SHA256 (Pkgfile) = d6837f6a26af12b24326b31a141aa4fe23d84dc0fb78af53ade1bc7b2704dfcd
+RWS6GSB2Zz1AIntZQvqOVPgyUlaOq7ULH6zua47JbTXv1JMxfeIHhjESOpiBcFDr4DYXJPMz7/94EfaMq9Bjj4+BnmNyh6kFQQw=
+SHA256 (Pkgfile) = c0448eae0999e37d3e04ca7319152a8a251faf2be3692d97382084430fe7db57
 SHA256 (.footprint) = e4d0b4ecec9c47e6237cbc5cb342cc4efecc10bb44e879a02d16cb1952ad3b2e
-SHA256 (SPIRV-Headers-sdk-1.3.250.0.tar.gz) = 9d632a4dddd11f89a74a8c6f19cd29e8b0741d2fbb41ecc4dec26b922d28a2f3
+SHA256 (SPIRV-Headers-sdk-1.3.250.1.tar.gz) = d5f8c4b7906baf9c51aedbbb2dd942009e8658e3340c6e64699518666a03e043
