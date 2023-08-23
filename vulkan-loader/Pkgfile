@@ -5,15 +5,12 @@
 
 name=vulkan-loader
 _realname=Vulkan-Loader
-version=1.3.250.0
+version=1.3.250.1
 release=1
 source=(https://github.com/KhronosGroup/${_realname}/archive/sdk-${version}/${_realname}-sdk-${version}.tar.gz)
 
 build() {
 	cd ${_realname}-sdk-${version}
-
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
 
 	mkdir build
 	cd build
