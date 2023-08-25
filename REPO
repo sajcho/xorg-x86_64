@@ -278,8 +278,8 @@ f:c061df9c4ddc92e5f5f2daf0f8a56321:wayland-protocols/.footprint
 f:8c021f2bde36d76f2efbb26941e0b4e6:wayland-protocols/.signature
 f:0fdf5e11b580315841fa2a2e3a0e76dd:wayland-protocols/Pkgfile
 f:a82c1887376b0e9a1fad87376a6e9886:libdrm/.footprint
-f:164a993e475c44e03d234dadc806320d:libdrm/.signature
-f:c38245c2bb60d48f61306e7d638857f5:libdrm/Pkgfile
+f:d9becc37958086b9cb2bb513bd9d8388:libdrm/.signature
+f:fd718d066749bf97ab83aa53716ebc9b:libdrm/Pkgfile
 f:79856ddba6165ff3816e1c42a2dbbd27:xcb-proto/.footprint
 f:d4db3e5cf8caba9590246e24ca9b6ea4:xcb-proto/.signature
 f:19da855341d94cd9c52555f726230200:xcb-proto/Pkgfile
@@ -546,8 +546,8 @@ f:d1adb9071bc431a920223d32211f210f:libxt/.footprint
 f:8cfacbc816587669b2042402fffcc803:libxt/.signature
 f:33b3f56270fd9b8e50df2a57bd02b3cf:libxt/Pkgfile
 f:3396839a50eb2af05fd7221695f05809:xf86-input-libinput/.footprint
-f:1e3d47d8e70ffbcbb39e06bf97c328b5:xf86-input-libinput/.signature
-f:17956c646821afd8ff3bad6a80a93646:xf86-input-libinput/Pkgfile
+f:7459a84b2ac712ba45f338860338a8b1:xf86-input-libinput/.signature
+f:550fe3d8fe7514a4053f4731ab447ca0:xf86-input-libinput/Pkgfile
 f:7e19d2e2a66d22c303691ad2d7626710:vulkan-headers/.footprint
 f:4c24f126d146080c41b32b335c84ef66:vulkan-headers/.signature
 f:db53a0b982c10a0adbba4f4c7fa19404:vulkan-headers/Pkgfile
