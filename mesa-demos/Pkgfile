@@ -11,9 +11,6 @@ source=(https://archive.mesa3d.org/demos/${name}-${version}.tar.xz)
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Dgles1=disabled \
 		-Dwith-system-data-files=true \
