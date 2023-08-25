@@ -11,9 +11,6 @@ source=(https://www.x.org/releases/individual/data/${name}/${name}-${version}.ta
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Dxkb-base="/usr/share/X11/xkb" \
 		-Dcompat-rules=true \
