@@ -11,9 +11,6 @@ source=(https://github.com/KhronosGroup/${name}/archive/sdk-${version}/${name}-s
 build() {
 	cd ${name}-sdk-${version}
 
-	CFLAGS+=" -flto=auto -ffat-lto-objects"
-	CXXFLAGS+=" -flto=auto -ffat-lto-objects"
-
 	mkdir build-shared
 	cd build-shared
 
