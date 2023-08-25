@@ -1,7 +1,7 @@
 # Description:	Client-side decorations library for Wayland clients
 # URL:		https://gitlab.freedesktop.org/libdecor/libdecor
 # Maintainer:	sajcho, saux dot aarch64 at gmail dot com
-# Depends on:	cairo dbus pango wayland-protocols
+# Depends on:	dbus pango wayland-protocols
 
 name=libdecor
 version=0.1.1
@@ -10,9 +10,6 @@ source=(https://gitlab.freedesktop.org/${name}/${name}/-/archive/${version}/${na
 
 build() {
 	cd ${name}-${version}
-
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
 
 	build-meson \
 		-Ddemo=false \
