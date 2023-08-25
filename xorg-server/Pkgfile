@@ -11,9 +11,6 @@ source=(https://www.x.org/releases/individual/xserver/${name}-${version}.tar.xz)
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	_fontroot="/usr/share/fonts"
 
 	build-meson \
