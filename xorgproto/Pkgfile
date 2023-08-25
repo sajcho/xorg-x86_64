@@ -10,9 +10,6 @@ source=(https://www.x.org/releases/individual/proto/${name}-${version}.tar.xz)
 build() {
 	cd ${name}-${version}
 
-	CFLAGS+=" -ffat-lto-objects"
-	CXXFLAGS+=" -ffat-lto-objects"
-
 	build-meson \
 		-Dlegacy=true \
 		. build
