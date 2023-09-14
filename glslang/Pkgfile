@@ -4,7 +4,7 @@
 # Depends on:	bison python3 samurai spirv-tools
 
 name=glslang
-version=1.3.250.1
+version=1.3.261.1
 release=1
 source=(https://github.com/KhronosGroup/${name}/archive/sdk-${version}/${name}-sdk-${version}.tar.gz)
 
