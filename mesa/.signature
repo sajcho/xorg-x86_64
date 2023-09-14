@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIkvn9TL+JufDmBg9z94r57uy0ccqkYg+NenUsfuJyNJ5KJmThWl8icICfc6Y4rEGEcGih914GYSYcb3Iy1sYTQY=
-SHA256 (Pkgfile) = 904ac319a4a6b3bfe021bf800f812c4d3284e494926216f94c6bc90360ee8c65
+RWS6GSB2Zz1AIiFNctuniFaGg/PRbPMl9QJQY1ik2htfjTit0u2CuOTLaUo70oDw8e8m9UumiF0XO/fcyxvmB1sKaiDe9q/1nAg=
+SHA256 (Pkgfile) = 9f547e4a0c41955a94f98bc0da9a7eae4f87b1d1b9151da6fd071a77c39c3ed3
 SHA256 (.footprint) = 6654fe7150c566dbd234a7148fd23024416bdef36f4934930e91ef4246f9852b
-SHA256 (mesa-23.1.6.tar.xz) = f4c7fd8e7b472a88da7d83e9a48f6f3bd17d4ea2cc4386f7231b796f3964157a
+SHA256 (mesa-23.1.7.tar.xz) = 409641eadf0ed1c7794797a6f5a0b0195b5580b282166e5ec5629c6bcda6acd3
 SHA256 (no-unlink-megadrivers.patch) = 2eac5a17bda598d13d570592c1fb2b5b80eb2e1cd6f01ef04f1a6d7ac9457f0b

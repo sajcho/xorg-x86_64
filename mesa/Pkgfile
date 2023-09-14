@@ -4,13 +4,17 @@
 # Depends on:	egl-wayland elfutils libva libvdpau libxdamage libxshmfence libxxf86vm llvm-toolchain python3-mako vulkan-validation-layers
 
 name=mesa
-version=23.1.6
+version=23.1.7
 release=1
 source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz \
 	no-unlink-megadrivers.patch)
 
 build() {
 	cd ${name}-${version}
+
+	# from alpine linux:
+	# this converts megadriver installation to use symlinks instead of hardlinks,
+	# and simplifies disk representation (hardlinks are less easy to see)
 
 	patch -p1 -i $SRC/no-unlink-megadrivers.patch
 
