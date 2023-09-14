@@ -30,6 +30,8 @@ drwxr-xr-x	root/root	usr/include/vulkan/utils/
 -rw-r--r--	root/root	usr/include/vulkan/utils/cast_utils.h
 -rw-r--r--	root/root	usr/include/vulkan/utils/hash_util.h
 -rw-r--r--	root/root	usr/include/vulkan/utils/hash_vk_types.h
+-rw-r--r--	root/root	usr/include/vulkan/utils/ray_tracing_utils.cpp
+-rw-r--r--	root/root	usr/include/vulkan/utils/ray_tracing_utils.h
 -rw-r--r--	root/root	usr/include/vulkan/utils/vk_layer_extension_utils.cpp
 -rw-r--r--	root/root	usr/include/vulkan/utils/vk_layer_extension_utils.h
 -rw-r--r--	root/root	usr/include/vulkan/utils/vk_layer_utils.cpp
