@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIgCykfrCf6WoMHaGAZ1Doo8ZnwoMdbTRxWQDT/TJVUhBW3RUI6ntgy5pTRxwW2KzC0eTeS9d9hf96dc/phXC1AE=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyadSTkqtiAkja4KrkGVVFMbBH+bL2OkTPDlvh3oiDtIDKAhN+4sWFd3wUQJEeFWDBCiUGKUYmtABeAl8PI9QyBA8=
 SHA256 (Pkgfile) = ae8765486710b5894810a532f0ed5ec712727e7bfbb63a5d4552ea9e2cea6d44
 SHA256 (.footprint) = 8831cb71431b4676b1e7f006b0c38dc11c40cf802bdacdb8960a5d9eed6f527e
 SHA256 (libXdamage-1.1.6.tar.xz) = 52733c1f5262fca35f64e7d5060c6fcd81a880ba8e1e65c9621cf0727afb5d11

@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AItZt1LxnJbF/8jkYzU9vGwJKBJ3BRnKDc6QViZqXeoahjOyxLAHwMlfH7zm9O0hhBYPnSbY8Ly5no+ekfPwyHgY=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaUvGF7YM7hWzQcJ3KpR1PYM1ABEjwXZBHVplSvYduiBYlGYGCeSVbHViRBQn3lEKp4l8Ciq5MvQf9C3z7blU1gQ=
 SHA256 (Pkgfile) = b9107bd60184560b1d0850fb282d53f161ac1689aa773a982718b3c96e1a2ca0
 SHA256 (.footprint) = 082deaf6128a3954551ebbe0a8f080e8e69d9e64f8633f938365c5d191d2754d
 SHA256 (libXScrnSaver-1.2.4.tar.xz) = 75cd2859f38e207a090cac980d76bc71e9da99d48d09703584e00585abc920fe

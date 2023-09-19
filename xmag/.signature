@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIuCPDUcYoXu22AX9XVphsOtAelY2Ng54lJU+VKjGiKXDdMazSfQXf+Ds+/T9PhYVB0SlSlKbOdclD4h7TMo6+wE=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaY22dQ6Bl+71OUHMsZAcKbdOoT9TOtj39uIySFSFowiHA+HToWLVmS1BHf3WczaAeZDmmmn1fsVNz/dGuvSscQ4=
 SHA256 (Pkgfile) = 99215b5090dacda0592ccc9b1a83c138a74692cca2a5b5889fbe96cd4849958e
 SHA256 (.footprint) = ef5ea7939950ae15feba26b21834c225fc88e862d2e13d97455f0d91b4c2f108
 SHA256 (xmag-1.0.7.tar.xz) = 009936cc5a2706084079127b26cf55c713767650a34cb69e5682d60e33ce7461

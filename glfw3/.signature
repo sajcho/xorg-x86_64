@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIrf4PBVHk3Wd//uVR+el6KX3pxKz8T0kPMqUuMK/5FCnfjNWncBsYBMzQo+Yc/xO/8mlDfJc7yj7mthPs1IGzQk=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaY/wtc3WLvrKpvddj1Nqpmxrn3N2I4AU/Hff0kGRW+tuCCoLuOZq3jrRuVZw/nks7dCXAh0/jVCsx1KIf/yCgQM=
 SHA256 (Pkgfile) = 162f89464f8b993522f6298389c3b73700080f8731c8b9a74291cf49ef76e06c
 SHA256 (.footprint) = 696e162d9a7088bd17d8ee4bda9064d00c118d499a7a166dd2792baabd313b38
 SHA256 (glfw-3.3.8.zip) = 4d025083cc4a3dd1f91ab9b9ba4f5807193823e565a5bcf4be202669d9911ea6

@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIkANQG7Yvap7v+/LKYlsrtxNnjutq6CvCYxRvXYPn+pnnT+ksHf5QweYD/TrLMSWU1eqv5YgI7uAUWmVCN74qgo=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyafujnHfo8mNF+Wu8HZV98UJxDmiaFJb/lJ/0EP7R+tuWF2QutC2uvhYdXnQGblWQ/yJbdiOXrtObFgCUzlfUjQk=
 SHA256 (Pkgfile) = 022d162805773872e03229d3f21c6b2ee8f15813bbf2c7ed0104edf723d4e141
 SHA256 (.footprint) = b5f23269f480e8797c4b05e78cbcbec28c441bce2b2ace7527f27d5c697882d0
 SHA256 (font-util-1.4.0.tar.xz) = 9f724bf940128c7e39f7252bd961cd38cfac2359de2100a8bed696bf40d40f7d

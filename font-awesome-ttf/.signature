@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIjh6BYu3w0v2xc3XJ5yyvY5rT5llzwhLr/gRtMY106Kvk+r6hnhoHR0HZNcWbrN93a47UXvGiLmXQVfuKILsDQA=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaQACy/Jdavp2gZtWitqhaKQQE9I/xWhJxX2umfcxIcbq1w9f883d7TJcn5mn+ygXjTIYTQq/ZeqbPpkBSXf9AAQ=
 SHA256 (Pkgfile) = cca18678e313b7e372521c6ba92310145ba8b83a4e7f408a62dc41f4abbd66be
 SHA256 (.footprint) = 704e528363cba60fc9f96587ddfc519cb8729b819178aa5eb086e889e2c029a9
 SHA256 (Font-Awesome-6.4.0.tar.gz) = c8d286b1941fca9841d07fe165f9e0a5ee1ccf99417cf60025986f303b54da5c

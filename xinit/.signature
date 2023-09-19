@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIs9ta9aTxdob8r41EIuTz4zX7/ifr3Dfg9bpKOkekTn7NJ2iQbxhFoko8v/8aU7kDwSNWYs6LW2N92Nb/TLDBwo=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaX2/he5+hnh1bblnnvJbtleoTK/jf+aduqYAsjQqjcCmh8qumtKxxfye5x6nFBKNvmC76P4elhgcE1WOStVMrAk=
 SHA256 (Pkgfile) = c1fd580fa3e57716a8a9c0523ffeecdfa7c6953aadc435e8acc0fd7425a0af13
 SHA256 (.footprint) = 6e9e50e15b9939516003ecd497c5d86ffa05f8184e3aabf196d6977e006edb96
 SHA256 (xinit-1.4.2.tar.xz) = b7d8dc8d22ef9f15985a10b606ee4f2aad6828befa437359934647e88d331f23

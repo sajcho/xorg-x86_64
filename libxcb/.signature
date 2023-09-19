@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIgW7rQfAeYZopkq1omJ+yyVDWQI7k98EtOp3oyCPeqJQfxwQpeFQKPXGkGqOAN90Ybq9YJlsMf19bUwvHTz0gAs=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyadyeShqip/G5oov+i/482h+7O/qLLZymn4GpVInwgLTCLAorvKwWwMt/+/T3DzOD5X2woAMFXd4aO5s6qgho7go=
 SHA256 (Pkgfile) = 460f2e2ef511e102e4a3506a6027b91660a3a824c773ebdd0d263387743c19fb
 SHA256 (.footprint) = 0d71eef20a57577154d97843f66729e49608242e6b294355accd2fe0f27e42a1
 SHA256 (libxcb-1.16.tar.xz) = 4348566aa0fbf196db5e0a576321c65966189210cb51328ea2bb2be39c711d71

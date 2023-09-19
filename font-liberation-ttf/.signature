@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIqWS5bD/go/3Z14rsDiueo0oZd7Fr1ZHc+8Aszz0dKpnaNYTtAMGlOCMJ83MYDiFoPaE2rRtmaojf7JXlTmmSAY=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyacniaFcTHqHaACBv03PP6cyvEDT8Bb1kiqMy/s+NPowEyJ/XA6Od9uZV3MEV+n79QeV9mY3yFknuvz/pRLdviA0=
 SHA256 (Pkgfile) = c9d6691706e3499d83d9a50323dcbed1c5c835ae874818c65c9581fa5274c67b
 SHA256 (.footprint) = cd980f039f7b342542303585cb178cd22896f2475adc96acd5f2b8ea5b4a8d69
 SHA256 (liberation-fonts-ttf-2.00.5.tar.gz) = f14ff0a0be87b5aeb672e669363b5a699db76feb1144b06798261c0fdcd2b24d

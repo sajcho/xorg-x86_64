@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AItOBBuM6raCb+aA1Si2ZIjh4nYgZGRWOrfZHMpKEoUWur9JspBsAhWaon61mb/cEtgk9Mfzqao0VkL9NRsO1WQw=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaTwn/U1rdeOSe0lSoCkVjqiml650ZRBaXQQqMqzAmHIFeUVn3W4K0j/jJDgpghmnXzPPRK7phXpgH4QLxlCO8A0=
 SHA256 (Pkgfile) = 3a2ca32ce55d0704c267d3b2881f90d7d0be5dbed9e067658bcefe1acd67af7e
 SHA256 (.footprint) = d09b509c88b0d5a8cdb3e3386fb26de2eeacd18c185e0268c24e0e382d757f0f
 SHA256 (robin-hood-hashing-3.11.5.tar.gz) = 3693e44dda569e9a8b87ce8263f7477b23af448a3c3600c8ab9004fe79c20ad0

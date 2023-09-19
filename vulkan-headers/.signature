@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIkARXI1sVzulpcxg4LjrYBDA+SQrOYWS0BKPSd+x/U0v172JpNzrgsC3oyloHevbcKmtIadn/HZ6GnZuM58drgU=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyabK19Ic9wM5p8HeeOXq9j2TTQS7UVl3ltSuLj5AAgkE3lcqbz+5ZyRgVwzHIYkYMtW102k5U21+N2iM6gSzOMgk=
 SHA256 (Pkgfile) = 1967106eaa37a6b015e03c56f985acea10da7ad5f96403b8086a7fe175fbcdae
 SHA256 (.footprint) = a613f0964e841317ed9b7ad5412b6378f88beeaa180815b1c5402048f6075678
 SHA256 (Vulkan-Headers-sdk-1.3.261.1.tar.gz) = 7a25ebdb6325e626dc5d33bc937b289ccce7ddb7b0ac1a1b1d5d7ff33b6715d3

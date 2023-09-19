@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIqczRK08hZ/iz3OjVf6xIpZf2i3YmwBQNYkSRprLkBigARpDILQ+hKYLpSDtjul1Q5ABneqRqBGyTcU+3z3ekgY=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyacRvu+KRq0DLl1tbREHUjAXebhILX1sm+HoWbAaFiTqEue4+0sz9c2bapOefuYeknvjxi55C1ZAULdCBjEtPVgM=
 SHA256 (Pkgfile) = 004157ba01ee98459eaec20fcd9e70167df10762febdb2e73d1a0ecb494d39b4
 SHA256 (.footprint) = 8263057deaa1706908b506016410684c359a907b812fec060b6a94848bea8549
 SHA256 (xf86-video-nouveau-1.0.17.tar.bz2) = 499322e27a55c8183166bf2dd1e47d085eb834143e0d7036baba8427b90c156b

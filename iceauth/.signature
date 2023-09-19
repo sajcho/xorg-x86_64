@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIqxctEQuSMYfTRdtc63RxP9m8wZ1gsdFfIeSBjuSiQuNmIkrw6kGNKuz3IFo8urOtO+AwODfpeufB8dY1Of0YAI=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaSU03NDrma3fl6UcEKij0cBKViFGdAWAlqwYhmUsgyoZoDzUdMuNnAcS/zuJTFA4FmQr4VOmwKajnjhoE1stXAY=
 SHA256 (Pkgfile) = 562bdac9080e7a68d7b6ee60a09129224a9b66703660a64cb0898172d2213979
 SHA256 (.footprint) = fc4641a5e7bd8eed450f1965562c0f8a40b601d84a476683ec2b6b866d469c5b
 SHA256 (iceauth-1.0.9.tar.xz) = 2cb9dfcb545683af77fb1029bea3fc52dcc8a0666f7b8b2d7373b6ed4c408c05

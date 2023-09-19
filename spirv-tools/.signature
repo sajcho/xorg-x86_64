@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AImu5KS83V/0oVe7IVHXzp+9b+/5ak+ACJ0IjMrp6K6PBQUP+iVyKdfHilcCiATy4tNiB/bLxxD5LugRvBvEH1Ak=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaQZDSq0BJM4D6uz36M/QGQDoSJ4Fu+4FK4EcoFxheOCPz4azPGwL+cuKY1OfoScWDkY+sOvmGil/2d6Ph+nrLQU=
 SHA256 (Pkgfile) = 184e96ff26a9406ff6c9dcf0ef05b7c90f3ddfceb033cf406a1535520af15342
 SHA256 (.footprint) = 454ec2a5b812e90bdd1203d9135760ac555928c88a0d5ea53f62bd59da2e808e
 SHA256 (SPIRV-Tools-sdk-1.3.261.1.tar.gz) = ead95c626ad482882a141d1aa0ce47b9453871f72c42c0b28d39c82f60a52008

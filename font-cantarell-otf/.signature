@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIuSalPi8Va9vcppmwgUR8SiVDjGdqXwemGzyVMBULAGLJQ9PeFEcl05Tsm41O+t0ymBPPSJHTvjR5lasSebVUwg=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaXiVN67NeBheDUNc8NyETxWiIPWo7SW9qrz7wpdHaHBCm50HRKAdDjvoj/VpoI7wncRwgDoZmDSMvWmI0Xs/zwg=
 SHA256 (Pkgfile) = cef276b2683f1749dde65a2c606ffe5218f5cbac8a63cc597d9adead0cf00aaf
 SHA256 (.footprint) = 346456071b3bc45439102d70908f449d6f9e9c3d6a83c20f06e59c4a1b6331ac
 SHA256 (cantarell-fonts-0.303.1.tar.xz) = f9463a0659c63e57e381fdd753cf1929225395c5b49135989424761830530411

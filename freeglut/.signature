@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIl8Ez5CuTQJxpcZAr6Y9tJIiJ3Ig6xlJdnrd3aWscJCEzzXB6jG8h83qlqdgIJlIdMlpu+qgMKBIjUw0JrkSbA4=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaUKPlFhA3hqXHnsRIcjRim0i0Tw+6iACMs88fsnnjioDNJchsuBjnq84/lIF1ifi1NixaB+SouuH0KAakOnBCgA=
 SHA256 (Pkgfile) = 7f032079c071dc5781a0c6ba2f0af4d2a7fe482c220a9f6c1be255c0593897f6
 SHA256 (.footprint) = 225919a2ab194ca187fa7e2f43b979ed5bdc05870a2edaa5b0f907e995b743d7
 SHA256 (freeglut-3.4.0.tar.gz) = 3c0bcb915d9b180a97edaebd011b7a1de54583a838644dcd42bb0ea0c6f3eaec

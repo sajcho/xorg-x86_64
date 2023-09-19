@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIiFNctuniFaGg/PRbPMl9QJQY1ik2htfjTit0u2CuOTLaUo70oDw8e8m9UumiF0XO/fcyxvmB1sKaiDe9q/1nAg=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyaY8umuP1q02nZ92nsL0bO//EfD4GGmfoojR+o2JwKNHtg+Z3MMDeJdQO6CMDo6W2I/WycMVnxR3j4HIJp9iGXww=
 SHA256 (Pkgfile) = 9f547e4a0c41955a94f98bc0da9a7eae4f87b1d1b9151da6fd071a77c39c3ed3
 SHA256 (.footprint) = 6654fe7150c566dbd234a7148fd23024416bdef36f4934930e91ef4246f9852b
 SHA256 (mesa-23.1.7.tar.xz) = 409641eadf0ed1c7794797a6f5a0b0195b5580b282166e5ec5629c6bcda6acd3

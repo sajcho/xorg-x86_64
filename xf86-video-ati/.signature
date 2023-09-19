@@ -1,5 +1,5 @@
-untrusted comment: verify with /etc/ports/xorg-x86_64.pub
-RWS6GSB2Zz1AIkKHNc9Yz00RRaDMJwB3YbxZ3D6s9eH54aR18M2eKYFTPT81hcOtw3U/8v6phdDCLIFZtsf4i4cBBTr19maQGgI=
+untrusted comment: verify with xorg-x86_64.pub
+RWT2oJKuQpXyabHlbKALsax0hG8AwOfZJ5N6Fc8VOi8D3FB7UNtCdaacxTjycplpE6hZ+o+MTarOUR+Mt2tmtfzy9bOJFxRUQgU=
 SHA256 (Pkgfile) = fe14836ddcd4e424f076808c08df528c22e94da254a33b85d43b30309ace9e6d
 SHA256 (.footprint) = 78ad7641beadfcd85d455b91bba2473ced98b6a36b2615067ef68f0ba41d610e
 SHA256 (xf86-video-ati-22.0.0.tar.xz) = c8c8bb56d3f6227c97e59c3a3c85a25133584ceb82ab5bc05a902a743ab7bf6d
