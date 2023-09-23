@@ -203,8 +203,8 @@ f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:740817920a3ef8e60184b0c6b50b4e08:xf86-input-evdev/.signature
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
 f:e438a081e938d336f27ccf0dd97e4b2e:mesa/.footprint
-f:52dd02caf7c63bc2b22a2e831de6d20d:mesa/.signature
-f:2dac7f689b1486e4a46da4abb92201dc:mesa/Pkgfile
+f:bf57c8357870a1def7bc0fdb5e375ae6:mesa/.signature
+f:79985296ea4db8ba4cfdde3bcce37162:mesa/Pkgfile
 f:025ac5edd79136fbbdca2aaec5387aab:mesa/no-unlink-megadrivers.patch
 f:538032fa21db25d3cb02c885c28971bb:pixman/.footprint
 f:197d2684a77bc963d0533f9fef477a93:pixman/.signature
@@ -526,9 +526,9 @@ f:4dffd9b9526399197976574410661347:xf86-video-nouveau/xorg-server-21.1.diff
 f:1dcc6697454a06243f7ea47b8e79f7d9:xf86-video-nouveau/.footprint
 f:dc9deb88ef54374c9c42a54175a822d6:xf86-video-nouveau/.signature
 f:c20ad5e1d306b6f33331d40281570055:xf86-video-nouveau/Pkgfile
-f:ad7b0fab3c559e9197ea4697ea295e0e:libva/.footprint
-f:5a5c5cca929473d4222cb6d072845319:libva/.signature
-f:c90712b5b6b63ff5452a29dc5b7c5a83:libva/Pkgfile
+f:180d1d074993bd8ff9c70330532da67d:libva/.footprint
+f:433eb52e640fc441a445c908f791268d:libva/.signature
+f:55cc899ec9853d7e674e30bc55d3b51a:libva/Pkgfile
 f:4831e138040b2ac79d16033dc164a2fa:libva/README
 f:46bc7bb5f546b8c84b11548e06458bc8:xcb-util/.footprint
 f:aba91bef2a5a192231a8e7a99335cf96:xcb-util/.signature
