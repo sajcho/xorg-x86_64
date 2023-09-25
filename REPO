@@ -280,9 +280,9 @@ f:0fdf5e11b580315841fa2a2e3a0e76dd:wayland-protocols/Pkgfile
 f:a82c1887376b0e9a1fad87376a6e9886:libdrm/.footprint
 f:8cfe6796d09ce0a9ac2a2c5ef19a78cf:libdrm/.signature
 f:fd718d066749bf97ab83aa53716ebc9b:libdrm/Pkgfile
-f:79856ddba6165ff3816e1c42a2dbbd27:xcb-proto/.footprint
-f:510424a3d625f410c2e1b56001d2de8d:xcb-proto/.signature
-f:19da855341d94cd9c52555f726230200:xcb-proto/Pkgfile
+f:d2a9855eb7f4c75697dfb60ad20b0c68:xcb-proto/.footprint
+f:4df764484074ff016ca25c29f1fc9dc0:xcb-proto/.signature
+f:f910fd4e45b9682b6afd918955b07fc4:xcb-proto/Pkgfile
 f:51a55a69519964c323ee4f74a7acb4f5:font-bitstream-100dpi/post-install
 f:ce1e0d0a3bd5d12e1c7882ac5200d86e:font-bitstream-100dpi/.footprint
 f:5202c501600795d4a1ce9a617bb74d40:font-bitstream-100dpi/.signature
@@ -454,7 +454,6 @@ f:70c80185bdb15d9cf533e06fc65748e1:font-adobe-75dpi/post-install
 f:7ed15b704cdaa9ce5440074383096894:font-adobe-75dpi/.footprint
 f:2085d56c8b28defceab8afe737bb5b0c:font-adobe-75dpi/.signature
 f:d1342dc0f663d6dbe3a91b54ee859ad3:font-adobe-75dpi/Pkgfile
-f:b1060e70aaff0e2baed6fc1d91ebe9b3:SECURITY.md
 f:cf9d4e435109f91aad795c9fb566f526:xf86-video-vesa/.footprint
 f:95c2c2bb90324220f2804f09b55b3304:xf86-video-vesa/.signature
 f:36bf02185a5495c11a2dc4e8d1fe2242:xf86-video-vesa/Pkgfile
@@ -509,9 +508,9 @@ f:ecf7fd2ab36bfec6cded2b418d2b4220:xset/Pkgfile
 f:8fe60bcf713a97ca101c3e0ccc78c0ed:xprop/.footprint
 f:d917b50852d6cbd943517596c79d0611:xprop/.signature
 f:49fcee3474776928050ae5168ac9b603:xprop/Pkgfile
-f:5ea26e822eb78c30da83c40d33b0fe77:glad/.footprint
-f:bb9d591a328c9ee2b33917af4d163618:glad/.signature
-f:b8852fe7edbc01f0fadcae26a26b7c64:glad/Pkgfile
+f:967c8c2aeb2feb9dc3c03f5209c426a4:glad/.footprint
+f:39adaf2d5875d3eee3d3a9e6cc68823c:glad/.signature
+f:bffe169790814fc87b34024c0ab0c392:glad/Pkgfile
 f:e63b0c81ea624d48a4d4c68d61c097f9:font-terminus-x11/post-install
 f:ab124849ec8aef270a66d82eb52d7344:font-terminus-x11/.footprint
 f:fbc7a0f73a24ce2372ee61948ebdea5d:font-terminus-x11/.signature
