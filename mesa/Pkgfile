@@ -4,13 +4,16 @@
 # Depends on:	egl-wayland elfutils libva libvdpau libxdamage libxshmfence libxxf86vm llvm-toolchain python3-mako vulkan-validation-layers
 
 name=mesa
-version=23.1.8
+version=23.2.1
 release=1
 source=(https://mesa.freedesktop.org/archive/${name}-${version}.tar.xz \
 	no-unlink-megadrivers.patch)
 
 build() {
 	cd ${name}-${version}
+
+	export CFLAGS="${CFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
+	export CXXFLAGS="${CXXFLAGS/ -flto=auto -ffat-lto-objects/ -w}"
 
 	# from alpine linux:
 	# this converts megadriver installation to use symlinks instead of hardlinks,
@@ -25,6 +28,7 @@ build() {
 	build-meson \
 		-Dplatforms=x11,wayland \
 		-Dllvm=enabled \
+		-Dshared-llvm=enabled \
 		-Dgbm=enabled \
 		-Dgles1=disabled \
 		-Dgles2=enabled \
@@ -41,15 +45,14 @@ build() {
 		-Dgallium-extra-hud=false \
 		-Dgallium-drivers=r300,r600,radeonsi,virgl,svga,crocus,zink,swrast,nouveau \
 		-Dshared-glapi=enabled \
-		-Dvulkan-drivers=amd,intel,swrast,imagination-experimental \
-		-Dvulkan-layers=device-select,intel-nullhw,overlay \
+		-Dvulkan-drivers=amd,intel,swrast \
+		-Dvulkan-layers=device-select \
 		-Dlibunwind=disabled \
 		-Dlmsensors=disabled \
 		-Dvalgrind=disabled \
 		-Dmicrosoft-clc=disabled \
 		-Dvideo-codecs=vc1dec,h264dec,h264enc,h265dec,h265enc \
-		-Dimagination-srv=true \
-		-Dtools=drm-shim,glsl,nouveau,imagination \
+		-Dbuild-tests=false \
 		. build
 
 	meson compile ${JOBS:+-j ${JOBS}} -v -C build

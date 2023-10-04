@@ -1,9 +1,4 @@
 drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/glsl_compiler
--rwxr-xr-x	root/root	usr/bin/glsl_test
--r-xr-xr-x	root/root	usr/bin/mesa-overlay-control.py
--rwxr-xr-x	root/root	usr/bin/nouveau_compiler
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/EGL/
 -rw-r--r--	root/root	usr/include/EGL/eglext_angle.h
@@ -44,21 +39,15 @@ lrwxrwxrwx	root/root	usr/lib/libGLX_mesa.so.0 -> libGLX_mesa.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libOSMesa.so -> libOSMesa.so.8
 lrwxrwxrwx	root/root	usr/lib/libOSMesa.so.8 -> libOSMesa.so.8.0.0
 -rwxr-xr-x	root/root	usr/lib/libOSMesa.so.8.0.0
--rwxr-xr-x	root/root	usr/lib/libVkLayer_INTEL_nullhw.so
 -rwxr-xr-x	root/root	usr/lib/libVkLayer_MESA_device_select.so
--rwxr-xr-x	root/root	usr/lib/libVkLayer_MESA_overlay.so
 lrwxrwxrwx	root/root	usr/lib/libgbm.so -> libgbm.so.1
 lrwxrwxrwx	root/root	usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libgbm.so.1.0.0
 lrwxrwxrwx	root/root	usr/lib/libglapi.so -> libglapi.so.0
 lrwxrwxrwx	root/root	usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libglapi.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libnouveau_noop_drm_shim.so
--rwxr-xr-x	root/root	usr/lib/libpowervr_rogue.so
--rwxr-xr-x	root/root	usr/lib/libradeon_noop_drm_shim.so
 -rwxr-xr-x	root/root	usr/lib/libvulkan_intel.so
 -rwxr-xr-x	root/root	usr/lib/libvulkan_lvp.so
--rwxr-xr-x	root/root	usr/lib/libvulkan_powervr_mesa.so
 -rwxr-xr-x	root/root	usr/lib/libvulkan_radeon.so
 lrwxrwxrwx	root/root	usr/lib/libxatracker.so -> libxatracker.so.2
 lrwxrwxrwx	root/root	usr/lib/libxatracker.so.2 -> libxatracker.so.2.5.0
@@ -94,13 +83,9 @@ drwxr-xr-x	root/root	usr/share/glvnd/
 drwxr-xr-x	root/root	usr/share/glvnd/egl_vendor.d/
 -rw-r--r--	root/root	usr/share/glvnd/egl_vendor.d/50_mesa.json
 drwxr-xr-x	root/root	usr/share/vulkan/
-drwxr-xr-x	root/root	usr/share/vulkan/explicit_layer.d/
--rw-r--r--	root/root	usr/share/vulkan/explicit_layer.d/VkLayer_INTEL_nullhw.json
--rw-r--r--	root/root	usr/share/vulkan/explicit_layer.d/VkLayer_MESA_overlay.json
 drwxr-xr-x	root/root	usr/share/vulkan/icd.d/
 -rw-r--r--	root/root	usr/share/vulkan/icd.d/intel_icd.x86_64.json
 -rw-r--r--	root/root	usr/share/vulkan/icd.d/lvp_icd.x86_64.json
--rw-r--r--	root/root	usr/share/vulkan/icd.d/powervr_mesa_icd.x86_64.json
 -rw-r--r--	root/root	usr/share/vulkan/icd.d/radeon_icd.x86_64.json
 drwxr-xr-x	root/root	usr/share/vulkan/implicit_layer.d/
 -rw-r--r--	root/root	usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
