@@ -288,8 +288,8 @@ f:ce1e0d0a3bd5d12e1c7882ac5200d86e:font-bitstream-100dpi/.footprint
 f:5202c501600795d4a1ce9a617bb74d40:font-bitstream-100dpi/.signature
 f:32268b2e814ce0f371ead661c8cccee5:font-bitstream-100dpi/Pkgfile
 f:011e4d35c1cdce3e629e90e84607921f:libxrandr/.footprint
-f:5d4d4644dfee19acf95af67cc1e1e2a5:libxrandr/.signature
-f:b80308325e55d0e3fac22860ce189108:libxrandr/Pkgfile
+f:7a99a247115f0e0d687c460b48ca1f92:libxrandr/.signature
+f:71b8103fee8bdf71137f9bd4da7aaa3d:libxrandr/Pkgfile
 f:5b4113dd81f8d31293af565ae1540391:iceauth/.footprint
 f:1849bc3962ecb9b8b8f980bc39aef57a:iceauth/.signature
 f:017d24e27c3a386f49deed6fe3fe87c1:iceauth/Pkgfile
