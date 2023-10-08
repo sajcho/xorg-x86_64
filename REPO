@@ -173,9 +173,9 @@ f:f84fe3d4e289dac5067ba089c021d2d1:egl-wayland/Pkgfile
 f:ab70c5bb6791c1d9cf6ad4ddf4b22228:xf86-video-ati/.footprint
 f:ce49c16724bf9d01c65e962ac77804d2:xf86-video-ati/.signature
 f:35194467d30f4cb435ba88c8cb58088c:xf86-video-ati/Pkgfile
-f:370f5356da119b81a8aa3d5d116233aa:xkeyboard-config/.footprint
-f:24313d530b46a576253ac069ee979a29:xkeyboard-config/.signature
-f:512c2f82ef927e465a87608134f179ba:xkeyboard-config/Pkgfile
+f:0c023f83ba656e1e4304b97bce116650:xkeyboard-config/.footprint
+f:104158e48026adc4cfaa47ef327e226f:xkeyboard-config/.signature
+f:f8dbb6eb98ca1e7c59e2b309e2e59c81:xkeyboard-config/Pkgfile
 f:6d49fa62393b23f26282e43c40361e81:xcb-util-xrm/.footprint
 f:a194b08d3f01e25a94356a6bd6df125f:xcb-util-xrm/.signature
 f:ad3d4f65160339dd070bcd2e2a8f55e3:xcb-util-xrm/Pkgfile
