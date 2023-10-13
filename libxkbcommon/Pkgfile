@@ -4,7 +4,7 @@
 # Depends on:	wayland-protocols xkeyboard-config
 
 name=libxkbcommon
-version=1.5.0
+version=1.6.0
 release=1
 source=(https://github.com/xkbcommon/${name}/archive/xkbcommon-${version}.tar.gz)
 
@@ -14,6 +14,7 @@ build() {
 	build-meson \
 		-Denable-x11=true \
 		-Denable-wayland=true \
+		-Denable-bash-completion=false \
 		-Denable-docs=false \
 		. build
 

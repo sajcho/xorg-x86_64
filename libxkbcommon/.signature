@@ -1,5 +1,5 @@
 untrusted comment: verify with xorg-x86_64.pub
-RWT2oJKuQpXyaTVKuZaRluTsoOqTbu99jnhqPmffUUp+bRRi/LK7jxTK13Hvu8UgkNrf9DsKzXecpBIMeJ0fcBN8mG8fmE0NNgk=
-SHA256 (Pkgfile) = 7ec90f6b82eae737186ef37c3f1661b073c729178505f9ea7d2d6622eb2a7da1
+RWT2oJKuQpXyacA9slvBjh7yHC2Y56Y8CahiVp0lVaIUlwS+DTId8KaRRe3WERvfTGSHg3x6pRNlESIZzx7wXze1oc4ZmfFXBwE=
+SHA256 (Pkgfile) = cb53d5e6c268328f15f53a22ebab7915a2a04edee8ec2579e9dd845013976020
 SHA256 (.footprint) = 139fb747cefb94c2bb0b1125a100200a1dcfd55c656f6d9a892d4bced15721f2
-SHA256 (xkbcommon-1.5.0.tar.gz) = 053e6a6a2c3179eba20c3ada827fb8833a6663b7ffd278fdb8530c3cbf924780
+SHA256 (xkbcommon-1.6.0.tar.gz) = 4aa6c1cad7dce1238d6f48b6729f1998c7e3f0667a21100d5268c91a5830ad7b
