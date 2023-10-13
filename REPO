@@ -294,8 +294,8 @@ f:5b4113dd81f8d31293af565ae1540391:iceauth/.footprint
 f:1849bc3962ecb9b8b8f980bc39aef57a:iceauth/.signature
 f:017d24e27c3a386f49deed6fe3fe87c1:iceauth/Pkgfile
 f:6eaada5eb1b8ae2ca14c97d560a7b64a:libxkbcommon/.footprint
-f:9c198d7e99bea6ccde95a3378808d613:libxkbcommon/.signature
-f:7d0de796106b14d6a001b9cb1c4d99fa:libxkbcommon/Pkgfile
+f:dc9b4e7d75e40b0ee1abd41fce9e841e:libxkbcommon/.signature
+f:bec2ebc8eb133efebee93576682562ce:libxkbcommon/Pkgfile
 f:331fb0a442cbd867428a6f167bf75ea2:font-bh-ttf/post-install
 f:179269a69ad31362f636e2f27ca2804a:font-bh-ttf/.footprint
 f:1cf35df60b43cefa194b302caec345cb:font-bh-ttf/.signature
