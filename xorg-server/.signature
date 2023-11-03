@@ -1,5 +1,5 @@
 untrusted comment: verify with xorg-x86_64.pub
-RWT2oJKuQpXyaUauWwdZu/j+bnvhaeaUXzu17SJDORQtrrjKgjt/3oM8jgXrsU+w8nL9PKPrCwR02h3jnhQJhfajtNUuaoTDkg4=
-SHA256 (Pkgfile) = e2c3d82944bf324ef4eec61972e7cf0029037697d60292a0b2e99044074a31cc
+RWT2oJKuQpXyaRgXb2oR8GLUjcSC4EpBHxjWbSeuVPoN5cfc5bwOP/0M2UT9KxLwdtPp9C+LCsqMhKugiN1ZxobKNuffgj6PCg0=
+SHA256 (Pkgfile) = 84b396a94047c93386a81878260999455bb48bf55c3116b7dfd76ce5280ed730
 SHA256 (.footprint) = 7828ecbccff72807ca80cb4e45fab32ed07d31a7a035d1400ef5e2981d6fdee9
-SHA256 (xorg-server-21.1.8.tar.xz) = 38aadb735650c8024ee25211c190bf8aad844c5f59632761ab1ef4c4d5aeb152
+SHA256 (xorg-server-21.1.9.tar.xz) = ff697be2011b4c4966b7806929e51b7a08e9d33800d505305d26d9ccde4b533a

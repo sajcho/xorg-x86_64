@@ -4,8 +4,8 @@
 # Depends on:	bdftopcf font-util libepoxy libxaw libxcomposite libxcursor libxcvt libxfont2 libxft libxinerama libxkbfile libxres libxtst mkfontscale nettle xcb-util-keysyms xcb-util-wm xcb-util-xrm xcb-util-cursor
 
 name=xorg-server
-version=21.1.8
-release=2
+version=21.1.9
+release=1
 source=(https://www.x.org/releases/individual/xserver/${name}-${version}.tar.xz)
 
 build() {
