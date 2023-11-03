@@ -1,5 +1,5 @@
 untrusted comment: verify with xorg-x86_64.pub
-RWT2oJKuQpXyaUeIed/6qsM7vK7JxgD3+7MB2RGnd9g+CB0SZhxnj3QSapVph4BeUX/bmglBAogJFoJNIf7ZNm/iGrSkaw7w2ws=
-SHA256 (Pkgfile) = b51d5af9cc378db1e80f175894033b5ac983ddf0196726f8e2ae2356e03d2fc1
+RWT2oJKuQpXyaVSjIeRiwx07jpUIABGnGhAvJcpDP/FgVxyncrmxMGzE/iX320V4THREf3nj0a6e3ASbZgo0E6T/XgOrJJ8ZGw8=
+SHA256 (Pkgfile) = 619e827c2803cba9b315b9d5d84b2d8196db49fcdea1762fa5a6b134fa84a852
 SHA256 (.footprint) = 768c5796cba31503e5e8a1c1d874f1d8699d410d17d6b98d9a6588ae17462816
-SHA256 (shaderc-2023.6.tar.gz) = e40fd4a87a56f6610e223122179f086d5c4f11a7e0e2aa461f0325c3a0acc6ae
+SHA256 (shaderc-2023.7.tar.gz) = 681e1340726a0bf46bea7e31f10cbfe78e01e4446a35d90fedc2b78d400fcdeb
