@@ -5,17 +5,17 @@
 
 name=spirv-tools
 _realname=SPIRV-Tools
-version=1.3.261.1
+version=1.3.268.0
 release=1
-source=(https://github.com/KhronosGroup/${_realname}/archive/sdk-${version}/${_realname}-sdk-${version}.tar.gz)
+source=(https://github.com/KhronosGroup/${_realname}/archive/vulkan-sdk-${version}/${_realname}-vulkan-sdk-${version}.tar.gz)
 
 build() {
-	cd ${_realname}-sdk-${version}
+	cd ${_realname}-vulkan-sdk-${version}
 
 	mkdir build
 	cd build
 
-	cmake .. \
+	cmake .. -G Ninja \
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
@@ -24,7 +24,7 @@ build() {
 		-DSPIRV_SKIP_TESTS=ON \
 		-DSPIRV_TOOLS_BUILD_STATIC=OFF
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	ninja -v
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
 }
