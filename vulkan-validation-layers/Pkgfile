@@ -5,24 +5,23 @@
 
 name=vulkan-validation-layers
 _realname=Vulkan-ValidationLayers
-version=1.3.261.1
+version=1.3.268.0
 release=1
-source=(https://github.com/KhronosGroup/${_realname}/archive/sdk-${version}/${_realname}-sdk-${version}.tar.gz \
+source=(https://github.com/KhronosGroup/${_realname}/archive/vulkan-sdk-${version}/${_realname}-vulkan-sdk-${version}.tar.gz \
 	gcc13.patch)
 
 build() {
-	cd ${_realname}-sdk-${version}
+	cd ${_realname}-vulkan-sdk-${version}
 
 	patch -p1 -i $SRC/gcc13.patch
 
 	mkdir build
 	cd build
 
-	cmake .. \
+	cmake .. -G Ninja \
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=lib \
-		-DBUILD_LAYER_SUPPORT_FILES=ON \
 		-DBUILD_SHARED_LIBS=ON \
 		-DBUILD_WSI_XCB_SUPPORT=ON \
 		-DBUILD_WSI_XLIB_SUPPORT=ON \
@@ -32,7 +31,7 @@ build() {
 		-DBUILD_TESTS=OFF \
 		-DBUILD_WERROR=OFF
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	ninja -v
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
 }
