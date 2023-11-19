@@ -5,20 +5,19 @@
 
 name=vulkan-tools
 _realname=Vulkan-Tools
-version=1.3.261.1
+version=1.3.268.0
 release=1
-source=(https://github.com/KhronosGroup/${_realname}/archive/sdk-${version}/${_realname}-sdk-${version}.tar.gz)
+source=(https://github.com/KhronosGroup/${_realname}/archive/vulkan-sdk-${version}/${_realname}--vulkan-sdk-${version}.tar.gz)
 
 build() {
-	cd ${_realname}-sdk-${version}
+	cd ${_realname}-vulkan-sdk-${version}
 
 	mkdir build
 	cd build
 
-	cmake .. \
+	cmake .. -G Ninja \
 		-DCMAKE_BUILD_TYPE=None \
 		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DGLSLANG_INSTALL_DIR=/usr \
 		-DBUILD_CUBE=ON \
 		-DBUILD_VULKANINFO=ON \
 		-DCUBE_WSI_SELECTION='XCB' \
@@ -27,7 +26,7 @@ build() {
 		-DBUILD_ICD=OFF \
 		-Wno-dev
 
-	make -O ${JOBS:+-j ${JOBS}} V=1 VERBOSE=1
+	ninja -v
 
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG ninja install
 }
