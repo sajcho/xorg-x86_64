@@ -1,5 +1,5 @@
 untrusted comment: verify with xorg-x86_64.pub
-RWT2oJKuQpXyaeuI5yqnDXcwBAnbdb3TiQwdPqvFbB+yhusg1LLDKDhji2JSBB2h/3L99umZXE1l/wtWqg6GMuyvMZnayxCUqwM=
-SHA256 (Pkgfile) = 47583cdaf352eb79fbe98504dea53772cefd275ecde6d76be48f830d6d20a9d4
-SHA256 (.footprint) = 75ab32287969db556bf350e0b764d711c5064be2f7242cd9ffec286738aa806e
-SHA256 (Vulkan-Loader-sdk-1.3.261.1.tar.gz) = f85f0ea57b63750d4ddaf6c8649df781c4777006daa3cd772b01e7b5ed02f3f2
+RWT2oJKuQpXyaZp5yOh+q6V1F95HZMhEcqSU4X0wf3UiSRCvOuNu04xrcGCF9gxBMPFNxOu+nyem0lRhU7zI9e1RNCKE2+vb3wY=
+SHA256 (Pkgfile) = 02e83277e2fa8d4fd3526fc523aff6f86df6cf3cfa0eaeb8975833c2d39ec9c8
+SHA256 (.footprint) = 77456f8c1e0cc139fbb8d58875dcdf0091a904c369b4414ab16a0bf426975316
+SHA256 (Vulkan-Loader-vulkan-sdk-1.3.268.0.tar.gz) = 404fa621f1ab2731bcc68bcbff64d8c6de322faad2d87f9198641bd37255fd39
