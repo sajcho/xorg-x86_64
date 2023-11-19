@@ -223,8 +223,8 @@ f:19bc20896d03ed56b1c3ae22f5c8f626:libxdamage/.footprint
 f:a5a55ffebf03d678ab4eb71afa23b6af:libxdamage/.signature
 f:18ab895771bd4c2bccda9a329e86eddc:libxdamage/Pkgfile
 f:11bccce412abbeed95535286507bc44b:vulkan-tools/.footprint
-f:0b4c7f17e238a3a21c5420ff7779ef33:vulkan-tools/.signature
-f:686316b953fea20716a5e8af464b55c2:vulkan-tools/Pkgfile
+f:9dc9c0403fa49656c486c7c7fc3ac08c:vulkan-tools/.signature
+f:19b8d915dedfc679df7717881641af6e:vulkan-tools/Pkgfile
 f:2b760efd1444e3b2d932051d3693cd2f:libxi/.footprint
 f:fc7244d06f7acbcdac1bbf8a11a19d44:libxi/.signature
 f:777b54feee8184894c0617d9ae0248ba:libxi/Pkgfile
