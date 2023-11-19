@@ -1,0 +1,27 @@
+# Description:	Utility libraries for Vulkan developers
+# URL:		https://www.khronos.org/vulkan/
+# Maintainer:	sajcho, saux dot aarch64 at gmail dot com
+# Depends on:	vulkan-headers
+
+name=vulkan-utility-libraries
+_realname=Vulkan-Utility-Libraries
+version=1.3.268.0
+release=1
+source=(https://github.com/KhronosGroup/${_realname}/archive/vulkan-sdk-${version}/${_realname}-vulkan-sdk-${version}.tar.gz)
+
+build() {
+	cd ${_realname}-vulkan-sdk-${version}
+
+	mkdir build
+	cd build
+
+	cmake .. -G Ninja \
+		-DCMAKE_BUILD_TYPE=None \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_INSTALL_LIBDIR=lib \
+		-DBUILD_SHARED_LIBS=ON
+
+	ninja -v
+
+	DESTDIR=$PKG ninja install
+}
