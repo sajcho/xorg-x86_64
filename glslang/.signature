@@ -1,5 +1,5 @@
 untrusted comment: verify with xorg-x86_64.pub
-RWT2oJKuQpXyaaWv8BmlL1kXLOhUVSLBGNXh4uTSPjLGFvHZ99co+auRlR2C4h2SWe1xypq/b2RyPQhY/YHHiOqzvsNaG5w7rgM=
-SHA256 (Pkgfile) = 94f425a77212cd7811bd686867794d22376e931ba86af718f0300b0bccae93ac
-SHA256 (.footprint) = 34f563b5b58e88101ac3b288b22e1569340f150eedd01411873054bb2191eefe
-SHA256 (glslang-sdk-1.3.261.1.tar.gz) = eb1f9c2ff0a1409151d7749fb37bc1988dc1fd908444c1e4f43d4190c90befcd
+RWT2oJKuQpXyaYuYCP9jOkKg7KAhJ6z6lnXcomouJnZ7HFarq8DP1bagi3Ggh1HRpUlUQimfxp+3q0zIOKGTMbJ2LRJpIlhqqQY=
+SHA256 (Pkgfile) = 919729aa8d4a8083b2270b9f1f0b892da7ec64d8f4c9cdf54700a045ad8ffa26
+SHA256 (.footprint) = f1f48d5fb36d75176fd0c6c3b0da32cb3ed19e2ea6b8c54eb6a7a1d8acb28d52
+SHA256 (glslang-vulkan-sdk-1.3.268.0.tar.gz) = 8cfb4824f185bc246cd41cceedbfcdf14abd3d2fa861512baf81df8a263b9283
