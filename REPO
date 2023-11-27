@@ -278,9 +278,9 @@ f:6bbc90661e1867881027a07624dc9244:font-liberation-ttf/30-liberation-serif.conf
 f:c061df9c4ddc92e5f5f2daf0f8a56321:wayland-protocols/.footprint
 f:6d962a1b0afb07b9a96885550d4049d6:wayland-protocols/.signature
 f:0fdf5e11b580315841fa2a2e3a0e76dd:wayland-protocols/Pkgfile
-f:a82c1887376b0e9a1fad87376a6e9886:libdrm/.footprint
-f:b1c3279f6b25a6567763224a2a9accd8:libdrm/.signature
-f:462828b8b6121c20c4c6e599f8eba799:libdrm/Pkgfile
+f:04755b5cc41b6056c9fb610fb5ba13d3:libdrm/.footprint
+f:d33851b2cbd5748cbec010580657d3a4:libdrm/.signature
+f:d0bccf11c8ad9045ce42b2bc0f39fc95:libdrm/Pkgfile
 f:d2a9855eb7f4c75697dfb60ad20b0c68:xcb-proto/.footprint
 f:4df764484074ff016ca25c29f1fc9dc0:xcb-proto/.signature
 f:f910fd4e45b9682b6afd918955b07fc4:xcb-proto/Pkgfile
