@@ -4,7 +4,7 @@
 # Depends on:	meson libpciaccess
 
 name=libdrm
-version=2.4.117
+version=2.4.118
 release=1
 source=(https://dri.freedesktop.org/${name}/${name}-${version}.tar.xz)
 
@@ -13,6 +13,7 @@ build() {
 
 	build-meson \
 		-Dudev=true \
+		-Dinstall-test-programs=true \
 		-Domap=enabled \
 		-Dexynos=enabled \
 		-Detnaviv=enabled \
