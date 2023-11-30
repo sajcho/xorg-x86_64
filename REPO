@@ -204,8 +204,8 @@ f:c4583e49730a02b11e4a6dd50911e03c:xf86-input-evdev/.footprint
 f:740817920a3ef8e60184b0c6b50b4e08:xf86-input-evdev/.signature
 f:220d365c559f2df9a135aced17b005ec:xf86-input-evdev/Pkgfile
 f:5a9821caae2eba05e672d9f7428fabfe:mesa/.footprint
-f:89ec7df5be2d72f8e8e6a4b168325f17:mesa/.signature
-f:cc8bc9f1e99837b2a7654af1c7651bac:mesa/Pkgfile
+f:2550a984430732071039ec6f9e788ac0:mesa/.signature
+f:1d9e89c02ecb48c8232da23d0e7a4dc7:mesa/Pkgfile
 f:025ac5edd79136fbbdca2aaec5387aab:mesa/no-unlink-megadrivers.patch
 f:538032fa21db25d3cb02c885c28971bb:pixman/.footprint
 f:197d2684a77bc963d0533f9fef477a93:pixman/.signature
