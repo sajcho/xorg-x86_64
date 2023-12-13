@@ -319,8 +319,8 @@ f:c82a13a9eccbb2403412712310e8bbd7:robin-hood-hashing/.footprint
 f:2be8bbc54f633da484108b5de8b5ea96:robin-hood-hashing/.signature
 f:9d2cefce31f67e2f0d2ef54234a938dc:robin-hood-hashing/Pkgfile
 f:679bc6fc8856e67c7efa164fd3439768:xwayland/.footprint
-f:b3e0efaf43dceb339a20420388d8bca5:xwayland/.signature
-f:28f0e7f5551cb5d6ef14193bb0e09447:xwayland/Pkgfile
+f:be0ad9092216d440a555fb28d9b5de0a:xwayland/.signature
+f:ffc7571042efe05b813dbc78096b538a:xwayland/Pkgfile
 f:9e35402437a24bb28c3af936bdf5ebe8:libxpm/.footprint
 f:4a1d09d94f0037a9620c15f05070bd12:libxpm/.signature
 f:f5b0788cff0d2ba7e889429721c4d396:libxpm/Pkgfile
@@ -408,8 +408,8 @@ f:dc352ed298cdecdecb6409d766431302:xcb-util-cursor/.footprint
 f:d04d6815aba056d81ebb00b1c0ff084b:xcb-util-cursor/.signature
 f:be83e48a5182ed659a98e7d286e338ea:xcb-util-cursor/Pkgfile
 f:89219c1b376b9692dfd26154bf83395c:xorg-server/.footprint
-f:311335bdf26f46a0022e4a1652ebf2d5:xorg-server/.signature
-f:c653aa832153c50c2f2207928a89d081:xorg-server/Pkgfile
+f:c050d767ed238d29432763ba855cbad9:xorg-server/.signature
+f:a6070528b1bcb0de15bd2105ace872a1:xorg-server/Pkgfile
 f:17d1194074f9247426f9b3dea0532f63:libxpresent/.footprint
 f:f4b77be66001fc12394f7b3862c9354d:libxpresent/.signature
 f:e287f1dfde1c5ecfff14fd0902d47a7a:libxpresent/Pkgfile
